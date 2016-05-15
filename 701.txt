@@ -12,7 +12,7 @@ cls:new
 180 wait 30
 190 K=inkey():if K ? K;:goto 190
 200 'end
-210 input "Press Enter :";A
+210 input "Press Enter :",A
 220 uart 3,2
 230 ?"MJ GETS raw.githubusercontent.com/bokunimowakaru/MJ/master/700.txt"
 240 end
