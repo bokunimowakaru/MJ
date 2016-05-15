@@ -1,16 +1,18 @@
 
 cls:new
-1 cls:?"BASIC ºÏÝÄÞ ÍÙÌß"
-2 ?"¹ÞÝ»Þ² ¾²»¸ Á­³ ÃÞ½"
-10 ?"ºÏÝÄÞ ¦ Æ­³Ø®¸ ¼Ã ¸ÀÞ»²"
-20 input A
-30 ?"MJ GETS raw.githubusercontent.com/fu-sen/IJHELP/gh-pages/";str$(A)
-40 uart 0,2
-50 K=inkey():if K<>0 ? K;:goto 50
-60 wait 30
-70 K=inkey():if K=0 goto 100 else ? K;:goto 70
-100 'end
-110 input A
-120 uart 3,2
-130 ?"MJ GETS raw.githubusercontent.com/bokunimowakaru/MJ/master/700.txt"
-140 end
+1 cls:?"BASIC ºÏÝÄÞ ÍÙÌß <Á®³¾² Á­³>"
+100 'in
+110 ?"ºÏÝÄÞ ¦ Æ­³Ø®¸ ¼Ã ¸ÀÞ»²"
+120 input A
+130 ?"MJ GETS raw.githubusercontent.com/fu-sen/IJHELP/gh-pages/";
+140 I=0
+150 if vpeek(I+1,2) ? vpeek(I+1,2);:I-I+1:goto 50
+160 ?:uart 0,2
+170 K=inkey():if K<>0 ? K;:goto 170
+180 wait 30
+190 K=inkey():if K ? K;:goto 190
+200 'end
+210 input "Press Enter :";A
+220 uart 3,2
+230 ?"MJ GETS raw.githubusercontent.com/bokunimowakaru/MJ/master/700.txt"
+240 end
