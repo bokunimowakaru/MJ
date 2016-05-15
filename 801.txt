@@ -1,19 +1,22 @@
 
 cls
-' [21]ENSYUU          [22]BUG
-' [23]LEFTRIGHT       [123]BTN
-' [24]GAME            [124]BTN
-' [25]RACINGGAME      [125]BTN
+' BASIC IO ∫›Àﬂ≠∞¿ ª›ÃﬂŸ
+'
+' [21]ENSYUU / [22]BUG
+' [23]LEFTRIGHT....[123]BTN
+' [24]GAME.........[124]BTN
+' [25]RACINGGAME...[125]BTN
 ' [31]KEYPADTESTER
-' [32]SENSORTEST      [132]LCD
+' [32]SENSORTEST...[132]LCD
 ' [33]SENSORTX
-' [34]BLUE2CN [35]INIT [36]TH
+' [34]BLUE2CN /[35]INIT /[36]TH
 ' [37]SENSORXBEE
-' [41]LCDKEY    [42]LCLEFTRIGHT
+' [41]LCDKEY / [42]LCLEFTRIGHT
 ' [43]LCGAME
 ' [44]LCJUMPING
 ' [51]PWMTEST
 ' [52]MOTORCAR [54]FIL [55]CTRL
 ' [53]CATERPILLAR
 ' [99]ÿ¿∞›
+'
 inputA:?"MJ GETS raw.githubusercontent.com/bokunimowakaru/MJ/master/pg01/";A;".txt"
