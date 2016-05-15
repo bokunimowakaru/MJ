@@ -18,7 +18,7 @@ cls
 ' [51]PWMTEST
 ' [52]MOTORCAR [54]FIL [55]CTRL
 ' [53]CATERPILLAR
-'
+' [99]ью╟щ
 inputA:?"MJ GETS raw.githubusercontent.com/bokunimowakaru/MJ/master/pg01/";A;".txt"
 
 

@@ -32,3 +32,4 @@ cls:new
 900 'LCD OUT
 910 ifi2cw(62,#701,1,#702,1)+i2cw(62,#700,1,#900,8)+i2cw(62,#701,1,#703,1)+i2cw(62,#700,1,#920,8)?"E"
 920 return
+?"MJ GETS raw.githubusercontent.com/bokunimowakaru/MJ/master/801.txt"

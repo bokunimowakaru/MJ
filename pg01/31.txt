@@ -8,3 +8,4 @@ cls:new
 140 IF B<>A PRINT A
 150 B=A
 160 GOTO 110
+?"MJ GETS raw.githubusercontent.com/bokunimowakaru/MJ/master/801.txt"

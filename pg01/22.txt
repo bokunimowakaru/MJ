@@ -6,3 +6,4 @@ cls:new
 20 B=2
 30 C=A/B*2
 40 ? A,B,C
+?"MJ GETS raw.githubusercontent.com/bokunimowakaru/MJ/master/801.txt"

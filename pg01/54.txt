@@ -38,3 +38,4 @@ cls:new
 430 IF B>10 THEN B=10
 440 ? "S=";S;" A=";A
 450 GOTO 100
+?"MJ GETS raw.githubusercontent.com/bokunimowakaru/MJ/master/801.txt"

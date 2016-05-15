@@ -31,3 +31,4 @@ cls:new
 420 LC X,20:?"X"
 430 LC 0,23:?"SCORE=";P;
 440 ?" GAME OVER"
+?"MJ GETS raw.githubusercontent.com/bokunimowakaru/MJ/master/801.txt"
