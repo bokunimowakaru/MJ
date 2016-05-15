@@ -11,8 +11,9 @@ cls:new
 160 ?:wait 60:uart 0,2
 170 K=inkey():if K ? chr$(K);:wait 2:goto 170
 200 'end
-210 input "Press Enter :",A
-220 uart 3,2
-230 ?"MJ GETS raw.githubusercontent.com/bokunimowakaru/MJ/master/700.txt"
-240 end
+210 input "[0]¹Ý»¸ [9]ÒÆ­° Æ ÓÄÞÙ ?",A
+220 if A=0 run
+230 uart 3,2
+240 ?"MJ GETS raw.githubusercontent.com/bokunimowakaru/MJ/master/700.txt"
+250 end
 run
