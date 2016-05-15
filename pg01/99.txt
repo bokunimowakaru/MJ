@@ -1,3 +1,3 @@
 
 cls
-?"MJ GET www.geocities.jp/bokunimowakaru/q/15/0.txt"
+?"MJ GETS raw.githubusercontent.com/bokunimowakaru/MJ/master/801.txt"
