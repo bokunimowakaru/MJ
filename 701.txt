@@ -1,16 +1,15 @@
 
 cls:new
 1 cls:?"BASIC ºÏÝÄÞ ÍÙÌß <Á®³¾² Á­³>"
+2 uart 3,2
 100 'in
 110 ?"ºÏÝÄÞ ¦ Æ­³Ø®¸ ¼Ã ¸ÀÞ»²"
 120 input A
 130 ?"MJ GETS raw.githubusercontent.com/fu-sen/IJHELP/gh-pages/";
 140 I=0
 150 if vpeek(I+1,2) ? chr$(vpeek(I+1,2));:I=I+1:goto 150
-160 ?:uart 0,2
-170 K=inkey():if K ? K;:goto 170
-180 wait 30
-190 K=inkey():if K ? K;:goto 190
+160 ?:wait 30:uart 0,2
+170 K=inkey():if K ? chr$(K);:wait 8:goto 170
 200 'end
 210 input "Press Enter :",A
 220 uart 3,2
