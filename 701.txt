@@ -16,3 +16,4 @@ cls:new
 220 uart 3,2
 230 ?"MJ GETS raw.githubusercontent.com/bokunimowakaru/MJ/master/700.txt"
 240 end
+run
