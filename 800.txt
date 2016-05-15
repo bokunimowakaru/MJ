@@ -9,4 +9,4 @@ cls
 ' [5] LCD ÄÞ×²ÊÞ & DEMO »ÝÌßÙ
 ' [9] Î°ÑÍß°¼Þ Æ ÓÄÞÙ
 '
-inputA:A=A+800:?"MJ GET raw.githubusercontent.com/bokunimowakaru/MJ/master/";A;".txt"
+inputA:A=A+800:?"MJ GETS raw.githubusercontent.com/bokunimowakaru/MJ/master/";A;".txt"

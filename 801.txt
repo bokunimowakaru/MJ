@@ -34,4 +34,4 @@ rem http://www.geocities.jp/bokunimowakaru/diy/ichigojam/
 960 K=inkey():if K=0 goto 960
 970 uart 0,2:?chr$(K);
 980 return
-?"MJ GET www.geocities.jp/bokunimowakaru/q/15/0.txt"
+?"MJ GETS raw.githubusercontent.com/bokunimowakaru/MJ/master/800.txt"
