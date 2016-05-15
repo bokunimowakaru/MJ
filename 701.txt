@@ -8,7 +8,7 @@ cls:new
 140 I=0
 150 if vpeek(I+1,2) ? chr$(vpeek(I+1,2));:I=I+1:goto 150
 160 ?:uart 0,2
-170 K=inkey():if K<>0 ? K;:goto 170
+170 K=inkey():if K ? K;:goto 170
 180 wait 30
 190 K=inkey():if K ? K;:goto 190
 200 'end
