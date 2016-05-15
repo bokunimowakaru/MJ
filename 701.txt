@@ -6,7 +6,7 @@ cls:new
 120 input A
 130 ?"MJ GETS raw.githubusercontent.com/fu-sen/IJHELP/gh-pages/";
 140 I=0
-150 if vpeek(I+1,2) ? vpeek(I+1,2);:I-I+1:goto 50
+150 if vpeek(I+1,2) ? vpeek(I+1,2);:I=I+1:goto 50
 160 ?:uart 0,2
 170 K=inkey():if K<>0 ? K;:goto 170
 180 wait 30
