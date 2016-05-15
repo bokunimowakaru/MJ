@@ -1,3 +1,12 @@
 
 cls
-?"MJ GET www.geocities.jp/bokunimowakaru/q/15/0.txt"
+' ÎÞ¸ÆÓ Ü¶Ù MixJuice
+'
+' ÀÞ³ÝÛ°ÄÞ
+'
+' [1] ESPÓ¼Þ­°Ù Ö³ TCP»°ÊÞ
+' [2] ESPÓ¼Þ­°Ù Ö³ HTTP»°ÊÞ
+' [5] LCD ÄÞ×²ÊÞ & DEMO »ÝÌßÙ
+' [9] Î°ÑÍß°¼Þ Æ ÓÄÞÙ
+'
+inputA:A=A+800:?"MJ GET raw.githubusercontent.com/bokunimowakaru/MJ/master/";A;"
