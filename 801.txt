@@ -1,37 +1,24 @@
-cls:new
-rem Espressif ESP8266 ESP-WROOM-02 Ö³
-rem Wireless LED for IchigoJam Version 1.2
-rem Copyright (c) 2015-2016 Wataru KUNINO
-rem http://www.geocities.jp/bokunimowakaru/diy/ichigojam/
 
-1 'ESP Example
-2 uart 3,2:? "AT":wait 30
-10 ? "AT+RESTORE":gosub 900
-20 ? "AT+CWMODE=1":gosub 900
-30 ? "AT+CWJAP=";chr$(34);
-40 ? "ºº Æ SSID ¦ ·Æ­³";
-50 ? chr$(34);",";chr$(34);
-60 ? "ºº Æ Êß½Ü°ÄÞ ¦ ·Æ­³";
-70 ? chr$(34):wait 400:gosub 900
-80 ? "AT+CIFSR":gosub 900
-100 'Serv
-110 ? "AT+CIPMUX=1":gosub 900
-120 ? "AT+CIPSERVER=1,23":gosub 900
-200 'LED
-210 gosub 950:if K<>asc(":") goto 200
-220 gosub 950:if K<>asc("L") goto 200
-230 gosub 950:if K=asc("0") goto 250
-240 led 1:beep:?:? "LED=1":goto 200
-250 led 0:beep:?:? "LED=0":goto 200
-260 goto 200
-270 end
-900 'Rx
-910 wait 30:uart 0,2
-920 K=inkey():if K=0 goto 940
-930 ? chr$(K);:goto 920
-940 uart 3,2:return
-950 'Rx0
-960 K=inkey():if K=0 goto 960
-970 uart 0,2:?chr$(K);
-980 return
-?"MJ GETS raw.githubusercontent.com/bokunimowakaru/MJ/master/800.txt"
+cls
+' ÀÞ³ÝÛ°ÄÞ
+' [21]ENSYUU
+' [22]BUG
+' [23]LEFTRIGHT       [123]BTN
+' [24]GAME            [124]BTN
+' [25]RACINGGAME      [125]BTN
+' [31]KEYPADTESTER
+' [32]SENSORTEST      [132]LCD
+' [33]SENSORTX
+' [34]BLUE2CN [35]INIT [36]TH
+' [37]SENSORXBEE
+' [41]LCDKEY
+' [42]LCLEFTRIGHT
+' [43]LCGAME
+' [44]LCJUMPING
+' [51]PWMTEST
+' [52]MOTORCAR [54]FIL [55]CTRL
+' [53]CATERPILLAR
+'
+inputA:A=A+800:?"MJ GETS raw.githubusercontent.com/bokunimowakaru/MJ/master/pg01/";A;".txt"
+
+

@@ -4,9 +4,10 @@ cls
 '
 ' ÀÞ³ÝÛ°ÄÞ
 '
-' [1] ESPÓ¼Þ­°Ù Ö³ TCP»°ÊÞ
-' [2] ESPÓ¼Þ­°Ù Ö³ HTTP»°ÊÞ
+' [1] BASIC IO ºÝËß­°À »ÝÌßÙ
 ' [5] LCD ÄÞ×²ÊÞ & DEMO »ÝÌßÙ
+' [7] ESPÓ¼Þ­°Ù Ö³ TCP»°ÊÞ
+' [8] ESPÓ¼Þ­°Ù Ö³ HTTP»°ÊÞ
 ' [9] Î°ÑÍß°¼Þ Æ ÓÄÞÙ
 '
 inputA:A=A+800:?"MJ GETS raw.githubusercontent.com/bokunimowakaru/MJ/master/";A;".txt"
