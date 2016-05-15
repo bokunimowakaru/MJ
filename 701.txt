@@ -8,8 +8,8 @@ cls:new
 130 ?"MJ GETS raw.githubusercontent.com/fu-sen/IJHELP/gh-pages/";
 140 I=0
 150 if vpeek(I+1,2) ? chr$(vpeek(I+1,2));:I=I+1:goto 150
-160 ?:wait 30:uart 0,2
-170 K=inkey():if K ? chr$(K);:wait 8:goto 170
+160 ?:wait 60:uart 0,2
+170 K=inkey():if K ? chr$(K);:wait 2:goto 170
 200 'end
 210 input "Press Enter :",A
 220 uart 3,2
