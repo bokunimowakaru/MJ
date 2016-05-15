@@ -1,0 +1,35 @@
+cls:?"LCÄÞ×²ÊÞ":?"W.Kunino"
+poke#700,64,0,2,#C0,57,17,#70,86,#6C,56,12
+ifi2cw(62,#701,1,#704,5)?"E"
+ifi2cw(62,#701,1,#709,2)?"E"
+ifi2cw(62,#701,1,#702,1)+i2cw(62,#700,1,#900,8)?"E"
+ifi2cw(62,#701,1,#703,1)+i2cw(62,#700,1,#920,8)?"E"
+new
+1 cls:?"LCD for":?"²ÁºÞ¼Þ¬Ñ":gosub 800:led 1
+100 led 0:play"C8G16R16C16G16C16G16":wait120:gosub 960
+210 lc9,0:?"I2C LCD "
+220 lc9,1:?"+ ¸ÆÉÜÀÙ"
+230 gosub 960:play"D8F16R16D16F16D16F16":wait120:gosub 980
+240 cls:lc9,0:?"ÎÞ¸ Ü¶Ù":gosub 960:play">C32R32C32R32<B16G16F8G8":wait120
+250 lc7,0:?"+":gosub 900:wait 50
+260 ?"W.Kunino":gosub 900:play"G8C16R16G16C16G16C16":wait110
+270 for J=0 to 7:lc J,0:?" ";:lc 7-J,1:?" ";
+280 gosub 900:next
+310 cls:?:?"Ichigo Jam":gosub 900:play"G8C16R16G16C16G16C16"
+320 ?"Compatible":scroll 0:gosub 900:wait 60
+330 gosub 960:cls:gosub 900:wait 60
+799 run
+800 'LCD
+810 poke#700,64,0,2,#C0,57,17,#70,86,#6C,56,12
+820 ifi2cw(62,#701,1,#704,5)?"E"
+830 wait12
+840 ifi2cw(62,#701,1,#709,2)?"E"
+850 gosub900:return
+900 wait10
+910 ifi2cw(62,#701,1,#702,1)+i2cw(62,#700,1,#900,8)+i2cw(62,#701,1,#703,1)+i2cw(62,#700,1,#920,8)?"E"
+920 return
+960 for J=0 to 8:scroll 3:gosub 900:next
+970 return
+980 for J=0 to 7:scroll 1:gosub 900:next
+990 return
+?"MJ GET www.geocities.jp/bokunimowakaru/q/15/0.txt"
