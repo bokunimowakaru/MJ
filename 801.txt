@@ -19,6 +19,6 @@ cls
 ' [52]MOTORCAR [54]FIL [55]CTRL
 ' [53]CATERPILLAR
 '
-inputA:A=A+800:?"MJ GETS raw.githubusercontent.com/bokunimowakaru/MJ/master/pg01/";A;".txt"
+inputA:?"MJ GETS raw.githubusercontent.com/bokunimowakaru/MJ/master/pg01/";A;".txt"
 
 
