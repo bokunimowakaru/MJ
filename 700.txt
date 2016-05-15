@@ -4,7 +4,8 @@ cls
 '
 ' 7.ÏÆ­±Ù
 '
-' [1] PIN OUT
+' [1] BASIC ºÏÝÄÞ (Ã½Ä Á­³)
+' [5] PIN OUT
 ' [9] Î°ÑÍß°¼Þ Æ ÓÄÞÙ
 '
 inputA:A=A+700:?"MJ GETS raw.githubusercontent.com/bokunimowakaru/MJ/master/";A;".txt"

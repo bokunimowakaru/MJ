@@ -1,21 +1,16 @@
 
-cls
-' IchigoJam PIN OUT
-'
-'  1 VIDEO1 ÄÞ³·  28 KBD1 CLK 
-'  2 VIDEO2 ´²¿Þ³ 27 I2C_SCL
-'  3 IN1¥O8 P_Up  26 KBD2 DATA 
-'  4 IN2¥O9¥ANA2  25 SOUND
-'  5 IN3¥I2C_SDA  24 ISP Ì§°ÑÖ³
-'  6 IN4¥O11 P_Up 23 RESET
-'  7 VCC ±ÅÛ¸Þ    22 GND ÃÞ¼ÞÀÙ
-'  8 GND ±ÅÛ¸Þ    21 VCC ÃÞ¼ÞÀÙ
-'  9 OUT1¥IN5     20 XTAL1 IN
-' 10 OUT2¥IN6¥PW2 19 XTAL2 OUT
-' 11 OUT3¥IN7¥PW3 18 O5¥IN10¥P5
-' 12 OUT4¥IN8¥PW4 17 OUT6¥IN11
-' 13 BTN¥IN0¥ANA0 16 TXD UART
-' 14 LED¥OUT7     15 RXD UART
-' [9]ØÀ°Ý
-'
-inputA:A=A+700:?"MJ GETS raw.githubusercontent.com/bokunimowakaru/MJ/master/";A;".txt"
+cls:new
+1 cls:?"BASIC ºÏÝÄÞ ÍÙÌß"
+2 ?"¹ÞÝ»Þ² ¾²»¸ Á­³ ÃÞ½"
+10 ?"ºÏÝÄÞ ¦ Æ­³Ø®¸ ¼Ã ¸ÀÞ»²"
+20 input A
+30 ?"MJ GETS raw.githubusercontent.com/fu-sen/IJHELP/gh-pages/";str$(A)
+40 uart 0,2
+50 K=inkey():if K<>0 ? K;:goto 50
+60 wait 30
+70 K=inkey():if K=0 goto 100 else ? K;:goto 70
+100 'end
+110 input A
+120 uart 3,2
+130 ?"MJ GETS raw.githubusercontent.com/bokunimowakaru/MJ/master/700.txt"
+140 end
