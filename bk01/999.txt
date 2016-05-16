@@ -1,0 +1,9 @@
+cls:?"page 999 ";
+' 
+' ¿³ÃÞ½ !  ºº ¶Þ ÃÞ¸ÞÁ ÃÞ½
+'
+' ÐÂ¹Ã ¸ÚÃ ±Ø¶ÞÄ³
+'
+' µÂ¶Ú »Ï ÃÞ¼À
+'
+inputA:?"MJ GET www.geocities.jp/bokunimowakaru/q/15/0.txt"
