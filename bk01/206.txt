@@ -1,0 +1,11 @@
+cls:?"page 206 ";
+' 
+' ººÆ ÀÄÞØÂ²À ËÄ Ê
+'
+'        ·¯Ä
+'
+' ÆÌÞÝ ÀÝ»¸ ¦ ¼À ËÄ ÃÞ¼®³
+'
+' µÂ¶Ú »Ï ÃÞ¼À
+'
+inputA:?"MJ GET www.geocities.jp/bokunimowakaru/q/15/0.txt"
