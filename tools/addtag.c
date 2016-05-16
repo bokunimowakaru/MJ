@@ -15,6 +15,7 @@ main(){
     while( feof(fp) == 0 ){
 		sprintf(file,"%d.txt",k);
 		fw=fopen(file, "w");
+		fprintf(fw,"cls:?\"page %d \";\n",k);
 		if(fw==NULL) return -1;
 		for(j=0;j<Y_NUM;j++){
 			fprintf(fw,"' ");
@@ -29,7 +30,12 @@ main(){
 						break;
 					case '\n':
 						i=X_NUM;
-						fprintf(fw,"\n");
+						break;
+					case (char)0x81:	// ルビの削除
+						c=fgetc(fp);
+						if(c==0x73){
+							while(c!=0x74 && !feof(fp)) c=fgetc(fp);
+						}
 						break;
 					default:
 						fprintf(fw,"%c",c);
@@ -38,7 +44,7 @@ main(){
 			}
 			fprintf(fw,"\n");
 		}
-		fprintf(fw,"inputA:A=A+!A*%d:?\"",k+1);
+		fprintf(fw,"'\ninputA:A=A+!A*%d:?\"",k+1);
 		fprintf(fw,TAG);
 		fprintf(fw,"\";A;\".txt\"\n");
 		fclose(fw);
