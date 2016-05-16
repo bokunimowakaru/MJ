@@ -9,4 +9,4 @@ cls:new
 220 IF BTN(LEFT) THEN X=X-1
 230 IF BTN(RIGHT) THEN X=X+1
 290 GOTO 110
-?"MJ GETS raw.githubusercontent.com/bokunimowakaru/MJ/master/801.txt"
+?"MJ GET bokunimowakaru.github.io/MJ/801.txt"

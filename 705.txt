@@ -18,4 +18,4 @@ cls
 ' 14 LED•OUT7     15 RXD UART
 ' [9]ÿ¿∞›
 '
-inputA:A=A+700:?"MJ GETS raw.githubusercontent.com/bokunimowakaru/MJ/master/";A;".txt"
+inputA:A=A+700:?"MJ GET bokunimowakaru.github.io/MJ/";A;".txt"

@@ -15,4 +15,4 @@ cls:new
 320 V=VPEEK(X,20)
 340 IF V=0 GOTO 110
 410 LC 0,23:? "GAME OVER"
-?"MJ GETS raw.githubusercontent.com/bokunimowakaru/MJ/master/801.txt"
+?"MJ GET bokunimowakaru.github.io/MJ/801.txt"

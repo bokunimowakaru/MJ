@@ -9,4 +9,4 @@ cls:new
 220 IF K=28 LC X,20:?" ":X=X-1
 230 IF K=29 LC X,20:?" ":X=X+1
 290 GOTO 110
-?"MJ GETS raw.githubusercontent.com/bokunimowakaru/MJ/master/801.txt"
+?"MJ GET bokunimowakaru.github.io/MJ/801.txt"

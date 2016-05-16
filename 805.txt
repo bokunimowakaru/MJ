@@ -32,4 +32,4 @@ new
 970 return
 980 for J=0 to 7:scroll 1:gosub 900:next
 990 return
-?"MJ GETS raw.githubusercontent.com/bokunimowakaru/MJ/master/800.txt"
+?"MJ GET bokunimowakaru.github.io/MJ/800.txt"

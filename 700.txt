@@ -8,4 +8,4 @@ cls
 ' [5] PIN OUT
 ' [9] Î°ÑÍß°¼Þ Æ ÓÄÞÙ
 '
-inputA:A=A+700:?"MJ GETS raw.githubusercontent.com/bokunimowakaru/MJ/master/";A;".txt"
+inputA:A=A+700:?"MJ GET bokunimowakaru.github.io/MJ/";A;".txt"

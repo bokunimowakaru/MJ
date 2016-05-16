@@ -10,4 +10,4 @@ cls
 ' [8] ESPÓ¼Þ­°Ù Ö³ HTTP»°ÊÞ
 ' [9] Î°ÑÍß°¼Þ Æ ÓÄÞÙ
 '
-inputA:A=A+800:?"MJ GETS raw.githubusercontent.com/bokunimowakaru/MJ/master/";A;".txt"
+inputA:A=A+800:?"MJ GET bokunimowakaru.github.io/MJ/";A;".txt"
