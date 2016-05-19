@@ -2,13 +2,12 @@
 cls:?"page 2 ";
 ' ÎÞ¸ÆÓ Ü¶Ù MixJuice 1.NEWS
 ' 
+' Ð¼Þ¶² Ä¯Ìß Íß°¼Þ É URL ¦ Ö³²
+' ¼Ï¼À¡
+' ¶· É 2 ·Þ®³ ¦ ÂÅ¹ÞÃ ¸ÀÞ»²
 ' 
-' 
-' 
-' 
-' 
-' 
-' 
+' ?"MJ GET www.geocities.jp/
+'            bokunimowakaru/15"
 ' 
 ' [0] Â·Þ É NEWS
 ' [99] ØÀ°Ý
