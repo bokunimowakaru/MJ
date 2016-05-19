@@ -1,0 +1,13 @@
+
+cls
+' ÎÞ¸ÆÓ Ü¶Ù MixJuice
+'
+' 1.NEWS
+'
+' IchigoJam Ö³ ºÝËß­°À ÃÞÝ¼º³»¸
+' ¶Þ¸¼­³·¯Ä(IF ICH-KIT)
+
+' µ¶¹Þ»Ï ÃÞ¤ ¼®¶² Û¯Ä ¶Þ ¶ÝÊÞ²
+' ¼ÀÖ³ÃÞ½¡
+'
+inputA:A=A+100:?"MJ GET bokunimowakaru.github.io/MJ/";A;".txt"
