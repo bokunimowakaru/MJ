@@ -1,0 +1,16 @@
+
+cls:?"page 69 ";
+' ÎÞ¸ÆÓ Ü¶Ù MixJuice 1.NEWS
+' 
+' 
+' 
+' 
+' 
+' 
+' 
+' 
+' 
+' [0] Â·Þ É NEWS
+' [99] ØÀ°Ý
+'
+inputA:A=A+!A*68:?"MJ GET bokunimowakaru.github.io/MJ/n/";A;".txt"

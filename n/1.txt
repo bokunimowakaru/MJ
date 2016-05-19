@@ -1,6 +1,6 @@
 
-cls
-' Œﬁ∏∆” ‹∂Ÿ MixJuice
+cls:?"page 1 ";
+' Œﬁ∏∆” ‹∂Ÿ MixJuice 1.NEWS
 '
 ' 1.NEWS
 '
@@ -11,6 +11,6 @@ cls
 ' º¿÷≥√ﬁΩ°
 '
 ' [0] ¬∑ﬁ … NEWS
-' [99] ÿ¿∞›
+' [999] ÿ¿∞›
 '
 inputA:A=A+!A*1:?"MJ GET bokunimowakaru.github.io/MJ/n/";A;".txt"
