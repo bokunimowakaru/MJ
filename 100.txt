@@ -1,16 +1,12 @@
 
 cls
-' ÎÞ¸ÆÓ Ü¶Ù MixJuice
+' ÎÞ¸ÆÓ Ü¶Ù MixJuice 1.NEWS
 '
-' 1.NEWS
+' Ö³º¿ NEWS É Íß°¼Þ Í
 '
-' IchigoJam Ö³ ºÝËß­°À ÃÞÝ¼º³»¸
-' ¶Þ¸¼­³ ·¯Ä(IF ICH-KIT)
-
-' µ¶¹Þ»Ï ÃÞ¤ ¼®¶² Û¯Ä ¶Þ ¶ÝÊÞ²
-' ¼ÀÖ³ÃÞ½¡
+' [Enter] ÃÞ ÖÐ ½½ÒÙ ºÄ¶Þ ÃÞ·Ï½
 '
 ' [0] Â·Þ É NEWS
 ' [99] ØÀ°Ý
 '
-inputA:A=A+!A*1:?"MJ GET bokunimowakaru.github.io/MJ/n/";A;".txt"
+inputA:A=A+!A*2:?"MJ GET bokunimowakaru.github.io/MJ/n/";A;".txt"
