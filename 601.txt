@@ -1,0 +1,15 @@
+
+cls:new
+' ÎÞ¸ÆÓ Ü¶Ù MixJuice 6.Ä¹²
+'
+' ÌÙÊÀ »Ý É net Ä¹² ¦ ØÖ³
+'
+' ËÂÞ¹
+? Y;"/";M;"/";D
+' ¼Þº¸
+? A;":";B
+?
+' [0] »² ¼­Ä¸
+' [9] Î°ÑÍß°¼Þ Æ ÓÄÞÙ
+'
+inputA:A=A+600:?"MJ GET bokunimowakaru.github.io/MJ/";A;".txt"
