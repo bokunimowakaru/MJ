@@ -32,4 +32,9 @@ cls:new
 420 LC X,20:?"X"
 430 LC 0,23:?"SCORE=";P;
 440 ?" GAME OVER"
-?"MJ GET bokunimowakaru.github.io/MJ/801.txt"
+'
+' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
+'
+' ¼­³Ø®³ ¼Ã¶× ¼Þ¯º³ ¼Ã ¸ÀÞ»²
+' Enter: ÀÞ³ÝÛ°ÄÞ Íß°¼Þ Æ ÓÄÞÙ
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/801.txt"

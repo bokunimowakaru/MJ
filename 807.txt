@@ -34,4 +34,9 @@ rem http://www.geocities.jp/bokunimowakaru/diy/ichigojam/
 960 K=inkey():if K=0 goto 960
 970 uart 0,2:?chr$(K);
 980 return
-?"MJ GET bokunimowakaru.github.io/MJ/800.txt"
+'
+' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
+'
+' ¼­³Ø®³ ¼Ã¶× ¼Þ¯º³ ¼Ã ¸ÀÞ»²
+' Enter: ÀÞ³ÝÛ°ÄÞ Íß°¼Þ Æ ÓÄÞÙ
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/800.txt"

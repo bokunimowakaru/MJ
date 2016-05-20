@@ -36,4 +36,9 @@ cls:new
 430 IF B>10 THEN B=10
 440 ? "S=";S;" A=";A
 450 GOTO 100
-?"MJ GET bokunimowakaru.github.io/MJ/801.txt"
+'
+' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
+'
+' ¼­³Ø®³ ¼Ã¶× ¼Þ¯º³ ¼Ã ¸ÀÞ»²
+' Enter: ÀÞ³ÝÛ°ÄÞ Íß°¼Þ Æ ÓÄÞÙ
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/801.txt"

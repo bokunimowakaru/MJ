@@ -32,4 +32,9 @@ new
 970 return
 980 for J=0 to 7:scroll 1:gosub 900:next
 990 return
-?"MJ GET bokunimowakaru.github.io/MJ/800.txt"
+'
+' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
+'
+' ¼­³Ø®³ ¼Ã¶× ¼Þ¯º³ ¼Ã ¸ÀÞ»²
+' Enter: ÀÞ³ÝÛ°ÄÞ Íß°¼Þ Æ ÓÄÞÙ
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/800.txt"
