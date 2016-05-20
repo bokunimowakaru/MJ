@@ -3,9 +3,10 @@ cls
 ' ÎÞ¸ÆÓ Ü¶Ù MixJuice 8.ÀÞ³ÝÛ°ÄÞ
 '
 ' [1] BASIC IO ºÝËß­°À »ÝÌßÙ
-' [5] LCD ÄÞ×²ÊÞ & DEMO »ÝÌßÙ
-' [7] ESPÓ¼Þ­°Ù Ö³ TCP»°ÊÞ
-' [8] ESPÓ¼Þ­°Ù Ö³ HTTP»°ÊÞ
+' [2] ichigojam.net ÀÞ³ÝÛ°ÀÞ
+' [5] LCD DEMO
+' [7] ESP TCP»°ÊÞ
+' [8] ESP HTTP»°ÊÞ
 ' [9] Î°ÑÍß°¼Þ Æ ÓÄÞÙ
 '
 inputA:?"MJ GET bokunimowakaru.github.io/MJ/";A+800;".txt"
