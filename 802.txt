@@ -4,7 +4,7 @@ cls:new
 2 uart3,2:Y=23
 3 ?"MJ GET ichigojam.net/p/"
 10 wait10
-20 wait2:I=inkey():ifI?chr$(I):goto20
+20 wait2:I=inkey():ifI?chr$(I);:goto20
 30 C=vpeek(0,Y):lc0,Y:?chr$(#E1);
 40 I=inkey():ifI=0goto40elselc0,Y:?chr$(C);
 50 ifI=30andY>0letY,Y-1
