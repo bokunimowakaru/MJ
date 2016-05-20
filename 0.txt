@@ -10,6 +10,7 @@ cls
 ' [6] Ä¹²
 ' [7] ÏÆ­±Ù
 ' [8] ÀÞ³ÝÛ°ÄÞ
+' [9] END
 ' [10] Îß°ÀÙ Ä³Û¸
 '
 inputA:?"MJ GET bokunimowakaru.github.io/MJ/";A*100;".txt"
