@@ -1,0 +1,15 @@
+
+cls:new
+10 LED 1     :'LED ¦ ON ½Ù
+20 BEEP      :'»³ÝÄÞ ¦ Å×½
+30 WAIT 180  :'ÏÁ ¼Þ¶Ý ¼®Ø
+40 LED 0     :'LED ¦ OFF ½Ù
+50 INPUT A   :'Æ­³Ø®¸
+60 IF A=9 END:'9ÃÞ ¼­³Ø®³
+'
+'
+70 ?"MJ GET bokunimowakaru.github.io/MJ/0.txt
+'
+' ¼Þ¯º³¼Ï½
+' [Enter]ÃÞ ÒÆ­° Æ ÓÄÞØÏ½
+run

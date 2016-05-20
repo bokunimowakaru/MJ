@@ -1,8 +1,6 @@
 
 cls
-' ÎÞ¸ÆÓ Ü¶Ù MixJuice
-'
-' 8.ÀÞ³ÝÛ°ÄÞ
+' ÎÞ¸ÆÓ Ü¶Ù MixJuice 8.ÀÞ³ÝÛ°ÄÞ
 '
 ' [1] BASIC IO ºÝËß­°À »ÝÌßÙ
 ' [5] LCD ÄÞ×²ÊÞ & DEMO »ÝÌßÙ
@@ -10,4 +8,4 @@ cls
 ' [8] ESPÓ¼Þ­°Ù Ö³ HTTP»°ÊÞ
 ' [9] Î°ÑÍß°¼Þ Æ ÓÄÞÙ
 '
-inputA:A=A+800:?"MJ GET bokunimowakaru.github.io/MJ/";A;".txt"
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/";A+800;".txt"

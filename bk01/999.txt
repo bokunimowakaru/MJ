@@ -6,4 +6,4 @@ cls:?"page 999 ";
 '
 ' µÂ¶Ú »Ï ÃÞ¼À
 '
-inputA:?"MJ GET www.geocities.jp/bokunimowakaru/q/15/0.txt"
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/0.txt"

@@ -1,11 +1,9 @@
 
 cls
-' ÎÞ¸ÆÓ Ü¶Ù MixJuice
-'
-' 7.ÏÆ­±Ù
+' ÎÞ¸ÆÓ Ü¶Ù MixJuice 7.ÏÆ­±Ù
 '
 ' [1] BASIC ºÏÝÄÞ
 ' [5] PIN OUT
 ' [9] Î°ÑÍß°¼Þ Æ ÓÄÞÙ
 '
-inputA:A=A+700:?"MJ GET bokunimowakaru.github.io/MJ/";A;".txt"
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/";A+700;".txt"

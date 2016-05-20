@@ -1,5 +1,5 @@
 ' CC BY Copyright(C)2015 Wataru KUNINO
-' http://www.geocities.jp/bokunimowakaru/q/15/
+' http://bokunimowakaru.github.io/MJ/
 cls:new
 1 'CATERPILLAR TANK CAR
 2 UART 1

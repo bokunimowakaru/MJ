@@ -1,0 +1,15 @@
+
+cls
+' ÎÞ¸ÆÓ Ü¶Ù MixJuice 2-11.¹ÝØ
+'
+' 7-1 BASIC ºÏÝÄÞ
+' 15jamrecipe.jimdo.com
+'
+' 6-1 Ä¹²
+' www.openspc2.org
+'
+' 8-1 BASIC IO ºÝËß­°À »ÝÌßÙ
+' CC BY ¸ÆÉ ÜÀÙ
+'
+' Enter ÃÞ Â·Þ É Íß°¼Þ Í
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/200.txt"

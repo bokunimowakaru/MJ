@@ -2,18 +2,14 @@
 cls:new
 1 cls:?"BASIC ºÏÝÄÞ ÍÙÌß"
 2 uart 3,2
-100 'in
-110 ?"ºÏÝÄÞ ¦ Æ­³Ø®¸ ¼Ã ¸ÀÞ»²"
 120 input A
 130 ?"MJ GETS fu-sen.github.io/IJHELP/";
 140 I=0
-150 if vpeek(I+1,2) ? chr$(vpeek(I+1,2));:I=I+1:goto 150
+150 if vpeek(I+1,1) ? chr$(vpeek(I+1,1));:I=I+1:goto 150
 160 ?:wait 60:uart 0,2
 170 K=inkey():if K ? chr$(K);:wait 2:goto 170
-200 'end
-210 input "[0]¹Ý»¸ [9]ÒÆ­° Æ ÓÄÞÙ ?",A
+210 input "[0]Â½Þ¹Ù [9]µÜÙ ?",A
 220 if A=0 run
 230 uart 3,2
 240 ?"MJ GET bokunimowakaru.github.io/MJ/700.txt"
-250 end
 run

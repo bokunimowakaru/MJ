@@ -1,6 +1,5 @@
-chmod a-x *.txt
-git add *.txt *.sh
-git add pg01/*.txt
-git add bk01/*.txt
+chmod a-x *.txt */*.txt
+git add *.txt */*.txt
+git add *.sh *.*sh
 git commit
 git push

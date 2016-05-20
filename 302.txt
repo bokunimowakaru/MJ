@@ -1,0 +1,11 @@
+cls
+rem http://bokunimowakaru.github.io/MJ
+'
+'
+' ÀÞ¹ÄÞ ¾·­ØÃ¨ Æ ºÞÖ³¼ÞÝ.
+'
+' ²Ï ¶×
+'
+' LED ON É ÌßÛ¸Þ×Ñ ¦ ÀÞ³ÝÛ°ÄÞ
+'
+wait 300:?"MJ GET bokunimowakaru.github.io/MJ/33.txt"
