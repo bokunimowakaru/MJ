@@ -1,22 +1,25 @@
 
-cls:new:'for 1.1
-1 cls:?"ÀÞ³ÝÛ°ÀÞ"
-2 uart3,2:X=1:Y=24:I=0
+cls:new
+1 cls:?"ÀÞ³ÝÛ°ÀÞ for IJ 1.2"
+2 uart3,2:Y=23
 3 ?"MJ GET ichigojam.net/p/"
-10 uart3,0
-20 C=vpeek(0,Y):lc0,Y:?chr$(#E1);
-30 I=inkey():ifI=0goto30elselc0,Y:?chr$(C);
-40 ifI=30andY>0letY,Y-1
-50 ifI=31andY<24letY,Y+1
-60 ifI<>10orC<>39goto20
-70 C=vpeek(X,Y):ifC<>34letX,X+1elsegoto100
+10 wait60
+20 wait2:I=inkey():ifI?chr$(I);:goto20
+30 C=vpeek(0,Y):lc0,Y:?chr$(#E1);
+40 I=inkey():ifI=0goto40elselc0,Y:?chr$(C);
+50 ifI=30andY>0letY,Y-1
+60 ifI=31andY<24letY,Y+1
+70 ifI<>10orC<>39goto30
+75 C=vpeek(X,Y):ifC<>34letX,X+1elsegoto100
 80 ifX<8goto70elseuart3,2:end
 100 lc0,-1:uart3,2:?:X=X+1
 110 C=vpeek(X,Y):ifC=0orC=34goto140
 120 ?chr$(C);:X=X+1:ifX<32goto110
 130 X=0:Y=Y+1:ifY<25goto110
 140 ?
+'
+' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
+'
+' ¼­³Ø®³ ¼Ã¶× ¼Þ¯º³ ¼Ã ¸ÀÞ»²
+' Enter: ÀÞ³ÝÛ°ÄÞ Íß°¼Þ Æ ÓÄÞÙ
 inputA:?"MJ GET bokunimowakaru.github.io/MJ/800.txt"
-
-
-
