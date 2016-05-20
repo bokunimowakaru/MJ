@@ -3,5 +3,6 @@ cls
 ' ÎÞ¸ÆÓ Ü¶Ù MixJuice 2.ØÝ¸ ¹ÝØ
 '
 ' [10] ºÝÃÝÂ É ¹ÝØ ¼Þ®³Î³
+' [99] Top Í ÓÄÞÙ
 '
 inputA:?"MJ GET bokunimowakaru.github.io/MJ/";A+200;".txt"
