@@ -3,7 +3,7 @@ cls:new
 1 cls:?"ÀÞ³ÝÛ°ÀÞ for IJ 1.2"
 2 uart3,2:Y=23
 3 ?"MJ GET ichigojam.net/p/"
-10 wait60:uart3,0
+10 wait60:uart0,2
 20 wait2:I=inkey():ifI?chr$(I);:goto20
 30 C=vpeek(0,Y):lc0,Y:?chr$(#E1);
 40 I=inkey():ifI=0goto40elselc0,Y:?chr$(C);
