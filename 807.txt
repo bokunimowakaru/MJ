@@ -37,6 +37,15 @@ rem http://www.geocities.jp/bokunimowakaru/diy/ichigojam/
 '
 ' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
 '
+' Ñ¾Ý LAN ±¸¾½ Îß²ÝÄ Æ ¾Â¿Þ¸ ºÞ
+' Ë®³¼Þ »ÚÙ IP±ÄÞÚ½ ¦ ¶¸ÆÝ ¼¤
+' Tera Term ÅÄÞ ¶× TELNET ÃÞ 
+' ¾Â¿Þ¸ ¼Ï½¡
+' ¢L1£ ÃÞ LED¦ÃÝÄ³¤
+' ¢L0£ ÃÞ ¼®³Ä³¼Ï½¡
+'
+' http://blogs.yahoo.co.jp/bokunimowakaru/55342198.html
+'
 ' ¼­³Ø®³ ¼Ã¶× ¼Þ¯º³ ¼Ã ¸ÀÞ»²
 ' Enter: ÀÞ³ÝÛ°ÄÞ Íß°¼Þ Æ ÓÄÞÙ
 inputA:?"MJ GET bokunimowakaru.github.io/MJ/800.txt"

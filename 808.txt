@@ -45,6 +45,17 @@ rem http://www.geocities.jp/bokunimowakaru/diy/ichigojam/
 '
 ' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
 '
+' IchigoJam+MixJuice Ü²ÔÚ½ LÁ¶
+' + ÎÞÀÝ É ¼Þ®³À² ¼Þ®³Î³ ¼­Ä¸
+'
+' MixJuice ¶× Ü²ÔÚ½ ÃÞ¤ Ichigo
+' Jam É LED ¦ ¾²·Þ® ¼ÀØ¤ ÎÞÀÝ
+' ¼Þ®³À² ¦ ¼­Ä¸ ½Ù ÌßÛ¸Þ×Ñ
+'
+' (ÅÝÁ¬¯Ã)HTTP»°ÊÞ ¦ ¼Þ¯¿³
+'
+' http://blogs.yahoo.co.jp/bokunimowakaru/55364903.html
+'
 ' ¼­³Ø®³ ¼Ã¶× ¼Þ¯º³ ¼Ã ¸ÀÞ»²
 ' Enter: ÀÞ³ÝÛ°ÄÞ Íß°¼Þ Æ ÓÄÞÙ
 inputA:?"MJ GET bokunimowakaru.github.io/MJ/800.txt"
