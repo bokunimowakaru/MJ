@@ -1,6 +1,6 @@
 
 cls:new
-1 cls:?"ÀÞ³ÝÛ°ÀÞ for IJ 1.2"
+1 cls:?"ÀÞ³ÝÛ°ÀÞ"
 2 uart3,2:Y=23
 3 ?"MJ GET ichigojam.net/p/"
 10 wait60:uart0,2
@@ -11,7 +11,8 @@ cls:new
 60 ifI=31andY<24letY,Y+1
 70 ifI<>10orC<>39goto30
 100 uart3,2:lc0,-1:A=#900+Y*32+3
-110 ?str$(A)
+110 C=PEEK(A):A=A+1:?chr$(C);
+120 ifC<>0andC<>34goto110
 '
 ' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
 '
