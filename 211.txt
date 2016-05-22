@@ -2,6 +2,9 @@
 cls
 ' ÎÞ¸ÆÓ Ü¶Ù MixJuice 2-11.¹ÝØ
 '
+' IchigoJam : Ä³Û¸¼®³Ë®³ jig.jp
+' MixJuice : PCN pcn.club
+'
 ' 7-1 BASIC ºÏÝÄÞ
 ' 15jamrecipe.jimdo.com
 '
