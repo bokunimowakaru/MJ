@@ -11,5 +11,9 @@ cls
 ' 8-1 BASIC IO ∫›Àﬂ≠∞¿ ª›ÃﬂŸ
 ' CC BY ∏∆… ‹¿Ÿ
 '
+' 8-2 ichigojam.net ¿ﬁ≥›€∞¿ﬁ
+' ∫›√›¬:CC BY jig.jp
+' ¿ﬁ≥›€∞¿ﬁ:CC BY ∏∆… ‹¿Ÿ
+'
 ' Enter √ﬁ ¬∑ﬁ … Õﬂ∞ºﬁ Õ
 inputA:?"MJ GET bokunimowakaru.github.io/MJ/200.txt"
