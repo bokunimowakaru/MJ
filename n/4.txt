@@ -2,13 +2,11 @@
 cls:?"page 4 ";
 ' ÎÞ¸ÆÓ Ü¶Ù MixJuice 1.NEWS
 ' 
+' ÒÆ­°7.ÏÆ­±Ù ¦ Â²¶¼Ï¼À
 ' 
-' 
-' 
-' 
-' 
-' 
-' 
+' 7-2 MixJuice ºÏÝÄÞ
+' 7-6 MixJuice PIN OUT
+' 7-8 HTTP
 ' 
 ' [0] Â·Þ É NEWS
 ' [99] ØÀ°Ý

@@ -4,7 +4,7 @@ cls
 '
 ' INET
 ' GET /MJ/0.txt HTTP/1.0\r\n
-' Host: bokunimowakaru.github.io  \r\n
+' Host: bokunimowakaru.github.io' \r\n
 ' User-Agent: MixJuice-1.0.2\r\n' \r\n
 '
 ' LAN
@@ -14,4 +14,4 @@ cls
 '
 ' Enter ÃÞ ÓÄÞÙ
 '
-inputA:A=A+700:?"MJ GET bokunimowakaru.github.io/MJ/";A;".txt"
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/";A+700;".txt"

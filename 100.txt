@@ -9,4 +9,4 @@ cls
 ' [0] б╥ч и NEWS
 ' [99] ью╟щ
 '
-inputA:A=A+!A*3:?"MJ GET bokunimowakaru.github.io/MJ/n/";A;".txt"
+inputA:A=A+!A*4:?"MJ GET bokunimowakaru.github.io/MJ/n/";A;".txt"
