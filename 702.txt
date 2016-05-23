@@ -1,0 +1,19 @@
+
+cls
+' 7-2 MixJuice ºÏÝÄÞ ØÌ§ÚÝ½
+'
+' MJ APL            AP LIST
+' MJ APC ssid pass  AP Connect
+' MJ APS            AP Status
+' MJ GET url        HTTP Ø¸´½Ä
+' MJ GETS url       HTTPS Ø¸´½Ä
+' MJ VER            (Version)
+'
+' AP: Ñ¾Ý LAN ±¸¾½ Îß²ÝÄ
+' ssid,pass: AP É ¼°Ù Æ ¶¶ÚÃÙ
+' url: ¢http://£ Ê ÌÖ³
+' ½Íß°½ Ó¼Þ Ê ¢\ £ Ä Æ­³Ø®¸ ½Ù
+'
+' Enter ÃÞ ÓÄÞÙ
+'
+inputA:A=A+700:?"MJ GET bokunimowakaru.github.io/MJ/";A;".txt"

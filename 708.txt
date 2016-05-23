@@ -1,0 +1,17 @@
+
+cls
+' 7-8 MixJuice HTTP »ÝÌßÙ
+'
+' INET
+' GET /MJ/0.txt HTTP/1.0\r\n
+' Host: bokunimowakaru.github.io  \r\n
+' User-Agent: MixJuice-1.0.2\r\n' \r\n
+'
+' LAN
+' GET / HTTP/1.0\r\n
+' Host: 192.168.0.2\r\n
+' User-Agent: MixJuice-1.0.2\r\n' \r\n
+'
+' Enter ÃÞ ÓÄÞÙ
+'
+inputA:A=A+700:?"MJ GET bokunimowakaru.github.io/MJ/";A;".txt"

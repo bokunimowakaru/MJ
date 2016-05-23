@@ -1,6 +1,6 @@
 
 cls
-' IchigoJam PIN OUT
+' 7-5 IchigoJam PIN OUT
 '
 '  1 VIDEO1 ÄÞ³·  28 KBD1 CLK 
 '  2 VIDEO2 ´²¿Þ³ 27 I2C_SCL
@@ -16,6 +16,7 @@ cls
 ' 12 OUT4¥IN8¥PW4 17 OUT6¥IN11
 ' 13 BTN¥IN0¥ANA0 16 TXD UART
 ' 14 LED¥OUT7     15 RXD UART
-' [9]ØÀ°Ý
 '
-inputA:A=A+700:?"MJ GET bokunimowakaru.github.io/MJ/";A;".txt"
+' Enter ÃÞ ÓÄÞÙ
+'
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/";A+700;".txt"

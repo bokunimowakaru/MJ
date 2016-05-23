@@ -1,0 +1,21 @@
+
+cls
+' 7-6 MixJuice PIN OUT
+'
+' CN4              CN5
+'  1 IO 0(Ì§°Ñ)     1 USB5V
+'  2 RST            2 ---
+'  3 GND            3 ---
+'  4 VCC            4 ---
+'  5 ---            5 GND
+'  6 IO16(Wake)
+'  7 MixJuice
+'  8 na-s.jp
+'  9 TXD
+' 10 RXD
+' 
+' CN2=IchigoJam.CN4, CN3=·®³Â³
+'
+' Enter ÃÞ ÓÄÞÙ
+'
+inputA:A=A+700:?"MJ GET bokunimowakaru.github.io/MJ/";A;".txt"
