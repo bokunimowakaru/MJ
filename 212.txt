@@ -2,7 +2,13 @@
 cls
 ' ÎÞ¸ÆÓ Ü¶Ù MixJuice 2-12.¹ÝØ
 '
-' ØÝ¸ 1 MicJack
+' ØÝ¸ 1 fu-sen.github.io/IJPRG
+' BALLOON a.k.a Fu-sen. 2016
+'
+' ØÝ¸ 2 fu-sen.github.io/IJHELP
+' BALLOON a.k.a Fu-sen. 2016
+'
+' ØÝ¸ 3 MicJack
 ' mj.micutil.com
 '
 ' Enter ÃÞ Â·Þ É Íß°¼Þ Í
