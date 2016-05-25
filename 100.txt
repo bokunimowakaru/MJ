@@ -2,11 +2,9 @@
 cls
 ' ÎÞ¸ÆÓ Ü¶Ù MixJuice 1.NEWS
 '
-' Ö³º¿ NEWS É Íß°¼Þ Í
-'
 ' [Enter] ÃÞ ÖÐ ½½ÒÙ ºÄ¶Þ ÃÞ·Ï½
 '
 ' [0] Â·Þ É NEWS
 ' [99] ØÀ°Ý
 '
-inputA:A=A+!A*4:?"MJ GET bokunimowakaru.github.io/MJ/n/";A;".txt"
+?"MJ GET bokunimowakaru.github.io/MJ/n/5.txt"
