@@ -1,0 +1,9 @@
+
+cls
+' ÎÞ¸ÆÓ Ü¶Ù MixJuice 2-12.¹ÝØ
+'
+' ØÝ¸ 1 MicJack
+' mj.micutil.com
+'
+' Enter ÃÞ Â·Þ É Íß°¼Þ Í
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/200.txt"

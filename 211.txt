@@ -19,4 +19,4 @@ cls
 ' ÀÞ³ÝÛ°ÀÞ:CC BY ¸ÆÉ ÜÀÙ
 '
 ' Enter ÃÞ Â·Þ É Íß°¼Þ Í
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/200.txt"
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/212.txt"
