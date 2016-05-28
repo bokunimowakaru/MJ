@@ -5,5 +5,4 @@ printf("ABC\n");
 
 ' µº≤! BASIC “≤⁄≤ √ﬁ  ≈∂Ø¿»
 '
-' Enter √ﬁ ‘ÿ≈µº
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/1.txt"
+E=E+1:WAIT300:?"MJ GET bokunimowakaru.github.io/MJ/Q/1.txt"

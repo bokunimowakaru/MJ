@@ -3,7 +3,6 @@
 
 [1] LED ON
 
-' ªﬁ›»›! ON √ﬁ∑≈≤÷
+' ªﬁ›»›! ON √ﬁ∑≈≤÷-
 '
-' Enter √ﬁ ‘ÿ≈µº
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/2.txt"
+E=E+1:WAIT300:?"MJ GET bokunimowakaru.github.io/MJ/Q/2.txt"

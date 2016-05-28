@@ -7,5 +7,4 @@ Remix A=B : Album C
 '
 ' REM ******
 '
-' Enter √ﬁ ‘ÿ≈µº
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/5.txt"
+E=E+1:WAIT300:?"MJ GET bokunimowakaru.github.io/MJ/Q/5.txt"

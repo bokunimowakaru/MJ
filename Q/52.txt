@@ -7,5 +7,4 @@ Beepu,1 : A = FOR I=1 634
 '
 ' BEEP u,1 : A = F OR I = 1634
 '
-' Enter √ﬁ ‘ÿ≈µº
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/5.txt"
+E=E+1:WAIT300:?"MJ GET bokunimowakaru.github.io/MJ/Q/5.txt"

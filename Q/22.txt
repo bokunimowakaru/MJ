@@ -5,5 +5,4 @@ LED1 OFF
 
 ' µº≤∞! OFF √ﬁ ERROR  Øæ≤
 '
-' Enter √ﬁ ‘ÿ≈µº
-inputA:LED0:?"MJ GET bokunimowakaru.github.io/MJ/Q/2.txt"
+E=E+1:WAIT300:LED0:?"MJ GET bokunimowakaru.github.io/MJ/Q/2.txt"

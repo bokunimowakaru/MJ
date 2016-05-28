@@ -6,5 +6,4 @@ A=IchigoJam
 
 ' Ê½ÞÚ
 '
-' Enter ÃÞ ÔØÅµ¼
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/3.txt"
+E=E+1:WAIT300:?"MJ GET bokunimowakaru.github.io/MJ/Q/3.txt"

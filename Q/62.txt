@@ -8,5 +8,4 @@ SEIBU
 ' Ü»ÞÄ ÏÁ¶Þ´À ÃÞ¼®!
 ' ¾²ÌÞ Ê ¶ÂÃ É Ñ»¼ É ¸Æ É Æ¼ ´Ø±'
 '
-' Enter ÃÞ ÔØÅµ¼
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/5.txt"
+E=E+1:WAIT300:?"MJ GET bokunimowakaru.github.io/MJ/Q/6.txt"

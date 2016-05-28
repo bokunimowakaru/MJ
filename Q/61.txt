@@ -21,4 +21,5 @@ SABAE
 ' (æ¬“≤ –ºﬁ∂Ø!)
 '
 ' Enter √ﬁ ‘ÿ≈µº
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/5.txt"
+'
+E=E+1:inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/6.txt"
