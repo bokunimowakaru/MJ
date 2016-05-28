@@ -7,4 +7,4 @@ A=1+5:A=15
 ' ¾²¶²
 '
 ' Enter ÃÞ Â·ÞÍ
-inputA:LED0:?"MJ GET bokunimowakaru.github.io/MJ/Q/99.txt"
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/99.txt"
