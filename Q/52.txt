@@ -1,0 +1,11 @@
+
+' [2] Beepu,1 : A = FOR I=1 634
+
+Beepu,1 : A = FOR I=1 634
+
+' Ê½ÞÚ! ÀÀÞ¼² ÂÂÞØ ÃÞ½
+'
+' BEEP u,1 : A = F OR I = 1634
+'
+' Enter ÃÞ Â·ÞÍ
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/5.txt"

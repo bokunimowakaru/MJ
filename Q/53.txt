@@ -1,0 +1,12 @@
+
+' [3] A = 634 * 1O
+
+A = 634 * 1O
+
+' ¾²¶²
+' ²¼ÞÜÙ Å ÓÝÀÞ² ÃÞ ºÞÒÝÅ»²
+'
+' ¢O£ Ä ¢0£
+'
+' Enter ÃÞ Â·ÞÍ
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/6.txt"

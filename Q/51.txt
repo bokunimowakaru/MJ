@@ -1,0 +1,11 @@
+
+' [1] Remix A=B : Album C
+
+Remix A=B : Album C
+
+' Ê½ÞÚ! ÀÀÞ¼² ÂÂÞØ ÃÞ½
+'
+' REM ******
+'
+' Enter ÃÞ Â·ÞÍ
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/5.txt"
