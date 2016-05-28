@@ -1,0 +1,12 @@
+
+cls
+' ÎÞ¸ÆÓ Ü¶Ù IchigoJam ¸²½Þ 1/8
+'
+' ¶ÞÒÝ Æ Ó¼Þ ¦ Ë®³¼Þ ½Ù Ã·¾ÂÅ
+' Ò²Ú² Ê ÄÞÚ?
+'
+' [1] PRINT 'ºÝÆÁÜ'
+' [2] ?"Ü¶ØÏ¾Ý"
+' [3] printf("ABC\n");
+'
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/";A+510;".txt"

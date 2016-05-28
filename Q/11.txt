@@ -1,0 +1,9 @@
+
+' [1] PRINT 'ºÝÆÁÜ'
+
+PRINT 'ºÝÆÁÜ'
+
+' »ÞÝÈÝ
+'
+' Enter ÃÞ Â·ÞÍ
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/1.txt"

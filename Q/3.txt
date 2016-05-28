@@ -1,0 +1,11 @@
+
+cls
+' ÎÞ¸ÆÓ Ü¶Ù IchigoJam ¸²½Þ 3/8
+'
+' ÍÝ½³ A ¶Þ 15 Æ ÅÙ É Ê ÄÞÚ
+'
+' [1] A=1+5:A=15
+' [2] A=15:A=1+5
+' [3] A=IchigoJam
+'
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/";A+30;".txt"

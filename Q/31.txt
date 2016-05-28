@@ -1,0 +1,10 @@
+
+' [1] A=1+5:A=15
+
+A=1+5:A=15
+? A
+
+' ¾²¶²
+'
+' Enter ÃÞ Â·ÞÍ
+inputA:LED0:?"MJ GET bokunimowakaru.github.io/MJ/Q/9.txt"

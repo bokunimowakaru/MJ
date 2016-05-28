@@ -1,0 +1,9 @@
+
+' [3] LED1
+
+LED1
+
+' ¾²¶²
+'
+' Enter ÃÞ Â·ÞÍ
+inputA:LED0:?"MJ GET bokunimowakaru.github.io/MJ/Q/3.txt"

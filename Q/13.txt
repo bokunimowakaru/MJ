@@ -1,0 +1,9 @@
+
+' [3] printf("ABC\n");
+
+printf("ABC\n");
+
+' µ¼²
+'
+' Enter ÃÞ Â·ÞÍ
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/1.txt"

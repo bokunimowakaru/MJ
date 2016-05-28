@@ -1,7 +1,3 @@
 
-cls:?"LCÄÞ×²ÊÞ":?"W.Kunino"
-poke#700,64,0,2,#C0,57,17,#70,86,#6C,56,12
-ifi2cw(62,#701,1,#704,5)+i2cw(62,#701,1,#709,2)?
-ifi2cw(62,#701,1,#702,1)+i2cw(62,#700,1,#900,8)?
-ifi2cw(62,#701,1,#703,1)+i2cw(62,#700,1,#920,8)?
-?"MJ GET bokunimowakaru.github.io/MJ/0.txt"
+cls
+?"MJ GET bokunimowakaru.github.io/MJ/Q/0.txt"

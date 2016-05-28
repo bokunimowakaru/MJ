@@ -1,0 +1,9 @@
+
+' [2] ?"Ü¶ØÏ¾Ý"
+
+?"Ü¶ØÏ¾Ý"
+
+' ¾²¶²
+'
+' Enter ÃÞ Â·ÞÍ
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/2.txt"

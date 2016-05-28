@@ -1,0 +1,12 @@
+
+cls
+' ÎÞ¸ÆÓ Ü¶Ù IchigoJam ¸²½Þ 2/8
+'
+' LED ¦ ÃÝÄ³ ½Ù ÉÆ Ó¯ÄÓ Ã·¾ÂÅ
+' Ò²Ú² Ê ÄÞÚ?
+'
+' [1] LED ON
+' [2] LED1 OFF
+' [3] LED1
+'
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/";A+20;".txt"
