@@ -1,0 +1,15 @@
+
+cls
+' ÎÞ¸ÆÓ Ü¶Ù IchigoJam ¸²½Þ 7/8
+'
+' µÒÃÞÄ³ ºÞ»Þ²Ï½
+' ¼­³Ø®³ ÃÞ½
+'
+' ±ÅÀ Ê IchigoJam É [ÀÂ¼ÞÝ] ÃÞ½
+'
+'
+'
+'inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/";A+70;".txt"
+'
+' Enter ÃÞ ÒÆ­° Æ ÓÄÞÙ
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/0.txt"

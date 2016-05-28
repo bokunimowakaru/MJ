@@ -1,0 +1,9 @@
+
+' [3] SAVE
+'
+'
+'
+' ¾²¶²
+'
+' Enter ÃÞ Â·ÞÍ
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/7.txt"

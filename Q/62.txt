@@ -1,0 +1,12 @@
+
+' [2] SEIBU
+
+SEIBU
+
+' Ê½ÞÚ!
+'
+' Ü»ÞÄ ÏÁ¶Þ´À ÃÞ¼®!
+' ¾²ÌÞ Ê ¶ÂÃ É Ñ»¼ É ¸Æ É Æ¼ ´Ø±'
+'
+' Enter ÃÞ ÔØÅµ¼
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/5.txt"

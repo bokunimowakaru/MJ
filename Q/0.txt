@@ -1,5 +1,5 @@
 
-cls
+cls:E=0
 ' ÎÞ¸ÆÓ Ü¶Ù IchigoJam ¸²½Þ
 '
 ' IchigoJam Æ ¶ÝÚÝ ¼À ÓÝÀÞ² ÃÞ½
