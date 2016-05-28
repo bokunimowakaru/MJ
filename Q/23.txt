@@ -5,5 +5,4 @@ LED1
 
 ' ¾²¶²
 '
-' Enter ÃÞ Â·ÞÍ
-inputA:LED0:?"MJ GET bokunimowakaru.github.io/MJ/Q/3.txt"
+WAIT300:LED0:?"MJ GET bokunimowakaru.github.io/MJ/Q/3.txt"

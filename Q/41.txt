@@ -7,7 +7,7 @@ Lets,5
 
 ? S
 
-' ÍÝ½³ S Æ 5 ¶Þ Ê²Ø Ï½
+' ÍÝ½³ S Æ 5 ¶Þ Ê²Ø Ï¼À
+' ¿ÚÃÞÊ Q5 Í Let's Go!
 '
-' Enter ÃÞ Â·ÞÍ¡ 0-9 ÃÞ Ó Â·Þ Í
-inputA:A=S:?"MJ GET bokunimowakaru.github.io/MJ/Q/5.txt"
+WAIT300:?"MJ GET bokunimowakaru.github.io/MJ/Q/5.txt"

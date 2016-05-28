@@ -8,5 +8,4 @@ A = 634 * 1O
 '
 ' ¢O£ Ä ¢0£
 '
-' Enter ÃÞ Â·ÞÍ
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/6.txt"
+WAIT300:?"MJ GET bokunimowakaru.github.io/MJ/Q/6.txt"
