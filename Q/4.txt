@@ -1,0 +1,11 @@
+
+cls
+' ÎÞ¸ÆÓ Ü¶Ù IchigoJam ¸²½Þ 4/8
+'
+' ÀÀÞ¼¸ ÄÞ³» ½Ù ÉÊ ÄÞÚ?
+'
+' [1] Lets,5
+' [2] GOTO,5
+' [3] GO TO 5
+'
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/";A+40;".txt"

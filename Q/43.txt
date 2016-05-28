@@ -1,0 +1,9 @@
+
+' [3] GO TO 5
+
+GO TO 5
+
+' Ê½ÞÚ GO TO É ±²ÀÞ ½Íß°½ Ê ÀÞÒ
+'
+' Enter ÃÞ Â·ÞÍ
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/4.txt"
