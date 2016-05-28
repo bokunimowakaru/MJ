@@ -9,5 +9,5 @@ Lets,5
 
 ' ÍÝ½³ S Æ 5 ¶Þ Ê²Ø Ï½
 '
-' Enter ÃÞ Â·ÞÍ 0-9 ÃÞ Ó Â·Þ Í
+' Enter ÃÞ Â·ÞÍ¡ 0-9 ÃÞ Ó Â·Þ Í
 inputA:A=S:?"MJ GET bokunimowakaru.github.io/MJ/Q/5.txt"

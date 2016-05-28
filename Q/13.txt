@@ -3,7 +3,7 @@
 
 printf("ABC\n");
 
-' µ¼²
+' µ¼²! BASIC Ò²Ú² ÃÞÊ Å¶¯ÀÈ
 '
-' Enter ÃÞ Â·ÞÍ
+' Enter ÃÞ ÔØÅµ¼
 inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/1.txt"

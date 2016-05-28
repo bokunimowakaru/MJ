@@ -5,5 +5,5 @@ GOTO,5
 
 ' Ê½ÞÚ GOTO Æ ¶ÝÏ ¦ Â¹Ã Ê ²¹Ï¾Ý
 '
-' Enter ÃÞ Â·ÞÍ
+' Enter ÃÞ ÔØÅµ¼
 inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/4.txt"

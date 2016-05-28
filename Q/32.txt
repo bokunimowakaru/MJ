@@ -6,5 +6,5 @@ A=15:A=1+5
 
 ' Ê½ŞÚ
 '
-' Enter ÃŞ Â·ŞÍ
+' Enter ÃŞ ÔØÅµ¼
 inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/3.txt"

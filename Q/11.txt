@@ -5,5 +5,5 @@ PRINT 'ºİÆÁÜ'
 
 ' »ŞİÈİ ¢'£ -> ¢"£
 '
-' Enter ÃŞ Â·ŞÍ
+' Enter ÃŞ ÔØÅµ¼
 inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/1.txt"

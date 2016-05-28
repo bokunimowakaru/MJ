@@ -7,5 +7,5 @@ Remix A=B : Album C
 '
 ' REM ******
 '
-' Enter ÃÞ Â·ÞÍ
+' Enter ÃÞ ÔØÅµ¼
 inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/5.txt"

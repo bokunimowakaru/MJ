@@ -3,7 +3,7 @@
 
 [1] LED ON
 
-' »ÞÝÈÝ
+' »ÞÝÈÝ! ON ÃÞ·Å²Ö
 '
-' Enter ÃÞ Â·ÞÍ
+' Enter ÃÞ ÔØÅµ¼
 inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/2.txt"

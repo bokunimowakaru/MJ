@@ -6,5 +6,5 @@ A=IchigoJam
 
 ' Ê½ÞÚ
 '
-' Enter ÃÞ Â·ÞÍ
+' Enter ÃÞ ÔØÅµ¼
 inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/3.txt"

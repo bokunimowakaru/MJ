@@ -3,7 +3,7 @@
 
 ?"Ü¶ØÏ¾Ý"
 
-' ¾²¶²
+' ¾²¶²! Ü¶ØÏ¼À È
 '
 ' Enter ÃÞ Â·ÞÍ
 inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/2.txt"

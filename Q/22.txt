@@ -3,7 +3,7 @@
 
 LED1 OFF
 
-' µ¼²
+' µ¼²°! OFF ÃÞ ERROR Ê¯¾²
 '
-' Enter ÃÞ Â·ÞÍ
+' Enter ÃÞ ÔØÅµ¼
 inputA:LED0:?"MJ GET bokunimowakaru.github.io/MJ/Q/2.txt"
