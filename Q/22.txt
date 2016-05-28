@@ -1,7 +1,7 @@
 
 ' [2] LED1 OFF
 
-[2] LED1 OFF
+LED1 OFF
 
 ' µ¼²
 '
