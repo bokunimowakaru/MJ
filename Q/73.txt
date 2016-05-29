@@ -1,0 +1,14 @@
+
+' [3] LCD,"HELLO!"
+
+LCD,"HELLO!"
+
+' Ê½ÞÚ! LOCATE D,½³³Á
+' CQ ¼­¯ÊßÝ É »Þ¯¼ ¦ ÖÛ¼¸
+' 1 ·Þ®³ ØÀ°Ý ÃÞ ½¸Þ ³ºÞ¸!
+' BASIC I/OºÝËß­°À
+' IchigoJam Æ­³ÓÝ
+' http://shop.cqpub.co.jp/hanbai/books/MIF/MIFZ201603.html
+'
+' Enter ¦ Æ­³Ø®¸ ¼Ã ¸ÀÞ»²
+E=E+1:INPUTA:?"MJ GET bokunimowakaru.github.io/MJ/Q/7.txt"
