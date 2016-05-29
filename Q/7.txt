@@ -1,15 +1,15 @@
 
-cls
+cls:D=0
 ' ÎÞ¸ÆÓ Ü¶Ù IchigoJam ¸²½Þ 7/8
 '
-' µÒÃÞÄ³ ºÞ»Þ²Ï½
-' ¼­³Ø®³ ÃÞ½
+' I2C ¾Â¿Þ¸ É LCD Æ Ó¼Þ ¦ Ë®³¼Þ
+' ¼À²¡ ¶· É ³Á Syntax Error Æ
+' ÅÙ ÉÊ ÄÞÚ ?
 '
-' ±ÅÀ Ê IchigoJam É [ÀÂ¼ÞÝ] ÃÞ½
+' [1] cls:?"LCDºÝÆÁÜ":?"MJ GET 
+'     bokunimowakaru.github.io/
+'     LCD"
+' [2] LCD "HELLO!"
+' [3] LCD,"HELLO!"
 '
-'
-'
-'inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/";A+70;".txt"
-'
-' Enter ÃÞ ÒÆ­° Æ ÓÄÞÙ
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/0.txt"
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/";A+70;".txt"
