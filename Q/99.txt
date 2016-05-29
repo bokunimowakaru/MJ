@@ -11,6 +11,4 @@ cls:A=A/2+1:?"' ¶ÝØ®³ µÒÃÞÄ³ ºÞ»Þ²Ï½¡";chr$(13);"'";chr$(13);"' ÏÁ¶Þ²:";E;chr$(1
 '
 ' µÂ¶Ú »Ï ÃÞ¼À
 ' Enter ÃÞ ¼­³Ø®³¼Ï½¡
-A=3-E-((A>3)*A)
-
 inputA:?"MJ GET bokunimowakaru.github.io/MJ/0.txt"
