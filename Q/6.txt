@@ -9,7 +9,4 @@ cls
 ' [2] SEIBU
 ' [3] SAVE
 '
-'inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/";A+60;".txt"
-'
-' Enter ÃÞ ÒÆ­° Æ ÓÄÞÙ
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/0.txt"
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/";A+60;".txt"
