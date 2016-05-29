@@ -7,6 +7,6 @@ cls
 '
 ' [1] Remix A=B : Album C
 ' [2] Beepu,1 : A = FOR I=1 634
-' [3] A = 634 * 1O
+' [3] A = 634 * 1O : GOTO A/634
 '
 inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/";A+50;".txt"
