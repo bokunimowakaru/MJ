@@ -2,7 +2,8 @@
 cls
 ' ÎÞ¸ÆÓ Ü¶Ù IchigoJam ¸²½Þ 5/8
 '
-' Syntax Error Æ ÅÙ ÉÊ ÄÞÚ?
+' ÀÀÞ¼¸ Å² ·¼Þ­Â Ê ÄÞÚ ?
+' (Syntax error ¶Þ ÃÞÙ ÓÉ)
 '
 ' [1] Remix A=B : Album C
 ' [2] Beepu,1 : A = FOR I=1 634

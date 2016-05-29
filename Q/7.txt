@@ -2,9 +2,9 @@
 cls:D=0
 ' нч╦фс э╤ы IchigoJam ╦╡╫ч 7/8
 '
-' I2C ╬б©ч╦ и LCD ф с╪ч ╕ к╝Ё╪ч
-' ╪ю╡║ ╤╥ и Ёа Syntax Error ф
-' еы ий дчз ?
+' I2C LCD ф с╪ч ╕ к╝Ё╪ч ╪ю╡║
+' ╡ой оюч к╝Ё╪ч ╩зе╦цс ╡╡║
+' Syntax error ф еы ий дчз ?
 '
 ' [1] cls:?"LCD╨щфаэ":?"MJ GET 
 '     bokunimowakaru.github.io/
