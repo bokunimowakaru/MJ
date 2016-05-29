@@ -11,6 +11,6 @@ cls:?"page 97 ";
 ' 
 ' 
 ' [0] Â·Þ É NEWS
-' [99] ØÀ°Ý
+' [99] ÓÄÞÙ
 '
 inputA:A=A+!A*96:?"MJ GET bokunimowakaru.github.io/MJ/n/";A;".txt"
