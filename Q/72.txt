@@ -5,4 +5,4 @@ LCD "HELLO!"
 
 ' ¾²¶²! LCD Ò²Ú² ÅÝÃ ±ØÏ¾Ý
 '
-WAIT300:?"MJ GET bokunimowakaru.github.io/MJ/Q/8.txt"
+WAIT180:?"MJ GET bokunimowakaru.github.io/MJ/Q/8.txt"

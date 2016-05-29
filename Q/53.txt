@@ -8,4 +8,4 @@ A = 634 * 1O
 '
 ' ¢O£ Ä ¢0£
 '
-WAIT300:?"MJ GET bokunimowakaru.github.io/MJ/Q/6.txt"
+WAIT180:?"MJ GET bokunimowakaru.github.io/MJ/Q/6.txt"

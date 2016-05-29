@@ -5,4 +5,4 @@
 '
 ' ¾²¶²
 '
-WAIT300:?"MJ GET bokunimowakaru.github.io/MJ/Q/7.txt"
+WAIT180:?"MJ GET bokunimowakaru.github.io/MJ/Q/7.txt"

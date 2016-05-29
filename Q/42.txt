@@ -5,4 +5,4 @@ GOTO,5
 
 ' Ê½ÞÚ GOTO Æ ¶ÝÏ ¦ Â¹Ã Ê ²¹Ï¾Ý
 '
-E=E+1:WAIT300:?"MJ GET bokunimowakaru.github.io/MJ/Q/4.txt"
+E=E+1:WAIT180:?"MJ GET bokunimowakaru.github.io/MJ/Q/4.txt"

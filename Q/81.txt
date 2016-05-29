@@ -5,4 +5,4 @@
 ' Break Ê ÌßÛ¸Þ×Ñ É ¼Þ¯º³ ¦
 ' ÄÒÙ ÉÃÞ LED1 ¶Þ ¼Þ¯º³ »ÚÏ¾Ý
 '
-E=E+1:WAIT300:?"MJ GET bokunimowakaru.github.io/MJ/Q/8.txt"
+E=E+1:WAIT180:?"MJ GET bokunimowakaru.github.io/MJ/Q/8.txt"
