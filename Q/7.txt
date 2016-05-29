@@ -8,7 +8,7 @@ cls:D=0
 '
 ' [1] cls:?"LCD∫›∆¡‹":?"MJ GET 
 '     bokunimowakaru.github.io/
-'     LCD"
+'     MJ/LCD"
 ' [2] LCD "HELLO!"
 ' [3] LCD,"HELLO!"
 '
