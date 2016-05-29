@@ -1,15 +1,15 @@
 
-cls
+cls:LED0
 ' ÎÞ¸ÆÓ Ü¶Ù IchigoJam ¸²½Þ 8/8
 '
-' µÒÃÞÄ³ ºÞ»Þ²Ï½
-' ¼­³Ø®³ ÃÞ½
+' »²ºÞ É ÓÝÀÞ² ÃÞ½¡
+' ¶· É Ò²Ú² ¦ ¼Þ¯º³ ºÞ Æ LED ¦
+' ÃÝÄ³ »¾Ù Î³Î³ Ê ?
 '
-' ±ÅÀ Ê IchigoJam É [ÀÂ¼ÞÝ] ÃÞ½
+' forA=0to1:A=btn():next:led1
 '
+' [1] Esc ·° ÃÞ Break ½Ù
+' [2] CN4 GND-BTN ¦ ¼®°Ä ½Ù
+' [3] SW1 ¦ µÌ Æ ½Ù
 '
-'
-'inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/";A+80;".txt"
-'
-' Enter ÃÞ ÒÆ­° Æ ÓÄÞÙ
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/0.txt"
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/";A+80;".txt"
