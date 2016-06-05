@@ -1,16 +1,10 @@
 
 cls:?"page 7 ";
-' ÎÞ¸ÆÓ Ü¶Ù MixJuice 1.NEWS
-' 
-' Mix Juice É ·¼Þ ¦@¶·Ï¼À:
+' Mix Juice É ·¼Þ ¦ ¶·Ï¼À:
 ' MixJuiceÊPCN¼¬¶×ÊÝÊÞ²»ÚÃ²ÙIchigoJamÖ³ÉÈ¯ÄÜ°¸ÎÞ°ÄÞÃÞ½¡ÄÞ¸¼ÞÉÌ§°Ñ³ª±¶Þ¼®·ºÐÏÚÀESPÓ¼Þ­°Ù¶ÞÄ³»²»ÚÃµØ¤IchigoJam¶×¶ÝÀÝÅ¿³»ÃÞ²ÝÀ°È¯ÄÍ±¸¾½½ÙºÄ¶ÞÃÞ·Ï½¡HTTP¸×²±ÝÄ·É³¦Ä³»²¼ÃµØ¤²ÝÀ°È¯ÄÔLAN¶ÐÉ¼Þ®³Î³¦¤¶ÝÀÝÆ¼­Ä¸½ÙºÄ¶ÞÃÞ·Ï½¡
 ' MixJuice¦IchigoJam UÍ¾Â¿Þ¸¼¤MixJuiceÉUSBºÈ¸ÀÆÃÞÝ¹ÞÝ¦·®³·­³¼Ï½¡IchigoJam UÍÃÞÝ¹ÞÝ¦·®³·­³½ÙÊÞ±²ÊCN5ÆºÈ¸À¦ÄØØÂ·¹ÙËÂÖ³¶Þ±ØÏ½¡Ø®³Î³ÉÃÞÝ¹ÞÝ¦²ØÚ¤·°ÎÞ°ÄÞÉ[F1]·°ÃÞ¶ÞÒÝ¦¼®³·®¼Ã¶×¤²¶ÉºÏÝÄÞ¦Æ­³Ø®¸¼Ã¸ÀÞ»²(Ñ¾ÝLAN±¸¾½Îß²ÝÄÉSSIDÄÊß½Ü°ÄÞ¦<SSID>Ä<PASS>ÉÌÞÌÞÝÍÆ­³Ø®¸)¡
 ' ?"MJ?APC?<SSID>?<PASS>"?
 ' Ñ¾ÝLAN±¸¾½Îß²ÝÄÍÉ¾Â¿Þ¸Æ¾²º³½ÙÄIP±ÄÞÚ½¶ÞË®³¼Þ»ÚÏ½¡¼Þ¶²¶×Ê¼ÞÄÞ³Ã·ÆÑ¾ÝLAN±¸¾½Îß²ÝÄÆ¾Â¿Þ¸¼Ï½¡ºÉ¼Þ®³À²ÃÞ¤²¶ÉºÏÝÄÞ¦Æ­³Ø®¸½ÙÄ¤IchigoJam + MixJuice¾ÝÖ³ÉºÝÃÝÂ¦Ë®³¼Þ½ÙºÄ¶ÞÃÞ·Ï½¡
-'
 ' ?"MJ GET bokunimowakaru.github.io/MJ/"
-'
-' [0] Â·Þ É NEWS
-' [99] ÓÄÞÙ
-'
-inputA:A=A+!A*6:?"MJ GET bokunimowakaru.github.io/MJ/n/";A;".txt"
+' [Enter] Â·Þ É NEWS
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/n/";A+!A*6;".txt"
