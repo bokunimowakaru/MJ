@@ -5,7 +5,7 @@
 ' BTN ¦ µ¼Å¶Þ× ÃÞÝ¹ÞÝ ¦ ²ÚÙÄ
 ' ¼ÞÄÞ³Ã· Æ ·ÄÞ³ ¼Ï½¡
 
-cls:new
+new
 1 'Auto RUN
 2 UART 0,0
 3 LED 1:WAIT 60:LED 0
