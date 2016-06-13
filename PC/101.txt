@@ -19,5 +19,5 @@ cls:new
 91 ?"SCORE=";S
 92 ?"LEVEL=";N
 99 END
-save 1
+save 1:wait120
 ?"MJ GET bokunimowakaru.github.io/MJ/PC/102.txt"

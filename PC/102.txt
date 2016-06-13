@@ -23,5 +23,5 @@ cls:new
 80 Q=0:P=36:GOSUB50:P=60:C=2:GOSUB60:?CHR$(Z,11,11,1,1,80,78,62,46,30,O):WAIT60:GOSUB50
 81 ifR R=R-1:GOTO30
 90 LRUN FILE()-1,90
-save 2
+save 2:wait120
 ?"MJ GET bokunimowakaru.github.io/MJ/PC/103.txt"
