@@ -1,0 +1,19 @@
+
+cls
+' 7-8 MixJuice HTTP »ÝÌßÙ P.2
+'
+' MJ POST Ò²Ú² É HTTP Í¯ÀÞ
+'
+' MJ POST START 192.168.0.2/
+' ' AAA
+' MJ POST END
+' POST / HTTP/1.0\r\n
+' Host: 192.168.0.2\r\n
+' User-Agent: MixJuice-1.0\r\n
+' Content-Length: 7\r\n
+' \r\n
+' Data (7 bytes)
+'
+' Enter ÃÞ ÓÄÞÙ
+'
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/";A+700;".txt"

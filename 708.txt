@@ -1,6 +1,8 @@
 
 cls
-' 7-8 MixJuice HTTP »ÝÌßÙ
+' 7-8 MixJuice HTTP »ÝÌßÙ P.1
+'
+' MJ GET Ò²Ú² É HTTP Í¯ÀÞ
 '
 ' MJ GET bokunimowakaru.github.i' o/MJ/0.txt
 ' GET /MJ/0.txt HTTP/1.0\r\n
@@ -11,19 +13,7 @@ cls
 ' GET / HTTP/1.0\r\n
 ' Host: 192.168.0.2\r\n
 ' User-Agent: MixJuice-1.0.2\r\n' \r\n
-
-wait 180
-
-' MJ POST START 192.168.0.2/
-' ' AAA
-' MJ POST END
-' POST / HTTP/1.0\r\n
-' Host: 192.168.0.2\r\n
-' User-Agent: MixJuice-1.0\r\n
-' Content-Length: 7\r\n
-' \r\n
-' Data (7 bytes)
-
-' Enter ÃÞ ÓÄÞÙ
 '
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/";A+700;".txt"
+' Enter ÃÞ Â·Þ É Íß°¼Þ
+'
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/";A+!A*718;".txt"
