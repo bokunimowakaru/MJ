@@ -457,4 +457,8 @@
 ' CC BY 0
 ' www.openspc2.org/reibun/IchigoJam/tool/PanCake/0001/index.html
 '
+' ## ¼Ö³ ¼Þ®³¹Ý ##
+' Raspberry Pi ÃÞ Ë®³¼Þ ½Ù ºÄ
+' (Á­³²) ºÉ ÛºÞ Ê Ä³Û¸ ¼®³Ë®³
+'
 ?"MJ GET bokunimowakaru.github.io/MJ/PC/0.txt"
