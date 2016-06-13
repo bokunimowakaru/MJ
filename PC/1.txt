@@ -1,0 +1,9 @@
+
+cls
+' ÀÞ³ÝÛ°ÄÞ ¦ ¶ÝÝØ®³ ¼Ï¼À
+'
+' [0] ¹Þ°Ñ ¦ RUN(¼Þ¯º³) ½Ù
+' [9] ÓÄÞÙ
+'[10] Îß°ÀÙ Ä³Û¸
+'
+inputA:ifA=0lrun1else?"MJ GET bokunimowakaru.github.io/MJ/PC/";A;".txt"

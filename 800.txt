@@ -4,9 +4,11 @@ cls
 '
 ' [1] BASIC IO ºÝËß­°À »ÝÌßÙ
 ' [2] ichigojam.net ÀÞ³ÝÛ°ÀÞ
+' [4] ·Þ¬×¸¼°³«°½Þ for PanCake
 ' [5] LCD DEMO
 ' [7] ESP TCP»°ÊÞ
 ' [8] ESP HTTP»°ÊÞ
-' [9] Î°ÑÍß°¼Þ Æ ÓÄÞÙ
+' [9] Î°ÑÍß°¼Þ Í ÓÄÞÙ
+'[10] Îß°ÀÙ Ä³Û¸
 '
 inputA:?"MJ GET bokunimowakaru.github.io/MJ/";A+800;".txt"

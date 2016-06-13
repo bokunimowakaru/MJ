@@ -4,6 +4,6 @@ files
 ' ============================
 '
 ' [0] ¼Þ¯º³ files 0 Í ¶·ºÐ
-' [1-9] ·¬Ý¾Ù
+' [9] ·¬Ý¾Ù
 '
 inputA:ifA=0save0:run else?"MJ GET bokunimowakaru.github.io/MJ/0.txt"

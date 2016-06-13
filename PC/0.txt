@@ -1,0 +1,10 @@
+
+cls
+' PanCake Ö³ »ÝÌßÙ
+'
+' [1] ·Þ¬×¸¼°³«°½Þ
+'
+' [9] ÓÄÞÙ
+'[10] Îß°ÀÙ Ä³Û¸
+'
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/PC/";A*100;".txt"

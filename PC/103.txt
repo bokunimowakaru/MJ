@@ -1,0 +1,36 @@
+
+cls:new
+1 END:'GW3B
+10 T=8-T:B=0
+20 ifF<0 F=F+1:WAIT4:GOTO30
+21 X=[0]:X=X-BTN(LEFT)*(X>L)+BTN(RIGHT)*(X<L+W):ifBTN(SPACE) F=2 elseifF F=1
+22 Y=[1]:ifF=2orT Y=Y-F:ifY<0 Y=G-6:F=0
+23 Q=0:P=36:C=15:GOSUB70+20*([0]=X)*([1]=Y)
+24 ifF=2 P=44:C=3:GOSUB90:B=1
+30 P=52:C=7
+31 forQ=16to6step-2:X=[Q]:ifX=0 GOTO35
+32 ifQ%4 X=X+D else X=X-E
+33 ifX<LorX>=W+L [Q+2]=[Q]:X=0
+34 Y=[Q+1]:GOSUB70
+35 next
+36 if[18] [6]=[18]:[18]=0
+37 if[A] [A]=[A]-1:if[A]=0 [6]=L:A=A-1
+40 X=L+([2]+U-L+W)%W:Y=[3]:Q=2:P=84+T:C=13:GOSUB70
+41 if[1]<Y+6andABS([0]-X)<5 F=3
+50 if[4] X=[4]:Y=[5] else Y=Y+2:I=ABS([0]-X):ifRND(I*M)>6 GOTO60
+51 Y=Y+V:ifY>GorF<0 X=0
+52 I=Y/4:ifI>2andABS([I*2]-X)<3 X=0
+53 Q=4:P=68+T:C=10:GOSUB70
+60 ?CHR$(Z,4,12,(F=2));:ifB Q=0:P=44:GOSUB80
+61 ifF<3 GOTO10
+62 I=FILE()-1:ifF=3 LRUN I,70
+63 LRUN I,80
+70 K=C:GOSUB80:C=K:[Q]=X:[Q+1]=Y:GOSUB90
+71 ifQ>3 ifABS([0]-X)<3andABS([1]-Y)<5andF<3 F=4
+72 RETURN
+80 C=0
+90 ifP>67 P=P^8
+91 if[Q] ?CHR$(Z,14,3,[Q],[Q+1],C,[P],[P+1],[P+2],[P+3],[P+4],[P+5],[P+6],[P+7]);
+92 RETURN
+save 3
+?"MJ GET bokunimowakaru.github.io/MJ/PC/1.txt"
