@@ -1,6 +1,6 @@
 
 cls
-' ÎÞ¸ÆÓ Ü¶Ù MixJuice 2-11.¹ÝØ
+' ÎÞ¸ÆÓ for MixJuice 2-11.¹ÝØ
 '
 ' IchigoJam : Ä³Û¸¼®³Ë®³ jig.jp
 ' MixJuice : pcn.club na-s.jp

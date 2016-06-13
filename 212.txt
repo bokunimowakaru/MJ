@@ -1,6 +1,6 @@
 
 cls
-' ÎÞ¸ÆÓ Ü¶Ù MixJuice 2-12.¹ÝØ
+' ÎÞ¸ÆÓ for MixJuice 2-12.¹ÝØ
 '
 ' ØÝ¸ 1 fu-sen.github.io/IJPRG
 ' BALLOON a.k.a Fu-sen. 2016
@@ -10,6 +10,9 @@ cls
 '
 ' ØÝ¸ 3 MicJack
 ' mj.micutil.com
+'
+' 8-4-1 ·Þ¬×¸¼° ³«°½Þ
+' home.nshdot.com/ijp_gw
 '
 ' Enter ÃÞ Â·Þ É Íß°¼Þ Í
 inputA:?"MJ GET bokunimowakaru.github.io/MJ/200.txt"
