@@ -126,4 +126,4 @@
 ?"PC LINE 3c 19 3c 19 07"
 ?"PC LINE 16 1a 16 1a 03"
 ?"PC LINE 17 1a 17 1a 02"
-wait60:?"MJ GET bokunimowakaru.github.io/MJ/PC/302.txt"
+?:wait60:?"MJ GET bokunimowakaru.github.io/MJ/PC/302.txt"

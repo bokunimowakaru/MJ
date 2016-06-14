@@ -125,4 +125,4 @@
 ?"PC LINE 1e 0e 1e 0e 03"
 ?"PC LINE 1f 0e 1f 0e 04"
 ?"PC LINE 20 0e 20 0e 02"
-wait60:?"MJ GET bokunimowakaru.github.io/MJ/PC/301.txt"
+?:wait60:?"MJ GET bokunimowakaru.github.io/MJ/PC/301.txt"
