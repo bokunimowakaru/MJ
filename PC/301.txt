@@ -495,3 +495,12 @@
 ?"80 08 17 2c 18 2c 03"
 ?"80 08 19 2c 1b 2c 04"
 ?"80 08 1c 2c 1d 2c 03"
+'
+' Õ›∂› Script   CC BY 0
+' www.openspc2.org/reibun/IchigoJam/tool/PanCake/0001/index.html
+'
+' IchigoJam(R) jig.jp … ºÆ≥ÀÆ≥
+' Raspberry Pi(R)  ﬂ€√ﬁ® √ﬁ ÿ÷≥
+'
+'
+wait180:?"MJ GET bokunimowakaru.github.io/MJ/PC/0.txt"
