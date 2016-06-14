@@ -122,4 +122,4 @@
 ' Raspberry Pi(R)  ﬂ€√ﬁ® √ﬁ ÿ÷≥
 '
 '
-?:wait180:?"MJ GET bokunimowakaru.github.io/MJ/PC/0.txt"
+?"MJ VER":wait180:?"MJ GET bokunimowakaru.github.io/MJ/PC/0.txt"
