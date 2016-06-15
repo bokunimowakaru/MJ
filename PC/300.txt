@@ -125,4 +125,4 @@
 ?"PC LINE 1e 0e 1e 0e 03"
 ?"PC LINE 1f 0e 1f 0e 04"
 ?"PC LINE 20 0e 20 0e 02"
-beep:uart0:forA=0to6:?"wait ";6-A:wait60:next:uart3:?"MJ GET bokunimowakaru.github.io/MJ/PC/301.txt"
+uart0:forA=0to5:beep:?"wait ";5-A:wait60:next:uart3:wait60:?"MJ GET bokunimowakaru.github.io/MJ/PC/301.txt"
