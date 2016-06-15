@@ -125,4 +125,4 @@
 ?"PC LINE 22 22 24 22 02"
 ?"PC LINE 25 22 2b 22 04"
 ?"PC LINE 2c 22 2d 22 02"
-?"MJ VER":wait300:?"MJ GET bokunimowakaru.github.io/MJ/PC/303.txt"
+beep:uart0:forA=0to6:?"wait ";6-A;wait100:next:uart3:?"MJ GET bokunimowakaru.github.io/MJ/PC/303.txt"
