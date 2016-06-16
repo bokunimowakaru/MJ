@@ -3,8 +3,9 @@ cls
 ' PanCake Ö³ »ÝÌßÙ
 '
 ' [1] ·Þ¬×¸¼° ³«°½Þ
+' [2] SNCF TGV France    (32KB)
 ' [3] IchigoPi ÊßÛÃÞ¨ ÛºÞ(14KB)
-' [5] IchigoJam ÎÞ°ÄÞ (28KB)
+' [5] IchigoJam ÎÞ°ÄÞ    (28KB)
 '
 ' [9] ÓÄÞÙ
 '[10] Îß°ÀÙ Ä³Û¸
