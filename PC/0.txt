@@ -6,6 +6,7 @@ cls
 ' [2] SNCF TGV France    (32KB)
 ' [3] IchigoPi ÊßÛÃÞ¨ ÛºÞ(14KB)
 ' [5] IchigoJam ÎÞ°ÄÞ    (28KB)
+'          ¼®Ö³ ¼Þ¶Ý 30 ËÞ®³/KB
 '
 ' [9] ÓÄÞÙ
 '[10] Îß°ÀÙ Ä³Û¸
