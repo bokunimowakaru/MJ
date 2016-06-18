@@ -5,6 +5,6 @@ cls
 ' [Enter] ÃÞ ÖÐ ½½ÒÙ ºÄ¶Þ ÃÞ·Ï½
 '
 ' [0] Â·Þ É NEWS
-' [99] ÓÄÞÙ
+' [9] ÓÄÞÙ
 '
-?"MJ GET bokunimowakaru.github.io/MJ/n/10.txt"
+wait300:?"MJ GET bokunimowakaru.github.io/MJ/n/10.txt"
