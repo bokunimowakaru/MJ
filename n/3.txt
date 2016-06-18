@@ -11,6 +11,6 @@ cls:?"page 3 ";
 ' ÒÆ­°:2
 ' 
 ' [0] Â·Þ É NEWS
-' [99] ÓÄÞÙ
+' [9] ÓÄÞÙ
 '
 inputA:A=A+!A*2:?"MJ GET bokunimowakaru.github.io/MJ/n/";A;".txt"

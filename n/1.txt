@@ -9,6 +9,6 @@ cls:?"page 1 ";
 ' ¼ÀÖ³ÃÞ½¡
 '
 ' [0] Â·Þ É NEWS
-' [99] ÓÄÞÙ
+' [9] ÓÄÞÙ
 '
 inputA:?"MJ GET bokunimowakaru.github.io/MJ/n/";A;".txt"

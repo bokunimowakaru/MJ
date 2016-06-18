@@ -10,6 +10,6 @@ cls:?"page 6 ";
 ' www.facebook.com/wataru.kunino
 ' 
 ' [0] Â·Þ É NEWS
-' [99] ÓÄÞÙ
+' [9] ÓÄÞÙ
 '
 inputA:A=A+!A*5:?"MJ GET bokunimowakaru.github.io/MJ/n/";A;".txt"

@@ -2,15 +2,13 @@
 cls:?"page 10 ";
 ' ÎÞ¸ÆÓ Ü¶Ù MixJuice 1.NEWS
 ' 
+' ÌÞÚ¯ÄÞÎÞ°ÄÞ ÃÞ MixJuice ¦ 
+' ¾²»¸ ½Ù Î³Î³ ¦ º³¶² ¼Ï¼À¡
 ' 
-' 
-' 
-' 
-' 
-' 
-' 
+' Êß¿ºÝ ÃÞ ±¸¾½ ¼Ã ¸ÀÞ»²¡
+' blogs.yahoo.co.jp/bokunimowakaru/55408584.html
 ' 
 ' [0] Â·Þ É NEWS
-' [99] ÓÄÞÙ
+' [9] ÓÄÞÙ
 '
-inputA:A=A+!A*9:?"MJ GET bokunimowakaru.github.io/MJ/n/";A;".txt"
+inputA:A=A+!A*8:?"MJ GET bokunimowakaru.github.io/MJ/n/";A;".txt"
