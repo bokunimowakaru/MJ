@@ -6,8 +6,11 @@ new:cls:'
 4 ifV<ASC("4")?"ERROR":end
 5 ?:wait30
 10 ?"MJ SPW 1":wait30
-20 ?"MJ GET raw.githubusercontent.com/bokunimowakaru/petit15term/master/fuji.txt"
+20 ?"MJ GETS raw.githubusercontent.com/bokunimowakaru/petit15term/master/fuji.txt"
 30 uart0,0
+31 ?"CC0 footage3.openspc2.org"
+32 ?"/HDTV/footage/4K/30f/mountain"
+33 ?"/fuji/0014/index.html"
 40 forI=1to10:wait60:?"wait ";10-I:ledI%2:next
 50 uart3,2
 60 I=inkey():ifIgoto60
