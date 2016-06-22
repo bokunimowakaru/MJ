@@ -1,5 +1,9 @@
 
 new:cls:'
+1 ?"º³¿¸ ÃÝ¿³ Ó°ÄÞ"
+2 ?"MJ VER"
+3 forI=1to19:V=inkey():?V;:nextI
+4 if<ASC("4")?"ERROR":end
 10 ?"MJ SPW 0"
 20 ?"MJ GET bokunimowakaru.github.io/MJ/PC/701.txt"
 30 uart0,0
