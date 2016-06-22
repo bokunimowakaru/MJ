@@ -1,0 +1,16 @@
+
+new:cls:'
+1 ?"º³¿¸ ÃÝ¿³ Ó°ÄÞ"
+2 ?"MJ VER"
+3 forI=1to19:wait3:V=inkey():?chr$(V);:next
+4 ifV<ASC("4")?"ERROR":end
+5 ?:wait30
+10 ?"MJ SPW 1":wait30
+20 ?"MJ GET raw.githubusercontent.com/bokunimowakaru/petit15term/master/fuji.txt"
+30 uart0,0
+40 forI=1to10:wait60:?"wait ";10-I:ledI%2:next
+50 uart3,2
+60 I=inkey():ifIgoto60
+70 ?"MJ SPW 30"
+80 ?"MJ GET bokunimowakaru.github.io/MJ/PC/0.txt"
+run
