@@ -4,7 +4,7 @@ new:cls:'
 2 ?"MJ VER"
 3 forI=1to19:V=inkey():?V;:nextI
 4 if<ASC("4")?"ERROR":end
-10 ?"MJ SPW 0"
+10 ?"MJ SPW 1"
 20 ?"MJ GET bokunimowakaru.github.io/MJ/PC/701.txt"
 30 uart0,0
 40 forI=1to10:wait60:?"wait ";10-I:ledI%2:next
