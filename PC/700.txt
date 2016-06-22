@@ -8,7 +8,7 @@ new:cls:'
 10 ?"MJ SPW 1":wait30
 20 ?"MJ GET bokunimowakaru.github.io/MJ/PC/701.txt"
 30 uart0,0
-40 forI=1to20:wait60:?"wait ";20-I:ledI%2:next
+40 forI=1to30:wait60:?"wait ";30-I:ledI%2:next
 50 uart3,2
 60 I=inkey():ifIgoto60
 70 ?"MJ SPW 30"
