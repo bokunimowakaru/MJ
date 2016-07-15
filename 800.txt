@@ -5,7 +5,7 @@ cls
 ' [1] BASIC IO ºÝËß­°À »ÝÌßÙ
 ' [2] ichigojam.net ÀÞ³ÝÛ°ÀÞ
 ' [4] for PanCake
-' [5] LCD DEMO
+' [5] LCD DEMO for I2C LCD
 ' [7] ESP TCP»°ÊÞ
 ' [8] ESP HTTP»°ÊÞ
 ' [9] Î°ÑÍß°¼Þ Í ÓÄÞÙ
