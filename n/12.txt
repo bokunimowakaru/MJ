@@ -3,9 +3,8 @@ cls:?"page 12 ";
 ' ÎÞ¸ÆÓ Ü¶Ù MixJuice 1.NEWS
 ' 
 ' I2C HD44780 LCD Driver ¦ »¸¾²
-' TEST Á­³
 '
-' ÒÆ­° 8 -> 6
+' ÒÆ­° 8->6
 ' 
 ' 
 ' [0] Â·Þ É NEWS
