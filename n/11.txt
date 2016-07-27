@@ -5,7 +5,9 @@ cls:?"page 11 ";
 ' º³¿¸ Ó°ÄÞ ÃÞ PanCake Æ ÃÝ¿³
 ' ¼ÃÐÏ¼À¡
 ' ¼Þ¯¹Ý Î³Î³ Ê¤ÍÞ¯Ä¤º³¶² ²À¼Ï½¡
-' PanCake Ê¤ MixJuice Æ ¶»ÈÅ²¡
+' PanCake Ê¤ MixJuice Æ ¶»È Å²¡
+'
+' Ê²¾Ý:
 ' IchigoJam RX -> PanCake RX¡
 ' 
 ' Ò²Ý ÒÆ­° ¶× [8]->[4]->[7]
