@@ -11,4 +11,6 @@ cls:?"page 1 Å¶Þ²¿Þ";
 '  Ó ³Ú¼²¿Þ¡
 ' »§¤Ú¯ÂºÞ°ÀÞ!
 '
+' Enter ·° ÃÞ ÖÐ ½½ÒÏ½
+'
 inputA:A=A+!A*2:?"MJ GET bokunimowakaru.github.io/MJ/bk02/";A;".txt"
