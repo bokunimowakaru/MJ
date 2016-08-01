@@ -1,7 +1,7 @@
 #include <stdio.h>
-#define X_NUM 29
-#define Y_NUM 19
 #define TAG "MJ GET bokunimowakaru.github.io/MJ/n/"
+// ニュース用
+
 main(){
 	FILE *fp,*fw;
 	char c;
