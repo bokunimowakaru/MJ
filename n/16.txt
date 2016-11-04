@@ -2,13 +2,11 @@
 cls:?"page 16 ";
 ' ÎÞ¸ÆÓ Ü¶Ù MixJuice 1.NEWS
 ' 
-' 
-' 
-' 
-' 
-' 
-' 
-' 
+' IchigoJam ¦ Â¶¯À ÎÞ³ÊÝ ¼½ÃÑ ¦
+' Â¸¯Ã Ð Ï¼À.
+' Raspberry Pi É Î³Ì Å Ø¿°½ ¦
+' IchigoJam ÃÞ ¶ÂÖ³ ¼Ö³!
+' http://blogs.yahoo.co.jp/bokunimowakaru/55559300.html
 ' 
 ' [0] Â·Þ É NEWS
 ' [9] ÓÄÞÙ
