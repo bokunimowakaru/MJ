@@ -7,7 +7,7 @@ cls
 ' [4] for PanCake
 ' [5] I2C LCD DEMO
 ' [6] I2C HD44780 LCD
-' [7] ESP TCP»°ÊÞ
+' [7] SAKURA IoT ¾Ý»
 ' [8] ESP HTTP»°ÊÞ
 ' [9] Î°ÑÍß°¼Þ Í ÓÄÞÙ
 '[10] Îß°ÀÙ Ä³Û¸
