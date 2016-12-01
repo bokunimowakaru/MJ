@@ -2,13 +2,10 @@
 cls:?"page 18 ";
 ' ÎÞ¸ÆÓ Ü¶Ù MixJuice 1.NEWS
 ' 
+' MixJuice ¶× Ambient ÍÉ ÃÞ°À
+' ¿³¼Ý Æ ¾²º³ ¼Ï¼À.
 ' 
-' 
-' 
-' 
-' 
-' 
-' 
+' http://blogs.yahoo.co.jp/bokunimowakaru/55601983.html
 ' 
 ' [0] Â·Þ É NEWS
 ' [9] ÓÄÞÙ
