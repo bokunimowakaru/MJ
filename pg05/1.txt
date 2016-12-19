@@ -1,0 +1,16 @@
+cls:new
+rem I2C LCD Driver for IchigoJam
+rem CC BY (c) 2015 Wataru KUNINO @ IchigoJam-FAN(facebook)
+rem http://www.geocities.jp/bokunimowakaru/q/15/
+
+800 'LCD INIT
+810 poke#700,64,0,2,#C0,57,17,#70,86,#6C,56,12
+820 ifi2cw(62,#701,1,#704,5)?"E"
+830 wait12
+840 ifi2cw(62,#701,1,#709,2)?"E"
+900 'LCD OUT
+910 ifi2cw(62,#701,1,#702,1)+i2cw(62,#700,1,#900,8)+i2cw(62,#701,1,#703,1)+i2cw(62,#700,1,#920,8)?"E"
+920 return
+
+cls:?"I2C LCD":?"W.Kunino"
+gosub800:?"MJ GET bokunimowakaru.github.io/MJ/800.txt"

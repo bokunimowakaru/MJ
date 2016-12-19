@@ -4,11 +4,9 @@ cls
 '
 ' [1] BASIC IO ºÝËß­°À »ÝÌßÙ
 ' [2] ichigojam.net ÀÞ³ÝÛ°ÀÞ
-' [4] for PanCake
-' [5] I2C LCD DEMO
-' [6] I2C HD44780 LCD
-' [7] SAKURA IoT ¾Ý»
-' [8] ESP HTTP»°ÊÞ
+' [3] IchigoJam ÃÞ IoT [new]
+' [4] PanCake
+' [5] IchigoJam ÃÞ LCD[new]
 ' [9] Î°ÑÍß°¼Þ Í ÓÄÞÙ
 '[10] Îß°ÀÙ Ä³Û¸
 '

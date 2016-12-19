@@ -1,0 +1,22 @@
+cls:new
+1 cls:?"16 x 2 LCD for":?"IchigoJam":gosub 800:end
+2 'CC BY yahoo.jp/LpkgE7
+3 '(C) 2016 W.Kunino
+800 'INI
+810 Q=60:gsb990:gsb990:gsb990
+820 Q=44:gsb990:gsb990
+830 Q=#8C:gsb990:Q=12:gsb990
+840 Q=#CC:gsb990:Q=12:gsb990
+850 Q=28:gsb990:Q=12:gsb990
+860 Q=#6C:gsb990
+900 'LCD
+910 Z=#900:gsb960:Q=#CC:gsb990
+920 Q=12:gsb990:Z=#920:gsb960
+950 rtn
+960 Q=peek(Z):ifQQ=Q&#F0|13:gsb990elsegoto980
+970 Q=peek(Z)<<4|13:gsb990
+980 Z=Z+1:ifZ&31=16rtnelsegoto960
+990 poke#8ED,#FB&Q:ifi2cw(#27,#8EC,1,#8ED,1)?"E"elsertn
+
+cls:?"I2C HD44780 LCD":?"Driver W.Kunino"
+gosub800:?"MJ GET bokunimowakaru.github.io/MJ/800.txt"

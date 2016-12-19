@@ -1,0 +1,9 @@
+
+cls
+' IchigoJam ÃÞ IoT
+'
+' [51] ÃÚËÞ Ë®³¼Þ
+' [71] SAKURA IoT ¾Ý»
+' [81] ESP HTTP»°ÊÞ
+'
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/pg03/";A;".txt"

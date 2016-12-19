@@ -1,0 +1,27 @@
+cls:new
+rem LCD 20x4 Library for IchigoJam
+rem Copyright (c) 2015-2016 Wataru KUNINO
+rem http://www.geocities.jp/bokunimowakaru/q/15/
+'
+' int Z // “à•”—˜—p
+
+1 CLS:?"±·ÂÞ· ´·¼®³ É ÄÞ×²ÊÞ"
+100 ?"IchigoJam LCD 20 x 4"
+110 ?"SC2004CS HD44780 Drv"
+120 ?"C)2016 Wataru Kunino"
+130 GOSUB 900
+140 SLEEP:END
+900 'LCD
+910 out35:out3:wait3:out35:out3:out35:out3:out34:out2
+920 out34:out2:out40:out8:out32:out0:out44:out12
+930 out32:out0:out33:out1:out32:out0:out38:out6
+940 forZ=#900to#913:gosub960:next:out44:out12:out32:out0
+942 forZ=#920to#933:gosub960:next:out41:out9:out36:out4
+944 forZ=#940to#953:gosub960:next:out45:out13:out36:out4
+950 forZ=#960to#973:gosub960:next:return
+960 ifpeek(Z)outpeek(Z)>>4+48:out6,0
+970 ifpeek(Z)outpeek(Z)&15+48:out6,0
+980 return
+
+cls:?"IchigoJam LCD 20 x 4":?"C)2016 Wataru Kunino"
+gosub900:?"MJ GET bokunimowakaru.github.io/MJ/800.txt"
