@@ -8,4 +8,4 @@ cls
 '
 ' ºÆ≥ºÆ≥ µœ¡ ∏¿ﬁª≤°
 '
-wait60:?"MJ GET bokunimowakaru.github.io/MJ/n/20.txt"
+wait60:?"MJ GET bokunimowakaru.github.io/MJ/n/21.txt"
