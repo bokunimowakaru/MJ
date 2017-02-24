@@ -2,14 +2,14 @@
 cls:?"page 24 ";
 ' ÎÞ¸ÆÓ Ü¶Ù MixJuice 1.NEWS
 ' 
+' Raspberry Pi ZERO º¸Å² ÊÝÊÞ²
 ' 
+' ZERO Æ ÁÅÝÃÞ
+' ¾²¶¸ Å 10 ËÞ®³ ¦ ¶¿Þ´ Ã ÐÖ³
 ' 
-' 
-' 
-' 
-' 
-' 
-' 
+' ÀÞ³ÝÛ°ÄÞ Ê ºÁ×:
+' ?"MJ GET bokunimowakaru.github.io/MJ/n/pg06/hit10.txt
+'
 ' [0] Â·Þ É NEWS
 ' [9] ÓÄÞÙ
 '

@@ -1,0 +1,28 @@
+new
+rem HIT10 = Hiroshi Ushiroda
+rem Hit10Sky = Wataru Kunino
+1 cls:?"Hit10Sky":uart1
+2 'MJ PCT application/json
+3 'MJ POST START ambidata.io/api/v2/channels/725/data
+4 '{"writeKey":"ad3e53b54fe16764","d2":"#"}
+5 'MJ POST END
+6 K=IN():poke#700,64,0,2,#C0,57,17,#70,86,#6C,56,12:gsb800:wait180
+100 cls:?"SHOOT IN":?" 10 SEC!":GSB900
+200 PLAY"E":WAIT60:PLAY"F":WAIT60:PLAY"F":WAIT60:PLAY"B+":CLT
+310 IFK<>IN()T=TICK():GOTO400elseGOTO310
+400 T=T-600:A=T/60:B=abs(T/6%10):cls:?A;".";B;" SEC"
+410 IF!A&&!B?"PERFECT!"elseIF!A?" GREAT!"
+430 gsb900
+500 P=#C1A:lc0,-1:?:gsb600:gsb600:gsb600:gsb600
+510 ifK=IN()goto510elseGoto100
+600 'TX
+610 ifpeek(P)<>asc("'")letP,P+1:goto610
+620 P=P+1:ifpeek(P)=asc("#")?A;".";B;:goto620
+630 ifpeek(P)<>0?chr$(peek(P));:goto620
+640 ?:return
+800 R=i2cw(62,#701,1,#704,5):if!Rifi2cw(62,#701,1,#709,2)?
+900 if!Rifi2cw(62,#701,1,#702,1)+i2cw(62,#700,1,#900,8)+i2cw(62,#701,1,#703,1)+i2cw(62,#700,1,#920,8)?
+rem TV OUT https://www.facebook.com/groups/ichigojam/permalink/581632705309820/
+950 let[0],#80,#8A,#85,#8F:lc0,5:forY=0to15:wait4:forX=0to7
+970 C=peek(vpeek(X,Y/8)*8+Y%8):?chr$([C>>6&3],[C>>4&3],[C>>2&3],[C&3]);
+980 next:next:return
