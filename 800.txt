@@ -4,10 +4,10 @@ cls
 '
 ' [1] BASIC IO ºÝËß­°À »ÝÌßÙ
 ' [2] ichigojam.net ÀÞ³ÝÛ°ÀÞ
-' [3] IchigoJam ÃÞ IoT
+' [3] IchigoJam ÃÞ IoT [new]
 ' [4] PanCake
 ' [5] IchigoJam ÃÞ LCD
-' [6] Ambient micutil [new]
+' [6] Ambient micutil
 ' [9] Î°ÑÍß°¼Þ Í ÓÄÞÙ
 '[10] Îß°ÀÙ Ä³Û¸
 '
