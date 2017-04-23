@@ -1,3 +1,3 @@
 
 cls
-?"MJ GET bokunimowakaru.github.io/MJ/n/25.txt"
+?"MJ GET bokunimowakaru.github.io/MJ/n/26.txt"

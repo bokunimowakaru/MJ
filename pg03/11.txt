@@ -1,0 +1,38 @@
+cls:new
+1 cls:?"Remo LED":?"Ambient"
+2 'MJ GET ambidata.io/api/v2/channels/725/data?readKey=26ee8c088f61194d&n=1
+7 D=7:?"data No.";D
+8 W=900:?"Wait:";W/60;"s"
+9 ?
+100 ?"--LOOP--"
+110 P=#C1D:gsb 600
+120 K=asc("d"):gsb 500:C=I
+130 K=asc(":"):gsb 500:L=I
+140 if L=0 letL,0 else letL,1
+150 K=10:gsb 500
+160 if C=D led L:if L beep 2
+170 ?:wait W
+180 goto 100
+500 'RX
+510 J=0:uart0
+520 I=inkey():ifI?chr$(I);
+530 ifI=0andJ<30wait1:J=J+1:goto520
+540 ifK<>IandJ<30goto510
+550 I=inkey()-48:ifI<0orI>9ifJ<30wait1:J=J+1:goto550
+560 ifI<0orI>9letI,0else?I;
+570 rtn
+600 'TX
+610 uart1
+620 ifpeek(P)<>asc("'")letP,P+1:goto620
+630 P=P+1:ifpeek(P)=asc("#")?L;:goto630
+640 ifpeek(P)<>0?chr$(peek(P));:goto630
+650 ?:wait30:rtn
+'
+' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
+'
+' PC/½ÏÎ Íß°¼Þ
+' https://goo.gl/qRgrkO
+'
+' ¼­³Ø®³ ¼Ã¶× ¼Þ¯º³ ¼Ã ¸ÀÞ»²
+' Enter: ÀÞ³ÝÛ°ÄÞ Íß°¼Þ Æ ÓÄÞÙ
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/800.txt"

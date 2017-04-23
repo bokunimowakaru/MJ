@@ -2,9 +2,12 @@
 cls
 ' IchigoJam ÃÞ IoT
 '
+' [11] LED ¾²·Þ® ¼Þ­¼Ý [new]
+' [12] 7¾¸ÞLED ¾²·Þ® [new]
+' [13] LED ¾²·Þ® ¿³¼Ý [new]
 ' [51] ÃÚËÞ Ë®³¼Þ
 ' [71] SAKURA IoT ¾Ý»1
-' [72] SAKURA IoT ¾Ý»2 [new]
+' [72] SAKURA IoT ¾Ý»2
 ' [81] ESP HTTP»°ÊÞ
 '
 inputA:?"MJ GET bokunimowakaru.github.io/MJ/pg03/";A;".txt"
