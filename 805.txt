@@ -7,5 +7,6 @@ cls
 ' [1] I2C LCD Driver
 ' [2] I2C PCF8574T HD44780 LCD
 ' [3] HD44780 ÀÞ²Ú¸Ä LCD
+' [4] I2C OLED SSD1306 [new]
 '
 inputA:?"MJ GET bokunimowakaru.github.io/MJ/pg05/";A;".txt"

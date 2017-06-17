@@ -1,0 +1,32 @@
+cls:new
+poke#700,0,0,0,30,63,#73,97,97
+poke#708,0,0,0,#78,#FC,#CE,#86,#86
+poke#710,0,0,0,0,0,0,#EE,71
+poke#718,0,0,0,0,0,0,#E0,#C0
+poke#720,0,0,0,96,96,96,#6C,#6C
+poke#728,0,0,0,0,0,0,#6E,#64
+poke#730,0,0,0,0,0,0,#7C,#EE
+poke#738,0,0,0,0,0,0,#7C,#C6
+poke#740,97,97,97,97,0,0,0,0
+poke#748,#86,#86,#86,#86,0,0,0,0
+poke#750,#E3,#E3,#E7,#EE,0,0,0,0
+poke#758,#80,#8C,#CF,#E7,0,0,0,0
+poke#760,#6D,#ED,#EE,#C7,0,0,0,0
+poke#768,#6E,#6E,#CE,#CE,0,0,0,0
+poke#770,#C0,#C0,#EE,#7C,0,0,0,0
+poke#778,#FE,#C0,#EE,#7C,0,0,0,0
+1 cls:?"OLED LIB":?:?"   by":?:?" Wataru":?" Kunino":?:?:?
+2 forI=0to15:?chr$(#E0+I);:ifi=7?
+3 next
+5 gsb800
+6 ?:?"MJ GET bokunimowakaru.github.io/MJ/800.txt"
+9 end
+800 'INIT
+810 let[84],#4000,33,#227F,#700,#D5AE,#8D80,#2014,#DA00,#8112,#D9CF,#DBF1,#A440,#AFA6
+820 forP=#8B0to#8C1:ifi2cw(60,#8A8,1,P,1)?"E
+830 next
+900 'OUT
+910 ifi2cw(60,#8A8,1,#8AA,6)?"E
+920 forX=0to7:forY=0to15:P=vpeek(7-X,Y)*8:copy#8A0,P,8:ifi2cw(60,#8A9,1,#8A0,8)?"E
+930 next:next:rtn
+run
