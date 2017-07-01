@@ -128,7 +128,7 @@ int main(int argc,char **argv){
 			printf("poke#%3X,",JAM_ADR+8*y);
 			fprintf(fp,"poke#%3X,",JAM_ADR+8*y);
 			for(i=0;i<8;i++){
-				if(PIX_WHITE) c = out[8*(x+y*8)+i]; else c = ~out[8*(x+y*8)+i];
+				if(PIX_WHITE) c = out[x+y*64+i*8]; else c = ~out[x+y*64+i*8];
 				if(c<100){
 					printf("%d",c);
 					fprintf(fp,"%d",c);
