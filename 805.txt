@@ -10,5 +10,6 @@ cls
 ' [4] OLED SSD1306
 ' [5] GAME for OLED SSD
 ' [6] BMP LOADER OLED SSD[new]
+' [7] ¹²¼Þ ÊÞÝ OLED SSD[new]
 '
 inputA:?"MJ GET bokunimowakaru.github.io/MJ/pg05/";A;".txt"
