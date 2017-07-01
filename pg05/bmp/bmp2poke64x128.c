@@ -77,16 +77,13 @@ int main(int argc,char **argv){
 	}
 	for(i=0;i<64;i++) printf("-"); printf("\n");
 	
-	/* 入力データの表示と文字回転処理 */
-	memcpy(data,out,PIX_SIZE_BYTE);
-	memset(out,0x00,PIX_SIZE_BYTE);
-	for(y=0;y<PIX_Y;y++){
+	/* 入力データの表示 */
+/*	for(y=0;y<PIX_Y;y++){
 		for(x=0;x<PIX_X;x++){
 			c=data[x/8+y*8];
 			c=( ( ( c>>(7-(x%8)) ) & 0x01 ) == PIX_WHITE );
 			if( c ){
 				printf("#");
-				out[x/8+(y/8)*64+(x%8)*8] |= ( 0x01<<(y%8));
 			}else{
 				printf(" ");
 			}
@@ -94,8 +91,23 @@ int main(int argc,char **argv){
 		printf("\n");
 	}
 	for(i=0;i<64;i++) printf("-"); printf("\n");
-	
-	/* 文字回転後のデータ表示 */
+*/	
+	/* 文字回転処理 */
+/*	memcpy(data,out,PIX_SIZE_BYTE);
+	memset(out,0x00,PIX_SIZE_BYTE);
+	for(y=0;y<PIX_Y;y++){
+		for(x=0;x<PIX_X;x++){
+			c=data[x/8+y*8];
+			c=( ( ( c>>(7-(x%8)) ) & 0x01 ) == PIX_WHITE );
+			if( c ){
+				out[x/8+(y/8)*64+(x%8)*8] |= ( 0x01<<(y%8));
+			}
+		}
+		printf("\n");
+	}
+	for(i=0;i<64;i++) printf("-"); printf("\n");
+*/	
+	/* 出力用のデータ表示 */
 	for(y=0;y<PIX_Y;y++){
 		for(x=0;x<PIX_X;x++){
 			c=out[x/8+y*8];
@@ -109,7 +121,7 @@ int main(int argc,char **argv){
 	}
 	for(i=0;i<64;i++) printf("-"); printf("\n");
 
-	strcpy(s,"mkdir XXX &> /dev/null");
+	strcpy(s,"mkdir XXX 2> /dev/null");
 	memcpy(&s[6],argv[1],3);
 	printf("ディレクトリ作成(%s)\n",s);
 	system(s);
