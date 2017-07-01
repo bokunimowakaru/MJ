@@ -1,7 +1,7 @@
 new
 100 cls:?"OLED BMP":?"¹²¼ÞÊÞÝ":?:?"by":?"W.Kunino":gsb800
 110 ifi2cw(60,#8A8,1,#8AA,6)?"E
-120 B=-1:P=1
+120 B=-1:P=1:goto300
 200 'LINE
 210 cls:uart0:forI=0to15:?chr$(#E0+I);:next:?:?"Step ";B+1;"/8"
 220 ifi2cw(60,#8A9,1,#700,128)?"E
