@@ -2,13 +2,11 @@
 cls:?"page 28 ";
 ' ÎÞ¸ÆÓ Ü¶Ù MixJuice 1.NEWS
 ' 
+' OLED BMP ÀÞ³ÝÛ°ÀÞ º³¶²
 ' 
+' ÒÆ­° [8]->[5]->[6]
 ' 
-' 
-' 
-' 
-' 
-' 
+' https://goo.gl/HhvgF8
 ' 
 ' [0] Â·Þ É NEWS
 ' [9] ÓÄÞÙ
