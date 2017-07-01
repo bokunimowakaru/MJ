@@ -3,7 +3,7 @@ new
 110 ifi2cw(60,#8A8,1,#8AA,6)?"E
 120 B=-1:goto300
 200 'LINE
-210 cls:uart0:forI=0to15:?chr$(#E0+I);:next:?:?"Step ";B+2;"/8"
+210 cls:uart0:forI=0to15:?chr$(#E0+I);:next:?:?"Step ";B+1;"/8"
 220 ifi2cw(60,#8A9,1,#700,128)?"E
 300 'MJ
 310 B=B+1:ifB<8uart1:?"MJ GET bokunimowakaru.github.io/MJ/pg05/bmp/ras/";B;".txt"
@@ -15,3 +15,4 @@ new
 910 ifi2cw(60,#8A8,1,#8AA,6)?"E
 920 for[98]=0to7:for[99]=0to15:copy#8A0,vpeek(7-[98],[99])*8,8:ifi2cw(60,#8A9,1,#8A0,8)?"E
 930 next:next:rtn
+run
