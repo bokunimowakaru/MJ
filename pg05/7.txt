@@ -11,8 +11,8 @@ new
 330 goto 400+10*P
 400 'Page
 410 ?"ras/";B;".txt":end
-420 ?"pin/";B;".txt":end
-430 ?"por/";B;".txt":end
+420 ?"por/";B;".txt":end
+430 ?"pin/";B;".txt":end
 440 ?"wat/";B;".txt":end
 500 'Next
 510 WAIT 600
