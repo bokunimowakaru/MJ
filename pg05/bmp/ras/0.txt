@@ -14,4 +14,4 @@ poke#760,0,0,0,#F8,#C4,#C0,0,0
 poke#768,0,0,0,#7B,64,31,15,0
 poke#770,0,0,#70,#F4,#F2,#B0,#F0,0
 poke#778,0,0,0,63,#FF,#FF,13,0
-MJ GET bokunimowakaru.github.io/MJ/pg05/bmp/ras/1.txt
+goto200
