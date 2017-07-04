@@ -16,12 +16,16 @@ BMPのヘッダはバイト数で除去（BMPファイルによっては動作�
 #define PIX_Y			128
 unsigned int JAM_ADR=	0x700;
 unsigned char PIX_WHITE=0x01;
+unsigned char FILE_DIV=0x01;
 
 void err(char *s){
 	fprintf(stderr,"Usage : %s [-1 or -0] filename.bmp\n",s);
-	fprintf(stderr,"オプション -0 で白黒反転します\n");
-	fprintf(stderr,"オプション -Hhhh (hhhは16進数)でIchigoJma用の開始アドレスを指定\n");
-	fprintf(stderr,"入力ファイル名は、3文字以上、アルファベット小文字\n");
+	fprintf(stderr,"入力ファイル名は、3文字以上、アルファベット小文字\n\n");
+	fprintf(stderr,"Options\n");
+	fprintf(stderr,"  -0          白黒反転します\n");
+	fprintf(stderr,"  -1          反転無し(デフォルト)\n");
+	fprintf(stderr,"  -Hhhh       IchigoJam用の開始アドレスを指定(hhhは16進数)\n");
+	fprintf(stderr,"  -c          ファイル結合(非分割出力)\n");
 	exit(1);
 }
 
@@ -40,6 +44,8 @@ int main(int argc,char **argv){
 	while( argc>2 && argv[1][0] == '-'){
 		if(argv[1][1] == 'H'){
 			JAM_ADR = strtol(&argv[1][2],NULL,16);;
+		}else if(argv[1][1] == 'c'){
+			FILE_DIV=0x00;
 		}else{
 			PIX_WHITE=(unsigned char)atoi( &argv[1][1] );
 			printf("PIX_WHITE = %02x\n",PIX_WHITE);
@@ -135,7 +141,7 @@ int main(int argc,char **argv){
 		strncpy(s,argv[1],16);	// 23バイト、22文字まで
 		sprintf(s,"%s/%1d.txt",s,7-x);
 		printf("ファイル出力(%s)\n",s);
-		fp=fopen(s,"w");
+		if(x==(PIX_X/8)-1 || FILE_DIV )fp=fopen(s,"w");
 		if(fp==0){
 			fprintf(stderr,"ファイルの書き込みに失敗しました\n");
 			return -1;
@@ -167,8 +173,10 @@ int main(int argc,char **argv){
 		sprintf(s,"%s/%1d.txt",s,7-x+1);
 		fprintf(fp,"MJ GET bokunimowakaru.github.io/MJ/pg05/bmp/%s\n",s);
 		*/
-		fprintf(fp,"goto200\n",s);
-		fclose(fp);
+		if(x==0 || FILE_DIV ){
+			fprintf(fp,"goto200\n");
+			fclose(fp);
+		}
 		for(i=0;i<64;i++) printf("-"); printf("\n");
 	}
 	return 0;
