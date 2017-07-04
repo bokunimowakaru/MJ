@@ -8,18 +8,19 @@ BMPのヘッダはバイト数で除去（BMPファイルによっては動作�
 
 */
 #include <stdio.h>
-#include <string.h>
 #include <stdlib.h>
+#include <string.h>
 
 #define PIX_SIZE_BYTE	1024
 #define PIX_X			64
 #define PIX_Y			128
-#define JAM_ADR			0x700
+unsigned int JAM_ADR=	0x700;
 unsigned char PIX_WHITE=0x01;
 
 void err(char *s){
 	fprintf(stderr,"Usage : %s [-1 or -0] filename.bmp\n",s);
 	fprintf(stderr,"オプション -0 で白黒反転します\n");
+	fprintf(stderr,"オプション -Hhhh (hhhは16進数)でIchigoJma用の開始アドレスを指定\n");
 	fprintf(stderr,"入力ファイル名は、3文字以上、アルファベット小文字\n");
 	exit(1);
 }
@@ -36,9 +37,13 @@ int main(int argc,char **argv){
 //	char s[]="XXX/n.txt";
 
 	printf("開始(%s)\n",argv[0]);
-	if( argc>2 && argv[1][0] == '-'){
-		PIX_WHITE=(unsigned char)atoi( &argv[1][1] );
-		printf("PIX_WHITE = %02x\n",PIX_WHITE);
+	while( argc>2 && argv[1][0] == '-'){
+		if(argv[1][1] == 'H'){
+			JAM_ADR = strtol(&argv[1][2],NULL,16);;
+		}else{
+			PIX_WHITE=(unsigned char)atoi( &argv[1][1] );
+			printf("PIX_WHITE = %02x\n",PIX_WHITE);
+		}
 		argv++;
 		argc--;
 	}
