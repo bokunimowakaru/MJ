@@ -148,7 +148,8 @@ int main(int argc,char **argv){
 	for(x=(PIX_X/8)-1;x>=0;x--){
 		if(x==(PIX_X/8)-1 || FILE_DIV ){
 			strncpy(s,argv[1],16);	// 23バイト、22文字まで
-			sprintf(s,"%s/%1d.txt",s,7-x);
+			if(!FILE_DIV) sprintf(s,"%s/c.txt",s);
+			else sprintf(s,"%s/%1d.txt",s,7-x);
 			printf("ファイル出力(%s)\n",s);
 			fp=fopen(s,"w");
 		}
