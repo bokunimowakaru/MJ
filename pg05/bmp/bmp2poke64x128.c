@@ -118,6 +118,14 @@ int main(int argc,char **argv){
 	}
 	for(i=0;i<64;i++) printf("-"); printf("\n");
 */	
+	
+	/* 先頭のデータが0xFFだとIchigoJam側でファイルとして扱われない */
+	c=out[(PIX_X/8)-1];
+	if(!PIX_WHITE) c = ~c;
+	if(c==0xFF) c=0xEF;
+	if(!PIX_WHITE) c = ~c;
+	out[(PIX_X/8)-1]=c;
+
 	/* 出力用のデータ表示 */
 	for(y=0;y<PIX_Y;y++){
 		for(x=0;x<PIX_X;x++){
@@ -131,17 +139,19 @@ int main(int argc,char **argv){
 		printf("\n");
 	}
 	for(i=0;i<64;i++) printf("-"); printf("\n");
-
+	
 	strcpy(s,"mkdir XXX 2> /dev/null");
 	memcpy(&s[6],argv[1],3);
 	printf("ディレクトリ作成(%s)\n",s);
 	system(s);
 	argv[1][3]='\0';
 	for(x=(PIX_X/8)-1;x>=0;x--){
-		strncpy(s,argv[1],16);	// 23バイト、22文字まで
-		sprintf(s,"%s/%1d.txt",s,7-x);
-		printf("ファイル出力(%s)\n",s);
-		if(x==(PIX_X/8)-1 || FILE_DIV )fp=fopen(s,"w");
+		if(x==(PIX_X/8)-1 || FILE_DIV ){
+			strncpy(s,argv[1],16);	// 23バイト、22文字まで
+			sprintf(s,"%s/%1d.txt",s,7-x);
+			printf("ファイル出力(%s)\n",s);
+			fp=fopen(s,"w");
+		}
 		if(fp==0){
 			fprintf(stderr,"ファイルの書き込みに失敗しました\n");
 			return -1;
@@ -177,6 +187,7 @@ int main(int argc,char **argv){
 			fprintf(fp,"goto200\n");
 			fclose(fp);
 		}
+		if( !FILE_DIV ) JAM_ADR += PIX_Y;
 		for(i=0;i<64;i++) printf("-"); printf("\n");
 	}
 	return 0;
