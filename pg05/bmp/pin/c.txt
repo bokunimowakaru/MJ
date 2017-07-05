@@ -126,4 +126,18 @@ poke#FE0,78,#6E,#7F,51,64,58,#7E,78
 poke#FE8,78,78,94,#7E,#73,8,34,#7B
 poke#FF0,75,73,91,#69,91,#71,4,67
 poke#FF8,#67,70,#66,71,#66,70,#7F,59
-goto200
+C=3
+SAVE C
+new
+
+' I2C OLED BMP Loader [GRAPHICS] for IchigoJam :' https://goo.gl/HhvgF8
+' CC BY (c) 2017 Ruria Amanagi and Wataru KUNINO @ IchigoJam-FAN (Facebook)
+1 'C = File Number (0 to 3)
+10 let[0],#b5f0,#2207,#0212,#1852,#2310,#c8f0,#c2f0,#3b01
+20 let[8],#d1fb,#bdf0
+30 let[84],#4000,33,#227F,#700,#D5AE,#8D80,#2014,#DA00,#8112,#D9CF,#DBF1,#A440,#AFA6
+40 ifi2cw(60,#8A8,1,#8B0,18)?"E
+50 ifi2cw(60,#8A8,1,#8AA,6)?"E
+60 A=#6000+1024*C:D=USR(#800,A):ifpeek(#700)=255letA,A+4096
+70 forI=0to3:A=usr(#800,A):D=i2cw(60,#8A9,1,#700,256):next
+RUN
