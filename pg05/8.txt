@@ -1,0 +1,13 @@
+
+' FILE No 1-3
+' ¼ÞÄÞ³Ã· Æ ·ÄÞ³ ¼Ï½¡
+
+files
+' ============================
+' ¼Þ­³Ö³ : file 1-3 ³Ü¶Þ· Á­³²
+' ============================
+'
+' [0] ¼Þ¯º³ files 1-3 Í ¶·ºÐ
+' [9] ·¬Ý¾Ù
+'
+inputA:ifA=0?"MJ GET bokunimowakaru.github.io/MJ/pg05/bmp/rps/0.txt"else?"MJ GET bokunimowakaru.github.io/MJ/0.txt"

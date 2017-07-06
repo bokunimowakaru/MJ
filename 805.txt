@@ -9,7 +9,8 @@ cls
 ' [3] HD44780 ÀÞ²Ú¸Ä LCD
 ' [4] OLED SSD1306
 ' [5] GAME for OLED SSD
-' [6] BMP LOADER OLED SSD[new]
-' [7] ¹²¼Þ ÊÞÝ OLED SSD[new]
+' [6] BMP LOADER OLED SSD
+' [7] ¹²¼Þ ÊÞÝ OLED SSD
+' [8] BMP VIEWER OLED SSD[new]
 '
 inputA:?"MJ GET bokunimowakaru.github.io/MJ/pg05/";A;".txt"

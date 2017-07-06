@@ -46,6 +46,7 @@ int main(int argc,char **argv){
 			JAM_ADR = strtol(&argv[1][2],NULL,16);;
 		}else if(argv[1][1] == 'c'){
 			FILE_DIV=0x00;
+			JAM_ADR=0xC00;
 		}else{
 			PIX_WHITE=(unsigned char)atoi( &argv[1][1] );
 			printf("PIX_WHITE = %02x\n",PIX_WHITE);
