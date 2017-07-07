@@ -12,5 +12,7 @@ new
 100 'MAIN
 110 for I=1 to 3:for J=0 to 3
 120 D=usr(#800,A+1024*I+256*J)|i2cw(60,#8A9,1,#700,256)
-140 next:wait10:next:goto 100
+140 next:wait10:next:if!btn()goto 100
+150 ?"MJ GET bokunimowakaru.github.io/MJ/0.txt"
+160 end
 RUN
