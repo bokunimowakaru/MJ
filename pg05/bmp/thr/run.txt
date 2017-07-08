@@ -1,4 +1,7 @@
 cls
+' I2C OLED BMP Loader [GRAPHICS] for IchigoJam :' https://goo.gl/HhvgF8
+' CC BY (c) 2017 Ruria Amanagi and Wataru KUNINO @ IchigoJam-FAN (Facebook)
+
 let[0],#b5f0,#2207,#0212,#1852,#2310,#c8f0,#c2f0,#3b01
 let[8],#d1fb,#bdf0
 let[84],#4000,33,#227F,#700,#D5AE,#8D80,#2014,#DA00,#8112,#D9CF,#DBF1,#A440,#AFA6
