@@ -1,5 +1,45 @@
 
-cls
+' Arashi Tennis
+' http://d.hatena.ne.jp/shiro0922/20150824/1440425034
+' http://www.m-sugaya.jp/basic/tennis_game.htm
+
+cls:new
+10 ?"Arashi":cls:clv:gsb 800
+20 P=5:X=RND(10)+1:Y=0:D=1:E=1
+100 '
+110 IF BTN(LEFT) GSB 380
+120 IF BTN(RIGHT) GSB 420
+130 LC P,7:?" ===== ";
+140 GSB 900
+160 '
+170 U=X+D:V=Y+E
+180 IF U=0 OR U=15 THEN D=-D:GOTO 160
+190 IF V=-1 THEN E=1:GOTO 160
+200 S=SCR(U,V)
+210 IF S=#3D GSB 460:GOTO 160
+220 LC X,Y:?" ";
+230 LC U,V:?"@";
+240 X=U:Y=V
+250 IF Y<8 GOTO 100
+260 '
+270 BEEP 30,60:WAIT 60
+300 LC 0,7:?:?"GAME OVER"
+310 ?"P=";T:END
+380 '
+390 P=P-1
+400 IF P<0 THEN P=0
+410 RTN
+420 '
+430 P=P+1
+440 IF P>11 THEN P=11
+450 RTN
+460 '
+470 BEEP 10
+480 T=T+10
+490 LC 0,0:?T;
+500 E=-1
+510 RTN
+
 ' I2C OLED Binary Driver [V3] for IchigoJam :' https://goo.gl/HhvgF8
 ' CC BY (c) 2017 Ruria Amanagi, Wataru KUNINO, and Shiro Saito
 ' Special thanks to Fukuno-san, Ono-san, and all members in IchigoJam-FAN.
