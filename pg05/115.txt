@@ -1,7 +1,11 @@
 
-' Arashi Tennis
-' http://d.hatena.ne.jp/shiro0922/20150824/1440425034
+' Arashi Tennis for IchigoJam OLED
+'
+' Mitsuru Sugaya
 ' http://www.m-sugaya.jp/basic/tennis_game.htm
+'
+' Shiro Saito
+' http://d.hatena.ne.jp/shiro0922/20150824/1440425034
 
 cls:new
 10 ?"Arashi":cls:clv:gsb 800
