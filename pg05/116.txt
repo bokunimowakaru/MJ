@@ -1,0 +1,16 @@
+
+cls
+' I2C OLED Binary Driver [V3][PCG] for IchigoJam :' https://goo.gl/HhvgF8
+' CC BY (c) 2017 Ruria Amanagi, Wataru KUNINO, and Shiro Saito
+' Special thanks to Fukuno-san, Ono-san, and all members in IchigoJam-FAN.
+
+800 let[0],#4000,#B5F0,#1840,#468E,#4694,#230B,539,#18C9,#2410,#4665,#7803
+810 let[11],#2BE0,#D300,#4675,#DB,#18EA,#2708,#2507,#5D56,#40FE,#415B
+820 let[21],#3D01,#D2FA,#700B,#3101,#3F01,#D1F5,#3001,#3C01,#D1EA,#BDF0
+830 let[90],#D5AE,#8D80,#2014,#A100,#DAC8,#8112,#D9CF,#DBF1,#A440,#AFA6
+840 ifi2cw(60,#800,1,#8B4,20)E
+850 video3:copy#A00,#800,70
+900 for[98]=0to7:ifusr(#A02,#900+[98]*16)&0|i2cw(60,#A01,1,#B00,128)E
+910 next:rtn
+
+cls:?"C2":?"LANDSCAPE PCG":?"ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³":gsb800:?"MJ GET bokunimowakaru.github.io/MJ/805.txt"

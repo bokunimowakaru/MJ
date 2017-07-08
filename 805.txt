@@ -2,15 +2,15 @@
 cls
 ' IchigoJam ÃÞ LCD & OLED
 '
-' [11] I2C LCD DEMO
-'
 ' [1] I2C LCD Driver
-' [2] I2C PCF8574T HD44780 LCD
+' [2] PCF8574T-HD44780 LCD
 ' [3] HD44780 ÀÞ²Ú¸Ä LCD
 ' [4] OLED SSD1306
 ' [5] GAME for OLED SSD
 ' [6] BMP LOADER OLED SSD
 ' [7] ¹²¼Þ ÊÞÝ OLED SSD
-' [8] BMP VIEWER OLED SSD[new]
+' [8] BMP VIEWER OLED SSD
+' [11] I2C LCD DEMO
+' [12] OLED ÌßÛ¸Þ×Ñ ¼­³ [new]
 '
 inputA:?"MJ GET bokunimowakaru.github.io/MJ/pg05/";A;".txt"

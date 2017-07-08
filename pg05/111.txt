@@ -1,0 +1,34 @@
+
+cls
+' I2C OLED Example A1 IchigoJam LOGO
+' by 2017 Wataru KUNINO and Ruria Amanagi @ IchigoJam-FAN (Facebook)
+
+' I2C OLED BASIC Driver for IchigoJam :' https://goo.gl/HhvgF8
+' CC BY (c) 2017 Wataru KUNINO @ IchigoJam-FAN (Facebook)
+
+' IchigoJam µÖËÞ IchigoJam ÛºÞ Ê jig.jp (ichigojam.net jig.jp) É
+' Ä³Û¸ ¼®³Ë®³ ÃÞ½. CC BY ×²¾Ý½ Æ ¼À¶Þ¯Ã ¼Ö³ ¼ÃÏ½.
+
+new
+1 cls:?"OLED LIB":?:?" for":?:gsb700:forI=0to15:?chr$(#E0+I);:ifi=7?
+2 next:?:?:forI=0to7:?" ";chr$(255);" by ";chr$(255)
+3 ?:?" Wataru":?" Kunino":?:?" ";chr$(255);" && ";chr$(255):?:?" Ruria":?" Amanagi
+9 gsb800:end
+
+700 'LOGO
+710 A=#FFFF:B=#3333:C=#3030
+720 let[0],#C0C0,#C0C0,#CFC0,#CCCF,C,C,#3F30,#333F,C,0,#3300,B,0,0,#F300,#33F3
+730 let[16],0,0,#F000,#30F0,#6060,#6060,#6760,#6667,0,0,#E700,#63E7,0,0,#FF00,#33FF
+740 let[32],#CFCC,#00CF,0,A,B,#0033,0,A,B,#0033,0,#F3F3,#F333,#30F3,C,#F3F3
+750 let[48],#F330,#00F3,0,A,#E766,#00E7,0,A,#F363,#00F3,0,A,B,#0033,0,A
+760 copy#700,#800,128:rtn
+
+800 'INIT
+810 let[88],#4000,#D5AE,#8D80,#2014,#DA00,#8112,#D9CF,#DBF1,#A440,#AFA6
+820 ifi2cw(60,#8B0,1,#8B2,18)?"E
+
+900 'OUT
+910 for[98]=0to7:for[99]=0to15:copy#8A8,vpeek(7-[98],[99])*8,8:ifi2cw(60,#8B1,1,#8A8,8)?"E
+920 next:next:rtn
+
+cls:?"A1":?"BASIC":?"ÀÞ³ÝÛ°ÄÞ":?"¶ÝØ®³":gsb800:?"MJ GET bokunimowakaru.github.io/MJ/805.txt"

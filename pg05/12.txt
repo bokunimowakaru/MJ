@@ -1,0 +1,16 @@
+
+cls
+' IchigoJam ÃÞ OLED SSD1306
+'
+' [0] A0.BASIC ÀÞ²´¯Ä ÊÞÝ
+' [1] A1.BASIC ÛºÞ Ë®³¼Þ
+' [2] A2.BASIC ÚÝ¼­³ Ö³
+' [3] B1.(ÀÃ)º³¿¸ Ë®³¼Þ
+' [4] B2.(ÀÃ)º³¿¸ Ë®³¼Þ PCG
+' [5] C1.(Öº)º³¿¸ Ë®³¼Þ
+' [6] C2.(Öº)º³¿¸ Ë®³¼Þ PCG
+' [9] LCD & OLED Í ÓÄÞÙ
+'
+' PC»²Ä:https://goo.gl/HhvgF8
+'
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/pg05/11";A;".txt"

@@ -1,0 +1,25 @@
+
+cls
+' I2C OLED Character list of IchigoJam :' https://goo.gl/HhvgF8
+' CC BY (c) 2017 Wataru KUNINO and Ruria Amanagi @ IchigoJam-FAN (Facebook)
+
+new
+10 CLS              :' ¶ÞÒÝ ¦ ¹½
+20 FOR Y=0 TO 15    :' Y=0 ¶× 15 ÏÃÞ ¸Ø¶´½
+30 FOR X=0 TO 7     :' X=0 ¶× 7 ÏÃÞ ¸Ø¶´½
+40 LC X,Y           :' Ë®³¼Þ ²Á ¦ ¼Ã² ½Ù
+50 ? CHR$(16*X+Y+32); :' ·¬×¸À ¦ Ë®³¼Þ ½Ù
+60 NEXT             :' FOR X Í ÓÄÞÙ
+70 NEXT             :' FOR Y Í ÓÄÞÙ
+80 GSB 800          :' OLED ¼®·¶ Ä OLED Í Ë®³¼Þ
+90 END              :' ¼­³Ø®³
+
+' I2C OLED BASIC Driver for IchigoJam :' https://goo.gl/HhvgF8
+' CC BY (c) 2017 Wataru KUNINO @ IchigoJam-FAN (Facebook)
+' Special thanks to Fukuno-san, Ono-san, Saito-san, and all members.
+
+800 let[84],#4000,#D5AE,#8D80,#2014,#DA00,#8112,#D9CF,#DBF1,#A440,#AFA6
+810 W=i2cw(60,#8A8,1,#8AA,18)
+900 forV=0to7:forZ=0to15:copy#8A0,vpeek(7-V,Z)*8,8:W=i2cw(60,#8A9,1,#8A0,8):next:next:rtn
+
+cls:?"A0":?"ÀÞ²´¯Ä":?"ÀÞ³ÝÛ°ÄÞ":?"¶ÝØ®³":gsb800:?"MJ GET bokunimowakaru.github.io/MJ/805.txt"
