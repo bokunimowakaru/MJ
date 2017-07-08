@@ -22,4 +22,4 @@ new
 810 W=i2cw(60,#8A8,1,#8AA,18)
 900 forV=0to7:forZ=0to15:copy#8A0,vpeek(7-V,Z)*8,8:W=i2cw(60,#8A9,1,#8A0,8):next:next:rtn
 
-cls:?"A0":?"ÀÞ²´¯Ä":?"ÀÞ³ÝÛ°ÄÞ":?"¶ÝØ®³":gsb800:?"MJ GET bokunimowakaru.github.io/MJ/805.txt"
+cls:?"A0":?"ÀÞ²´¯Ä":?"ÀÞ³ÝÛ°ÄÞ":?"¶ÝØ®³":gsb800:?"MJ GET bokunimowakaru.github.io/MJ/pg05/12.txt"

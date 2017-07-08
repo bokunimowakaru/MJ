@@ -13,4 +13,4 @@ cls
 900 for[98]=0to7:ifusr(#A02,#900+[98]*16)&0|i2cw(60,#A01,1,#B00,128)E
 910 next:rtn
 
-cls:?"C1":?"LANDSCPE":?"ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³":gsb800:?"MJ GET bokunimowakaru.github.io/MJ/805.txt"
+cls:?"C1":?"LANDSCPE":?"ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³":gsb800:?"MJ GET bokunimowakaru.github.io/MJ/pg05/12.txt"
