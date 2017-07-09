@@ -1,11 +1,13 @@
 
-' Arashi Tennis for IchigoJam OLED
+' I2C OLED Example C1 Arashi Tennis for IchigoJam
 '
-' Mitsuru Sugaya
+' Mitsuru Sugaya (Original)
 ' http://www.m-sugaya.jp/basic/tennis_game.htm
 '
-' Shiro Saito
+' Shiro Saito (IchigoJam Version)
 ' http://d.hatena.ne.jp/shiro0922/20150824/1440425034
+'
+' Wataru KUNINO (OLED Version)
 
 cls:new
 10 ?"Arashi":cls:clv:gsb 800
@@ -14,7 +16,8 @@ cls:new
 110 IF BTN(LEFT) GSB 380
 120 IF BTN(RIGHT) GSB 420
 130 LC P,7:?" ===== ";
-140 GSB 900
+140 LC 0,7:?"="::LC 15,7:?"=";
+150 GSB 900
 160 '
 170 U=X+D:V=Y+E
 180 IF U=0 OR U=15 THEN D=-D:GOTO 160
@@ -27,19 +30,19 @@ cls:new
 250 IF Y<8 GOTO 100
 260 '
 270 BEEP 30,60:WAIT 60
-300 LC 0,7:?:?"GAME OVER"
-310 ?"P=";T:END
+300 LC 1,3:?"GAME OVER P=";T
+310 GSB 900:LC 0,8:END
 380 '
 390 P=P-1
 400 IF P<0 THEN P=0
 410 RTN
 420 '
 430 P=P+1
-440 IF P>11 THEN P=11
+440 IF P>9 THEN P=9
 450 RTN
 460 '
 470 BEEP 10
-480 T=T+10
+480 T=T+1
 490 LC 0,0:?T;
 500 E=-1
 510 RTN

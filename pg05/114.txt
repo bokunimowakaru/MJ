@@ -1,14 +1,14 @@
 
 cls
-' JUMP GAME
+' OLED Jumping IKA Game
 ' CC BY Wataru KUNINO
 ' https://goo.gl/HhvgF8
 
-' PCG ²¶
+' PCGÖ³ ²¶ ·¬×¸À
 ' http://fukuno.jig.jp/1062
 
 new
-1 cls:?"²¶ ¼Þ¬ÝÌß by ¸ÆÉÜÀÙ & PCG Ì¸É »Ý"
+1 cls:?"²¶ ¼Þ¬ÝÌß by ¸ÆÉ / PCG·¬× Ì¸É »Ý";
 2 clv:let[0],#3810,#FE7C,#3838,#5428,0,0,#7C10,#54FE:copy#700,#800,16:gsb800
 3 Y=14:lc0,15:forI=0to7:?CHR$(131);:next
 
