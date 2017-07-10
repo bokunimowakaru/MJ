@@ -1,6 +1,6 @@
 
 cls
-' OLED Jumping IKA Game
+' I2C OLED Example B2 OLED Jumping IKA Game
 ' CC BY Wataru KUNINO
 ' https://goo.gl/HhvgF8
 
