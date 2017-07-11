@@ -14,11 +14,12 @@ new
 60 END          :' ¼­³Ø®³
 
 800 'INIT
-810 let[88],#4000,#D5AE,#8D80,#2014,#DA00,#8112,#D9CF,#DBF1,#A440,#AFA6
-820 ifi2cw(60,#8B0,1,#8B2,18)?"E
+810 let[85],#4000,33,#227F,#700,#D5AE,#8D80,#2014,#DA00,#8112,#D9CF,#DBF1,#A440,#AFA6
+820 ifi2cw(60,#8AA,1,#8B2,18)?"E
 
 900 'OUT
-910 for[98]=0to7:for[99]=0to15:copy#8A8,vpeek(7-[98],[99])*8,8:ifi2cw(60,#8B1,1,#8A8,8)?"E
-920 next:next:rtn
+910 ifi2cw(60,#8AA,1,#8AC,6)?"E
+920 for[98]=0to7:for[99]=0to15:copy#8A2,vpeek(7-[98],[99])*8,8:ifi2cw(60,#8AB,1,#8A2,8)?"E
+930 next:next:rtn
 
 cls:?"A2":?"ÚÝ¼­³":?"ÀÞ³ÝÛ°ÄÞ":?"¶ÝØ®³":gsb800:?"MJ GET bokunimowakaru.github.io/MJ/pg05/12.txt"
