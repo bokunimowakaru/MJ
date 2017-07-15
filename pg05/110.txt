@@ -7,28 +7,28 @@ cls
 ' Special thanks to Fukuno-san, Ono-san, Saito-san, and all members.
 
 new
- 10 CLS
- 20 ?" PINOUT"
- 30 ?
- 40 GSB 800
- 100 'Output to TV
- 110 ?"VO1  KB1"
- 120 ?"VO2  SCL"
- 130 ?"IN1  KB2"
- 140 ?"IN2  SND"
- 150 ?"IN3  ISP"
- 160 ?"IN4  RST"
- 170 ?"VCC  GND"
- 180 ?"GND  VCC"
- 190 ?"OUT1 Ich"
- 200 ?"OUT2 Go"
- 210 ?"OUT3  O5"
- 220 ?"OUT4  O6"
- 230 ?"BTN  TXD"
- 240 ?"LED  RXD"
- 300 'Output to OLED
- 310 GSB 900
- 320 END
+10 CLS
+20 ?" PINOUT"
+30 ?
+40 GSB 800
+100 'Output to TV
+110 ?"VO1  KB1"
+120 ?"VO2  SCL"
+130 ?"IN1  KB2"
+140 ?"IN2  SND"
+150 ?"IN3  ISP"
+160 ?"IN4  RST"
+170 ?"VCC  GND"
+180 ?"GND  VCC"
+190 ?"OUT1 Ich"
+200 ?"OUT2 Go"
+210 ?"OUT3  O5"
+220 ?"OUT4  O6"
+230 ?"BTN  TXD"
+240 ?"LED  RXD"
+300 'Output to OLED
+310 GSB 900
+320 END
 
 800 let[84],#4000,#D5AE,#8D80,#2014,#DA00,#8112,#D9CF,#DBF1,#A440,#AFA6
 810 W=i2cw(60,#8A8,1,#8AA,18)
