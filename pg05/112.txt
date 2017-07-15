@@ -4,15 +4,13 @@ cls
 
 ' I2C OLED BASIC Driver for IchigoJam :' https://goo.gl/HhvgF8
 ' CC BY (c) 2017 Wataru KUNINO @ IchigoJam-FAN (Facebook)
-
 new
 10 CLS          :' ¶ÞÒÝ ¦ ¹½
-20 ?"OLED LIB"  :' OLED LIB ¦ TV ¶ÞÒÝ Í Ë®³¼Þ ½Ù
-30 GSB 800      :' OLED ¼®·¶ Ä OLED Í Ë®³¼Þ ÃÞ°À ¦ ÃÝ¿³ ½Ù
-40 ?"ABC"       :' TV ¶ÞÒÝ Í ABC ¦ Ë®³¼Þ ½Ù
-50 GSB 900      :' OLED Í Ë®³¼Þ ÃÞ°À ¦ ÃÝ¿³ ½Ù (¼®·¶ ¼Å²)
+20 ?"OLED LIB"  :' TV ¶ÞÒÝ Í Ë®³¼Þ
+30 GSB 800      :' ¼®·¶ Ä ÃÞ°À ÃÝ¿³
+40 ?"ABC"       :' TV Í ABC ¦ Ë®³¼Þ
+50 GSB 900      :' OLED Í ÃÝ¿³
 60 END          :' ¼­³Ø®³
-
 800 'INIT
 810 let[85],#4000,33,#227F,#700,#D5AE,#8D80,#2014,#DA00,#8112,#D9CF,#DBF1,#A440,#AFA6
 820 ifi2cw(60,#8AA,1,#8B2,18)?"E

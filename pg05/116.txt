@@ -3,12 +3,12 @@ cls
 ' I2C OLED Example C2 SLOTS GAME
 ' CC BY (c) 2017 Wataru KUNINO
 
-' I2C OLED Binary Driver [V3][PCG] for IchigoJam :' https://goo.gl/HhvgF8
+' I2C OLED Binary Driver [LAND] [PCG] for IchigoJam :' https://goo.gl/HhvgF8
 ' CC BY (c) 2017 Ruria Amanagi, Wataru KUNINO, and Shiro Saito
 ' Special thanks to Fukuno-san, Ono-san, and all members in IchigoJam-FAN.
 
 new
-10 gsb800:gsb50
+10 gsb800:gsb70
 11 forI=1TO3:D=C+RND(3)*4:gsb50
 12 lcI*3+1,8:?CHR$(D);CHR$(D+1);
 13 lcI*3+1,9:?CHR$(D+2);CHR$(D+3);
@@ -24,13 +24,13 @@ new
 75 poke#740,3,51,51,51,27,27,#9F,#DF,96,96,96,98,#66,#EE,#FC,#FC
 76 poke#750,#FF,#FF,#7F,C,31,15,15,0,A,A,A,A,A,B,B,0
 77 C=#E0:rtn
-800 let[0],#4000,#B5F0,#1840,#468E,#4694,#230B,539,#18C9,#2410,#4665,#7803
-810 let[11],#2BE0,#D300,#4675,#DB,#18EA,#2708,#2507,#5D56,#40FE,#415B
-820 let[21],#3D01,#D2FA,#700B,#3101,#3F01,#D1F5,#3001,#3C01,#D1EA,#BDF0
-830 let[90],#D5AE,#8D80,#2014,#A100,#DAC8,#8112,#D9CF,#DBF1,#A440,#AFA6
-840 ifi2cw(60,#800,1,#8B4,20)E
-850 video3:copy#A00,#800,70
-900 for[98]=0to7:ifusr(#A02,#900+[98]*16)&0|i2cw(60,#A01,1,#B00,128)E
+
+800 let[67],#4000,#D5AE,#8D80,#2014,#A100,#DAC8,#8112,#D9CF,#DBF1,#A440,#AFA6
+810 ifi2cw(60,#886,1,#888,20)E
+820 let[68],#B5F0,#1840,#468E,#4694,#2308,539,#18C9,#2410,#4665,#7803
+830 let[78],#2BE0,#D300,#4675,#DB,#18EA,#2708,#2507,#5D56,#40FE,#415B
+840 let[88],#3D01,#D2FA,#700B,#3101,#3F01,#D1F5,#3001,#3C01,#D1EA,#BDF0
+900 for[98]=0to7:ifusr(#888,#900+[98]*32)&0|i2cw(60,#887,1,#800,128)E
 910 next:rtn
 
 cls:?"C2":?"LANDSCAPE PCG":?"ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³":gsb800:?"MJ GET bokunimowakaru.github.io/MJ/pg05/12.txt"

@@ -1,43 +1,41 @@
 
 cls
 ' I2C OLED Example B2 OLED Jumping IKA Game
-' CC BY Wataru KUNINO
-' https://goo.gl/HhvgF8
+ ' CC BY Wataru KUNINO https://goo.gl/HhvgF8
 
-' PCGÖ³ ²¶ ·¬×¸À
-' http://fukuno.jig.jp/1062
+ ' PCGÖ³ ²¶ ·¬×¸À http://fukuno.jig.jp/1062
 
-new
-1 cls:?"²¶ ¼Þ¬ÝÌß by ¸ÆÉ / PCG·¬× Ì¸É »Ý";
+ ' I2C OLED Binary Driver [PCG] for IchigoJam :' https://goo.gl/HhvgF8
+ ' CC BY (c) 2017 Ruria Amanagi and Wataru KUNINO @ IchigoJam-FAN (Facebook)
+
+ new
+ 1 cls:?"²¶ ¼Þ¬ÝÌß by ¸ÆÉ / PCG·¬× Ì¸É »Ý";
 2 clv:let[0],#3810,#FE7C,#3838,#5428,0,0,#7C10,#54FE:copy#700,#800,16:gsb800
-3 Y=14:lc0,15:forI=0to7:?CHR$(131);:next
+ 3 Y=14:lc0,15:forI=0to7:?CHR$(131);:next
 
-100 'MAIN
-110 IF Y=14 && BTN() B=1:BEEP
-120 IF B A=A+1 ELSE A=A-1
-130 IF !BTN() B=0
-140 IF !RND(8) LC 7,14:?".";
-150 LC 1,Y:?" ";
-160 LC 7,15:?CHR$(131);
-170 SCROLL 3:Y=Y-A
-180 IF Y>14 Y=14:A=0:BEEP 3
-190 IF SCR(1,Y)=46 GOTO 300
-200 LC 1,Y:? CHR$(224+B)
-210 GSB 900:GOTO 100
-300 'END
-310 LC 1,Y:?"X";:GSB 900
-320 BEEP 2,20:WAIT 120
-330 IF !BTN() GOTO 330
-340 RUN
+ 100 'MAIN
+ 110 IF Y=14 && BTN() B=1:BEEP
+ 120 IF B A=A+1 ELSE A=A-1
+ 130 IF !BTN() B=0
+ 140 IF !RND(8) LC 7,14:?".";
+ 150 LC 1,Y:?" ";
+ 160 LC 7,15:?CHR$(131);
+ 170 SCROLL 3:Y=Y-A
+ 180 IF Y>14 Y=14:A=0:BEEP 3
+ 190 IF SCR(1,Y)=46 GOTO 300
+ 200 LC 1,Y:? CHR$(224+B)
+ 210 GSB 900:GOTO 100
+ 300 'END
+ 310 LC 1,Y:?"X";:GSB 900
+ 320 BEEP 2,20:WAIT 120
+ 330 IF !BTN() GOTO 330
+ 340 RUN
 
-' I2C OLED Binary Driver [PCG] for IchigoJam :' https://goo.gl/HhvgF8
-' CC BY (c) 2017 Ruria Amanagi and Wataru KUNINO @ IchigoJam-FAN (Facebook)
-
-800 let[64],#b5f0,#1840,#2380,#11b,#18cb,#2410,21,#7806,#2ee0,#d300
-810 let[74],#d,#f6,#1976,#cea0,#c3a0,#3020,#3c01,#d1f3,#bdf0
-820 let[84],#4000,#D5AE,#8D80,#2014,#DA00,#8112,#D9CF,#DBF1,#A440,#AFA6
-830 ifi2cw(60,#8A8,1,#8AA,18)E
-900 for[98]=0to7:ifusr(#880,#907-[98])&0|i2cw(60,#8A9,1,#800,128)E
-910 next:rtn
+ 800 let[64],#b5f0,#1840,#2380,#11b,#18cb,#2410,21,#7806,#2ee0,#d300
+ 810 let[74],#d,#f6,#1976,#cea0,#c3a0,#3020,#3c01,#d1f3,#bdf0
+ 820 let[84],#4000,#D5AE,#8D80,#2014,#DA00,#8112,#D9CF,#DBF1,#A440,#AFA6
+ 830 ifi2cw(60,#8A8,1,#8AA,18)E
+ 900 for[98]=0to7:ifusr(#880,#907-[98])&0|i2cw(60,#8A9,1,#800,128)E
+ 910 next:rtn
 
 cls:?"B2":?"GAME PCG":?"ÀÞ³ÝÛ°ÄÞ":?"¶ÝØ®³":gsb800:?"MJ GET bokunimowakaru.github.io/MJ/pg05/12.txt"
