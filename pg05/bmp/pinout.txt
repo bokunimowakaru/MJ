@@ -1,0 +1,14 @@
+VIDEO1Å°  KBD1  
+VIDEO2     SCL  
+IN1       KBD2  
+IN2      SOUND  
+IN3        ISP  
+IN4      RESET  
+VCC        GND  
+GND        VCC  
+OUT1            
+OUT2 by jig.jp  
+OUT3      OUT5  
+OUT4      OUT6  
+BTN        TXD  
+LED        RXD  

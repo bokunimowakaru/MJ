@@ -1,0 +1,26 @@
+
+cls:new
+1 cls:?"ÀÞ³ÝÛ°ÀÞ for IJ 1.2"
+2 uart3,2:Y=23
+3 ?"MJ GET ichigojam.net/p/"
+10 wait60:uart0,2
+20 wait2:I=inkey():ifI?chr$(I);:goto20
+30 C=vpeek(0,Y):lc0,Y:?chr$(#E1);
+40 I=inkey():ifI=0goto40elselc0,Y:?chr$(C);
+50 ifI=30andY>0letY,Y-1
+60 ifI=31andY<24letY,Y+1
+70 ifI<>10orC<>39goto30
+100 uart3,2:lc0,-1:A=#900+Y*32+3
+110 ?str$(A)
+'
+' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
+'
+' ÌßÛ¸Þ×Ñ ¦ ¼Þ¯º³½ÙÄ ichigojam.
+' net/p/ É Å²Ö³ ¦ Ë®³¼Þ ½Ù ÉÃÞ¤
+' ¶°¿Ù É ¼Þ®³ ¹Þ ÃÞ ÀÞ³ÝÛ°ÄÞ 
+' ¼À² ÌßÛ¸Þ×Ñ ¦ ¾ÝÀ¸ ¼¤ Enter·°
+' ÃÞ ÀÞ³ÝÛ°ÄÞ ¼Ï½¡
+'
+' ¼­³Ø®³ ¼Ã¶× ¼Þ¯º³ ¼Ã ¸ÀÞ»²
+' Enter: ÀÞ³ÝÛ°ÄÞ Íß°¼Þ Æ ÓÄÞÙ
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/800.txt"

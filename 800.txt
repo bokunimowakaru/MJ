@@ -6,9 +6,11 @@ cls
 ' [2] ichigojam.net ÀÞ³ÝÛ°ÀÞ
 ' [3] IoT
 ' [4] PanCake
-' [5] LCD OLED [new 2017/7]
+' [5] LCD OLED
+'     ([12] OLED ÌßÛ¸Þ×Ñ ¼­³)
 ' [6] Ambient micutil
 ' [9] Î°ÑÍß°¼Þ Í ÓÄÞÙ
+'
 '[10] Îß°ÀÙ Ä³Û¸
 '
 inputA:?"MJ GET bokunimowakaru.github.io/MJ/";A+800;".txt"
