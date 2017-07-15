@@ -20,4 +20,4 @@ new
 920 for[98]=0to7:for[99]=0to15:copy#8A2,vpeek(7-[98],[99])*8,8:ifi2cw(60,#8AB,1,#8A2,8)?"E
 930 next:next:rtn
 
-cls:?"A2":?"ÚÝ¼­³":?"ÀÞ³ÝÛ°ÄÞ":?"¶ÝØ®³":gsb800:?"MJ GET bokunimowakaru.github.io/MJ/pg05/12.txt"
+cls:?"A2":?"ÚÝ¼­³":?"ÀÞ³ÝÛ°ÄÞ":?"¶ÝØ®³":?:?"ESC ÃÞ":?"¼­³Ø®³":?"¼Ã RUN!":gsb800:?"MJ GET bokunimowakaru.github.io/MJ/pg05/12.txt"

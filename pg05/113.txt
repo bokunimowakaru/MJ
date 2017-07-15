@@ -49,4 +49,4 @@ new
 900 for[98]=0to7:ifusr(#880,#907-[98])&0|i2cw(60,#8A9,1,#800,128)E
 910 next:rtn
 
-cls:?"B1":?"GAME":?"ÀÞ³ÝÛ°ÄÞ":?"¶ÝØ®³":gsb800:?"MJ GET bokunimowakaru.github.io/MJ/pg05/12.txt"
+cls:?"B1":?"GAME":?"ÀÞ³ÝÛ°ÄÞ":?"¶ÝØ®³":?:?"ESC ÃÞ":?"¼­³Ø®³":?"¼Ã RUN!":gsb800:?"MJ GET bokunimowakaru.github.io/MJ/pg05/12.txt"
