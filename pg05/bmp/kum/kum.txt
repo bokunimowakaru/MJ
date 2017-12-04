@@ -1,5 +1,5 @@
 new
-100 cls:?"OLED BMP":?"ÀÞ³ÝÛ°ÀÞ":?:?"by":?"W.Kunino":?:?:"¶Þ¿Þ³":?"(c) 2010":?"kumamoto":?"pref.":?"kumamon":gsb800
+100 cls:?"OLED BMP":?"ÀÞ³ÝÛ°ÀÞ":?:?"by":?"W.Kunino":?:?"¶Þ¿Þ³":?"(c) 2010":?"kumamoto":?"pref.":?"kumamon":gsb800
 110 ifi2cw(60,#8A8,1,#8AA,6)?"E
 120 B=-1:goto300
 200 'LINE
