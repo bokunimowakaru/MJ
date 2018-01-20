@@ -2,13 +2,15 @@
 cls:?"page 31 ";
 ' ÎÞ¸ÆÓ Ü¶Ù MixJuice 1.NEWS
 ' 
+' TOYOSHIKI TinyBASIC for STM32
+' ¶× É ±¸¾½ Æ Á®³¾Ý ¼Ã ²ÀÀÞ¹Ï¼À
+' ±Ø¶ÞÄ³ ºÞ»Þ²Ï¼À
+'
+' Tamakichi-San »Ý
+' https://github.com/Tamakichi/ttbasic_arduino/tree/ttbasic_arduino_lcd_plus
 ' 
-' 
-' 
-' 
-' 
-' 
-' 
+' ÏÂÅ¶Þ »Ý (Ë º³¶² Facebook)
+' https://www.facebook.com/groups/481607195542063/
 ' 
 ' [0] Â·Þ É NEWS
 ' [9] ÓÄÞÙ
