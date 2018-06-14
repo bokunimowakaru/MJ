@@ -1,0 +1,29 @@
+
+new
+1 cls:?"SAKURA IoT TX
+2 ?"CC BY Wataru Kunino
+3 ?"ÎÞÀÝ Æ­³Ø®¸ B=BTN
+
+100 ?"== ¼®·¶ ==
+110 poke #800,#21,#A,1,asc("I")
+120 for I=#804 to #80B
+130   poke I,0
+140 next
+150 B=BTN()
+
+200 ?"== Ò²Ý ==
+210 ?"B=";B
+220 poke #804,B
+230 poke #80C,B^#63
+240 I=i2cw(#4F,#800,13)
+250 ?"I2C=";I
+260 if I ?"I2C ERR":end
+270 for I=0 to 12
+280   ? hex$(peek(#800+I));" ";
+290 next:?
+
+300 ?"== BTN ÏÁ ==
+310 wait 10
+320 if B=BTN() goto 320
+330 B=!B
+340 goto 200

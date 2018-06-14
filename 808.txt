@@ -1,3 +1,8 @@
 
 cls
-?"MJ GET bokunimowakaru.github.io/MJ/800.txt"
+' sakura.io/MixJuice/LoRa
+'
+' [11]SAKURA IoT TX BTN
+' [99]ью╟щ
+'
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/pg08/";A;".txt"

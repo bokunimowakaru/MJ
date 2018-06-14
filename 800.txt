@@ -9,6 +9,7 @@ cls
 ' [5] LCD OLED
 '     ([12] OLED ÌßÛ¸Þ×Ñ ¼­³)
 ' [6] Ambient micutil
+' [8] sakura.io/MixJuice/LoRa
 ' [9] Î°ÑÍß°¼Þ Í ÓÄÞÙ
 '
 '[10] Îß°ÀÙ Ä³Û¸
