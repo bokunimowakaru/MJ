@@ -1,0 +1,35 @@
+
+new
+1 cls:?"SAKURA IoT TX ANA
+2 ?"CC BY Wataru Kunino
+3 ?"BTN ÃÞÝ±Â ¦ ¿³¼Ý
+4 T=600:?" ¼­³· =";T/60;" ËÞ®³
+5 S=0  :?" ¼®³ÃÞÝØ®¸=";S;" (1=ON)
+
+100 ?"== ¼Þ­ÝËÞ ==
+110 poke #800,#B0,1,S,S^#B1
+120 ?"I2C_PowSave=";
+130 ? S * !i2cw(#4F,#800,4)
+140 poke #800,#21,#A,1,asc("I")
+150 for I=#804 to #80B
+160   poke I,0
+170 next
+
+200 ?"== Ò²Ý ==
+210 A=ANA():?" A=";A
+220 B=A%256:?" B=";B
+230 C=A>>8 :?" C=";C
+240 gosub 300
+250 led 0
+260 wait T,!S
+270 led 1
+280 goto 200
+
+300 ?"== ¿³¼Ý ==
+310 poke #804,B
+320 poke #805,C
+330 poke #80C,B^C^#63
+340 ?"I2C_Tx=";A;" ";
+350 I=i2cw(#4F,#800,13)
+360 if I ?"ERR" else ?"OK"
+370 return

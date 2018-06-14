@@ -1,15 +1,15 @@
 
 new
-1 cls:?"SAKURA IoT TX
+1 cls:?"SAKURA IoT TX BTN/PIR
 2 ?"CC BY Wataru Kunino
 3 ?"ÎÞÀÝ Æ­³Ø®¸ B=BTN
 
-100 ?"== ¼®·¶ ==
+100 ?"== ¼Þ­ÝËÞ ==
 110 poke #800,#21,#A,1,asc("I")
 120 for I=#804 to #80B
 130   poke I,0
 140 next
-150 B=BTN()
+150 B=btn()
 
 200 ?"== Ò²Ý ==
 210 ?"B=";B
@@ -23,7 +23,7 @@ new
 290 next:?
 
 300 ?"== BTN ÏÁ ==
-310 wait 10
-320 if B=BTN() goto 320
+310 wait 30
+320 if B=btn() goto 320
 330 B=!B
 340 goto 200

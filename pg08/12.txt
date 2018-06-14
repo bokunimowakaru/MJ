@@ -1,0 +1,34 @@
+
+new
+1 cls:?"SAKURA IoT TX BTN/PIR PS
+2 ?"CC BY Wataru Kunino
+3 ?"ÎÞÀÝ/¾Ý» Æ­³Ø®¸ B=BTN
+4 S=0:?"¼®³ÃÞÝØ®¸ S=";S
+
+100 ?"== ¼Þ­ÝËÞ ==
+110 if btn() goto 150
+120 poke #800,#B0,1,S,S^#B1
+130 ?"I2C_PowSave=";
+140 ? S * !i2cw(#4F,#800,4)
+150 poke #800,#21,#A,1,asc("I")
+160 for I=#804 to #80B
+170   poke I,0
+180 next
+
+200 ?"== Ò²Ý ==
+210 B=1:gosub 300
+220 wait 30
+230 if btn() goto 230
+240 B=0:gosub 300
+250 if S sleep
+260 wait 30
+270 if !btn() goto 270
+280 goto 200
+
+300 ?"== ¿³¼Ý ==
+310 poke #804,B
+320 poke #80C,B^#63
+330 ?"I2C_Tx=";B;" ";
+340 I=i2cw(#4F,#800,13)
+350 if I ?"ERR" else ?"OK"
+360 return
