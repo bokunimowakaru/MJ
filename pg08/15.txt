@@ -1,0 +1,29 @@
+
+new
+1 cls:?"SAKURA IoT RX
+2 ?"CC BY Wataru Kunino
+3 T=60:?" º≠≥∑ =";T/60;" ÀﬁÆ≥
+
+100 ?"== RX œ¡≥π ==
+110 ?".";:wait T
+120 poke #800,#32,0,#32
+130 I=i2cr(#4F,#800,3,#804,4)
+140 if I ?:?"I2C ERR"
+150 N=!I*peek(#807)
+
+200 '== RX ==
+210 if N<=0 goto 110
+220 poke #800,#30,0,#30
+230 I=i2cr(#4F,#800,3,#804,12)
+240 if I goto 100
+250 cls:?"Ch=";peek(#806)
+260 if peek(#807)=98 goto 300
+270 ? peek(#808)+peek(#809)<<8
+280 N=N-1
+290 goto 200
+
+300 '== Strings ==
+310 for I=0 to 7
+320   ? chr$(peek(#808+I));
+330 next:?
+340 goto 100

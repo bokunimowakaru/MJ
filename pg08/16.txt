@@ -1,0 +1,44 @@
+
+new
+1 'SAKURA IoT RX
+2 cls:?" SAKURA":?" IoT RX"
+3 ?:?"VAL/TEXT":?:?"  OLED":?
+4 ?"CC BY"
+5 ?"  Wataru":?"  Kunino"
+6 T=60
+7 ?:?"º≠≥∑":?"  ";T/60;"ÀﬁÆ≥"
+8 gosub 800
+
+100 ?"== RX œ¡≥π ==
+110 ?".";:wait T
+120 poke #800,#32,0,#32
+130 I=i2cr(#4F,#800,3,#804,4)
+140 if I ?:?"I2C ERR"
+150 N=!I*peek(#807)
+
+200 '== RX ==
+210 if N<=0 goto 110
+220 poke #800,#30,0,#30
+230 I=i2cr(#4F,#800,3,#804,12)
+240 if I goto 100
+250 cls:?"Ch=";peek(#806)
+260 if peek(#807)=98 goto 300
+270 ? peek(#808)+peek(#809)<<8
+280 N=N-1
+285 gosub 900
+290 goto 200
+
+300 '== Strings ==
+310 for I=0 to 7
+320   ? chr$(peek(#808+I));
+330 next:?
+340 gosub 900
+350 goto 100
+
+800 'OLED INIT
+810 let[85],#4000,33,#227F,#700,#D5AE,#8D80,#2014,#DA00,#8112,#D9CF,#DBF1,#A440,#AFA6
+820 ifi2cw(60,#8AA,1,#8B2,18)?"E
+900 'OLED OUT
+910 ifi2cw(60,#8AA,1,#8AC,6)?"E
+920 for[98]=0to7:for[99]=0to15:copy#8A2,vpeek(7-[98],[99])*8,8:ifi2cw(60,#8AB,1,#8A2,8)?"E
+930 next:next:rtn

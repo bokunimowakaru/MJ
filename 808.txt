@@ -5,6 +5,8 @@ cls
 ' [11]TX BTN/PIR
 ' [12]TX BTN/PIR PS
 ' [13]TX ANA PS
+' [15]RX VAL/TEXT
+' [16]RX VAL/TEXT OLED
 ' [18]Firmware Updater
 ' [99]ью╟щ
 '
