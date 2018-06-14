@@ -1,6 +1,6 @@
 
 new
-1 'SAKURA IoT RX
+1 'SAKURA IoT RX OLED
 2 cls:?" SAKURA":?" IoT RX"
 3 ?:?"VAL/TEXT":?:?"  OLED":?
 4 ?"CC BY"
