@@ -3,8 +3,9 @@ cls
 ' sakura.io/MixJuice/LoRa
 '
 ' [11]TX BTN/PIR
-' [12]TX BTN/PIR PS
+' [12]TX BTN/PIR PS (IoTÎÞÀÝ)
 ' [13]TX ANA PS
+' [14]TX ILM PS (IoT¼®³ÄÞ¹²)
 ' [15]RX VAL/TEXT
 ' [16]RX VAL/TEXT OLED
 ' [18]Firmware Updater
