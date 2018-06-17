@@ -16,14 +16,14 @@ new
 220 poke #800,#30,0,#30
 230 I=i2cr(#4F,#800,3,#804,12)
 240 if I goto 100
-250 cls:?"Ch=";peek(#806)
-260 if peek(#807)=98 goto 300
-270 ? peek(#808)+peek(#809)<<8
-280 N=N-1
+250 N=N-1
+260 cls:?"Ch=";peek(#806)
+270 if peek(#807)=98 goto 300
+280 ? peek(#808)+peek(#809)<<8
 290 goto 200
 
 300 '== Strings ==
 310 for I=0 to 7
 320   ? chr$(peek(#808+I));
 330 next:?
-340 goto 100
+340 goto 200
