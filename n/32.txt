@@ -2,13 +2,12 @@
 cls:?"page 32 ";
 ' ÎÞ¸ÆÓ Ü¶Ù MixJuice 1.NEWS
 ' 
+' IchigoSoda + sakura.io
 ' 
+' Example ¿ÌÄ³ª± ¦ ÀÞ³ÝÛ°ÄÞPage
+' Æ Â²¶ ¼Ï¼À
 ' 
-' 
-' 
-' 
-' 
-' 
+' ÒÆ­° 8 -> 8 -> 11~18
 ' 
 ' [0] Â·Þ É NEWS
 ' [9] ÓÄÞÙ

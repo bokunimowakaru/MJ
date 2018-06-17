@@ -1,6 +1,6 @@
 
 cls
-' sakura.io/MixJuice/LoRa
+' IchigoSoda + sakura.io
 '
 ' [11]TX BTN/PIR
 ' [12]TX BTN/PIR PS (IoTÎÞÀÝ)
@@ -8,7 +8,9 @@ cls
 ' [14]TX ILM PS (IoT¼®³ÄÞ¹²)
 ' [15]RX VAL/TEXT
 ' [16]RX VAL/TEXT OLED
+' [17]RX VAL/TEXT LCD
 ' [18]Firmware Updater
+' [19]Firmware Update Command
 ' [99]ØÀ°Ý
 '
 inputA:?"MJ GET bokunimowakaru.github.io/MJ/pg08/";A;".txt"
