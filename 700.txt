@@ -2,7 +2,6 @@
 cls
 ' ÎÞ¸ÆÓ Ü¶Ù MixJuice 7.ÏÆ­±Ù
 '
-' [1] BASIC ºÏÝÄÞ
 ' [2] MixJuice ºÏÝÄÞ
 ' [5] IchigoJam PIN OUT
 ' [6] MixJuice PIN OUT

@@ -3,8 +3,6 @@ cls
 '
 ' ØÝ¸ & ¹ÝØ ¼Þ®³Î³
 '
-' [1] fu-sen.github.io/IJPRG
-' [2] fu-sen.github.io/IJHELP
 ' [3] MicJack mj.micutil.com
 '
 ' ¹ÝØ ¼Þ®³Î³
