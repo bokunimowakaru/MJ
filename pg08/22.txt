@@ -1,0 +1,50 @@
+
+new
+1 cls:?"MixJuice IoT TX BTN/PIR PS
+2 ?"CC BY Wataru Kunino
+3 'MJ GET bokunimowakaru.github.io/MJ/808.txt
+4 ?"ÎÞÀÝ Æ­³Ø®¸ B=BTN
+5 C=725:?"Ambient Á¬ÈÙID=";C
+6 K="ad3e53b54fe16764":'×²Ä ·°
+7 D=3:?"ÃÞ°À ÊÞÝºÞ³=";D
+8 S=0:?"¼®³ÃÞÝØ®¸ S=";S;" (1=ON)
+
+100 ?"== ¼Þ­ÝËÞ ==
+110 ?"MJ PCT application/json"
+120 gosub 500
+
+200 ?"== Ò²Ý ==
+210 B=1:gosub 400
+220 wait 200
+230 if btn() goto 230
+240 B=0:gosub 400
+250 if S sleep
+260 wait 200
+270 if !btn() goto 270
+280 goto 200
+
+400 ?"== TX ==
+410 ?"MJ POST START ambidata.";
+420  ?"io/api/v2/channels/";C;
+430  ?"/data":gosub 500
+440 ?"{";chr$(34);"writeKey";
+450  ? chr$(34);":";chr$(34);
+460  ? str$(K);chr$(34);",";
+470  ? chr$(34);"d";D;chr$(34);
+480  ?":";B;"}":gosub 500
+490 ?"MJ POST END":gosub 500
+499 return
+
+500 '== RX ==
+510 uart 0
+520 wait 30
+530 I=inkey()
+540 if I>0 ? chr$(I);:goto 530
+550 uart 1
+560 return
+
+' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
+'
+' Enter: ÀÞ³ÝÛ°ÄÞ Íß°¼Þ Í
+' ESC: ¶ÝØ®³
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/808.txt"
