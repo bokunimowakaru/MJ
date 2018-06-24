@@ -4,9 +4,9 @@ new
 2 ?"CC BY Wataru Kunino
 3 'MJ GET bokunimowakaru.github.io/MJ/808.txt
 4 ?"ÎÞÀÝ Æ­³Ø®¸ B=BTN
-5 C=725:?"Ambient Á¬ÈÙID=";C
+5 C=725:?" Ambient Á¬ÈÙID=";C
 6 K="ad3e53b54fe16764":'×²Ä ·°
-7 D=3:?"ÃÞ°À ÊÞÝºÞ³=";D
+7 D=3:?" ÃÞ°À ÊÞÝºÞ³=";D
 
 100 ?"== ¼Þ­ÝËÞ ==
 110 ?"MJ PCT application/json"
