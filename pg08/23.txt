@@ -17,10 +17,12 @@ new
 200 ?"== Ò²Ý ==
 210 A=ANA():?" A=";A
 220 gosub 400
-230 for I=1 to T/60
-240   led 0:wait 60,!S:led 1
-250 next
-260 goto 200
+230 wait 200
+240 if S ?"MJ SLEEP ";T/60
+250 wait 60
+260 if S sleep
+270 wait T-260
+280 goto 200
 
 400 ?"== TX ==
 410 ?"MJ POST START ambidata.";
