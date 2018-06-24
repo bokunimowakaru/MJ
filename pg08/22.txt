@@ -18,7 +18,7 @@ new
 220 wait 200
 230 if btn() goto 230
 240 B=0:gosub 400
-250 if S ?"MJ SLEEP ";3600
+250 if S ?"MJ SLEEP 3600"
 260 wait 60
 270 if S sleep
 280 wait 140
