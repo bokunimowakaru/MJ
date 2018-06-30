@@ -1,6 +1,6 @@
 
 new
-1 cls:?"MixJuice IoT TX BTN/PIR
+1 cls:?"MixJuice IoT BTN/PIR
 2 uart 0:?"CC BY Wataru Kunino
 3 ?"ÎÞÀÝ Æ­³Ø®¸ B=BTN
 4 C=725:?" Ambient Á¬ÈÙID=";C
@@ -46,7 +46,7 @@ new
 '
 ' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
 '
-' Enter: ÀÞ³ÝÛ°ÄÞ Íß°¼Þ Í
-' ESC: ¶ÝØ®³
+' [0][Enter]: ¶ÝØ®³
+' [1][Enter]: ÀÞ³ÝÛ°ÄÞ Íß°¼Þ Í
 '
 inputA:ifAgoto999
