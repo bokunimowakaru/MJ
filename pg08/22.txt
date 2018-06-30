@@ -6,11 +6,11 @@ new
 4 C=725:?" Ambient Á¬ÈÙID=";C
 5 K="ad3e53b54fe16764":'×²Ä ·°
 6 D=3:?" ÃÞ°À ÊÞÝºÞ³=";D
-7 S=0:?" ¼®³ÃÞÝØ®¸ S=";S;"(1=ON)
+7 S=0:?" ¼®³ÃÞÝØ®¸S=";S;"(1=ON)
 
 100 ?"== ¼Þ­ÝËÞ ==
 110 uart 1
-120 wait 60,!S
+120 wait 60
 130 if inkey() goto 130
 140 ?"MJ APS":wait 33
 150 if inkey()<>49 goto 120
@@ -23,11 +23,11 @@ new
 230 if btn() goto 230
 240 B=0:gosub 400
 250 if S ?"MJ SLEEP 0"
-260 wait 60
+260 wait 60,!S
 270 if S sleep
 280 wait 140
-290 if !btn() goto 270
-299 goto 200
+290 if !btn() goto 290
+299 goto 100
 
 400 ?"== TX ==
 410 ?"MJ POST START ambidata.";
