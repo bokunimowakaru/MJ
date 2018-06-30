@@ -23,7 +23,7 @@ new
 270 if S sleep
 280 wait 140
 290 if !btn() goto 270
-299 goto 200
+299 goto 100
 
 400 ?"== TX ==
 410 ?"MJ POST START ambidata.";
