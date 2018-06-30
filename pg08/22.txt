@@ -10,15 +10,19 @@ new
 
 100 ?"== ¼Þ­ÝËÞ ==
 110 uart 1
-120 ?"MJ PCT application/json"
-130 gosub 500
+120 wait 60,!S
+130 if inkey() goto 130
+140 ?"MJ APS":wait 33
+150 if inkey()<>49 goto 120
+160 ?"MJ PCT application/json"
+170 gosub 500
 
 200 ?"== Ò²Ý ==
 210 B=1:gosub 400
 220 wait 200
 230 if btn() goto 230
 240 B=0:gosub 400
-250 if S ?"MJ SLEEP 3600"
+250 if S ?"MJ SLEEP 0"
 260 wait 60
 270 if S sleep
 280 wait 140

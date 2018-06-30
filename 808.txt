@@ -1,14 +1,14 @@
 
 cls
 ' IchigoSoda + sakura.io
-' [11]TX BTN [12]TX BTN/PIR PS
-' [13]TX ANA [14]TX ILM
-' [15]RX [16]RX OLED [17]RX LCD
-' [18]Firm Updater [19] - ∫œ›ƒﬁ
+' [11]BTN/PIR [12]BTN/PIR PS
+' [13]ANA [14]ILM
+' [15]RX [16]OLED [17]LCD
+' [18]Firm [19] Firm∫œ›ƒﬁ
 '
-' MixJuice
-' [21]TX BTN [22]TX BTN/PIR PS
-' [23]TX ANA/ILM PS
+' MixJuice -> Ambient
+' [21]BTN/PIR [22]BTN/PIR PS
+' [23]ANA/ILM PS
 '
 ' [99]ÿ¿∞›
 '
