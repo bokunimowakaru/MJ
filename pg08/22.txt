@@ -13,7 +13,7 @@ new
 120 wait 60
 130 if inkey() goto 130
 140 ?"MJ APS":wait 33
-150 if inkey()<>49 goto 130
+150 if inkey()<>49 goto 120
 160 ?"MJ PCT application/json"
 170 gosub 500
 
