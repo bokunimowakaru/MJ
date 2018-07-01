@@ -12,43 +12,43 @@ new
 160 end
 
 200 ?:?"LTE Status
-210 poke #800,#01,0,#01,0,0,0:wait 60
-220 if i2cr(#4F,#800,3,#804,3) ?"I2C ERR":end
-230 I=peek(#806):?"LTE=";hex$(i)
+210 poke #880,#01,0,#01,0,0,0:wait 60
+220 if i2cr(#4F,#880,3,#884,3) ?"I2C ERR":end
+230 I=peek(#886):?"LTE=";hex$(i)
 240 if I<128 goto 210
 250 return
 
 300 ?:?"Firmware Update
-310 poke #800,#A8,#04,#53,#6B,#72,#61,0:N=6:gosub 900
-320 poke #800,#A9,#00:N=2:gosub 900
+310 poke #880,#A8,#04,#53,#6B,#72,#61,0:N=6:gosub 900
+320 poke #880,#A9,#00:N=2:gosub 900
 330 return
 
 400 ?:?"Update Status
-410 poke #800,#AA,0,#AA,0,0,0:wait 60
-420 if i2cr(#4F,#800,3,#804,3) goto 410
-430 I=peek(#806):?"Status=";hex$(i)
+410 poke #880,#AA,0,#AA,0,0,0:wait 60
+420 if i2cr(#4F,#880,3,#884,3) goto 410
+430 I=peek(#886):?"Status=";hex$(i)
 440 if I>=128 goto 410
 450 if I>1 ?"ERROR
 460 return
 
 500 ?:?"Version
-510 poke #800,#A2,0,#A2
-520 if i2cr(#4F,#800,3,#804,34) ?"I2C ERR
-530 for I=1 to peek(#805)
+510 poke #880,#A2,0,#A2
+520 if i2cr(#4F,#880,3,#884,34) ?"I2C ERR
+530 for I=1 to peek(#885)
 540   if I>32 ?:end
-550   ? chr$(PEEK(#805+I));
+550   ? chr$(PEEK(#885+I));
 560 next:?
 570 return
 
 900 'I2C
 910 C=0
 920 for I=0 to N-1
-930   C=C^peek(#800+I)
+930   C=C^peek(#880+I)
 940 next
-950 poke#800+N,C
-960 if i2cw(79,#800,1,#801,N) ?"I2C ERR
+950 poke#880+N,C
+960 if i2cw(79,#880,1,#881,N) ?"I2C ERR
 970 for I=0 to N
-980   ? hex$(peek(#800+I));" ";
+980   ? hex$(peek(#880+I));" ";
 990 next:?:return
 
 '

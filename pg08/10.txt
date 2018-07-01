@@ -8,18 +8,17 @@ new
 6 [1]="?goyo'-no+sa'iwa bo'tanno/ositekudasa'i"
 
 100 ?"== RX œ¡≥π ==
-110 clt:?"."
+110 clt:?".";
 120 if btn() gosub 200
 130 if tick()<60 goto 120
-140 poke #800,#32,0,#32
-150 I=i2cr(#4F,#800,3,#804,4)
-160 if I ?"I2C ERR"
-170 if !I*peek(#807) gosub 400
-180 goto 110
+140 poke #880,#32,0,#32
+150 I=i2cr(#4F,#880,3,#884,4)
+160 if !I*peek(#887) gosub 400
+170 goto 110
 
 200 ?:?"== BTN/PIR ==
-210 poke #800,#21,#A,1,asc("I")
-220 for I=#804 to #80B
+210 poke #880,#21,#A,1,asc("I")
+220 for I=#884 to #88B
 230   poke I,0
 240 next
 250 wait 120
@@ -27,30 +26,29 @@ new
 270 ?"B=";B
 
 300 ?"== TX ==
-310 poke #804,B
-320 poke #80C,B^#63
-330 I=i2cw(#4F,#800,13)
-340 ?"I2C=";I
-350 if I ?"I2C ERR"
-360 I=0:gosub 500
-370 if btn() goto 370
-380 wait 30
-390 return
+310 poke #884,B
+320 poke #88C,B^#63
+330 ?"I2C=";i2cw(#4F,#880,13)
+340 I=0:gosub 500
+350 if btn() goto 350
+360 wait 30
+370 return
 
 400 ?:?"== RX ==
-410 poke #800,#30,0,#30
-420 I=i2cr(#4F,#800,3,#804,12)
+410 poke #880,#30,0,#30
+420 I=i2cr(#4F,#880,3,#884,12)
 430 if I goto 100
-440 ?"Ch=";peek(#806)
-450 I=peek(#808)+peek(#809)<<8
+440 ?"Ch=";peek(#886)
+450 I=peek(#888)+peek(#889)<<8
 460 if I<0 or I>1 goto 100
 470 ?"Val=";I
 
 500 ?"== Voice ==
-510 uart 1
-520 ? str$[I]
-530 uart 0
-540 return
+510 uart 1:bps 9600
+520 ? chr$(13);"$";:wait 5
+530 ? str$([I]);chr$(13);
+540 uart 0:?:bps 0
+550 return
 
 999 ?"MJ GET bokunimowakaru.github.io/MJ/808.txt
 '

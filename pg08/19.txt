@@ -1,7 +1,7 @@
 
 ' Firmware Update
-POKE#800,#A8,4,#53,#6B,#72,#61,#87:I=I2CW(79,#800,7):
-POKE#800,#A9,0,#A9:IFIORI2CW(79,#800,3)?"ERR
+POKE#880,#A8,4,#53,#6B,#72,#61,#87:I=I2CW(79,#880,7):
+POKE#880,#A9,0,#A9:IFIORI2CW(79,#880,3)?"ERR
 
 999 ?"MJ GET bokunimowakaru.github.io/MJ/808.txt
 '

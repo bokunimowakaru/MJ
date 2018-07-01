@@ -5,21 +5,21 @@ new
 3 ?"ÎÞÀÝ Æ­³Ø®¸ B=BTN
 
 100 ?"== ¼Þ­ÝËÞ ==
-110 poke #800,#21,#A,1,asc("I")
-120 for I=#804 to #80B
+110 poke #880,#21,#A,1,asc("I")
+120 for I=#884 to #88B
 130   poke I,0
 140 next
 150 B=btn()
 
 200 ?"== Ò²Ý ==
 210 ?"B=";B
-220 poke #804,B
-230 poke #80C,B^#63
-240 I=i2cw(#4F,#800,13)
+220 poke #884,B
+230 poke #88C,B^#63
+240 I=i2cw(#4F,#880,13)
 250 ?"I2C=";I
 260 if I ?"I2C ERR":end
 270 for I=0 to 12
-280   ? hex$(peek(#800+I));" ";
+280   ? hex$(peek(#880+I));" ";
 290 next:?
 
 300 ?"== BTN ÏÁ ==
