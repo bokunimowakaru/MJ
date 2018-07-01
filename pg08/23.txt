@@ -20,7 +20,7 @@ new
 230 if !S wait T:goto 200
 240 ?"MJ SLEEP ";T/60:gosub 500
 
-300 ?"== SLEEP =="
+300 ?"== SLEEP ==
 310 led 0:wait 600,0:led 1
 320 if inkey() goto 320
 330 ?"MJ APS":wait33

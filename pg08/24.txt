@@ -1,16 +1,17 @@
 
 new
-1 cls:?"MixJuice IoT BTN/PIR PS
+1 cls:?"MixJuice IoT ANA2 PS2
 2 uart 0:?"CC BY Wataru Kunino
-3 ?"ÎÞÀÝ Æ­³Ø®¸ B=BTN
+3 ?"IN2(ANA2) ÃÞÝ±Â ¦ ¿³¼Ý
 4 C=725:?" Ambient Á¬ÈÙID=";C
 5 K="ad3e53b54fe16764":'×²Ä ·°
 6 D=3:?" ÃÞ°À ÊÞÝºÞ³=";D
-7 S=0:?" ¼®³ÃÞÝØ®¸S=";S;"(1=ON)
+7 T=3600:?" ¼­³·=";T/60;" ËÞ®³
+8 S=0:?" ¼®³ÃÞÝØ®¸S=";S;"(1=ON)
 
 100 ?"== ¼Þ­ÝËÞ ==
-110 uart 1:clk
-120 wait 60
+110 uart 1:out 11,0:out 11,1
+120 wait 55:clk: wait 5
 130 if inkey() goto 130
 140 ?"MJ APS":wait 33
 150 if inkey()<>49 goto 130
@@ -18,16 +19,14 @@ new
 170 gosub 500
 
 200 ?"== Ò²Ý ==
-210 B=1:gosub 400
-220 wait 200
-230 if btn() goto 230
-240 B=0:gosub 400
-250 if S ?"MJ SLEEP 0"
-260 wait 60,!S
-270 if S sleep
-280 wait 140
-290 if !btn() goto 290
-299 goto 100
+210 A=ANA(2):?" ANA2=";A
+220 gosub 400
+230 if !S wait T:goto 200
+240 ?"MJ SLEEP ";T/60:gosub 500
+
+300 ?"== SLEEP ==
+310 wait 60,0
+320 sleep
 
 400 ?"== TX ==
 410 ?"MJ POST START ambidata.";
@@ -37,7 +36,7 @@ new
 450  ? chr$(34);":";chr$(34);
 460  ? str$(K);chr$(34);",";
 470  ? chr$(34);"d";D;chr$(34);
-480  ?":";B;"}":gosub 500
+480  ?":";A;"}":gosub 500
 490 ?"MJ POST END":gosub 500
 499 return
 
