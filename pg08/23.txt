@@ -10,7 +10,7 @@ new
 8 S=0:?" ¼®³ÃÞÝØ®¸S=";S;"(1=ON)
 
 100 ?"== ¼Þ­ÝËÞ ==
-110 uart 1
+110 uart 1:clk
 120 ?"MJ PCT application/json"
 130 gosub 500
 

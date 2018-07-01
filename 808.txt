@@ -1,6 +1,7 @@
 
 cls
 ' IchigoSoda + sakura.io
+' [10]YaoYa Talk
 ' [11]BTN/PIR [12]BTN/PIR PS
 ' [13]ANA [14]ILM
 ' [15]RX [16]OLED [17]LCD
@@ -9,6 +10,12 @@ cls
 ' MixJuice -> Ambient
 ' [21]BTN/PIR [22]BTN/PIR PS
 ' [23]ANA/ILM PS
+'
+' MixJuice -> IFTTT
+' [26]BTN/PIR [27]BTN/PIR PS
+'
+' LoRaWAN
+' [31]TX [32]RX
 '
 ' [99]ью╟щ
 '

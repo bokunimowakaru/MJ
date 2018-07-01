@@ -8,7 +8,7 @@ new
 6 D=3:?" ÃÞ°À ÊÞÝºÞ³=";D
 
 100 ?"== ¼Þ­ÝËÞ ==
-110 uart 1
+110 uart 1:clk
 120 ?"MJ PCT application/json"
 130 gosub 500
 140 B=btn()
