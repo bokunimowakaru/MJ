@@ -1,11 +1,10 @@
 
 new
 1 cls:?"MixJuice IoT BTN/PIR
-2 uart 0:?"CC BY Wataru Kunino
-3 ?"ÎÞÀÝ Æ­³Ø®¸ B=BTN
-4 C=725:?" Ambient Á¬ÈÙID=";C
-5 K="ad3e53b54fe16764":'×²Ä ·°
-6 D=3:?" ÃÞ°À ÊÞÝºÞ³=";D
+2 uart 0:?"CC BY ¸ÆÉ ÜÀÙ
+3 C=725:?" Ambient Á¬ÈÙID=";C
+4 K="ad3e53b54fe16764":'×²Ä ·°
+5 D=3:?" ÃÞ°À=d";D
 
 100 ?"== ¼Þ­ÝËÞ ==
 110 uart 1:clk

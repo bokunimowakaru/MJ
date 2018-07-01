@@ -1,11 +1,10 @@
 
 new
 1 cls:?"MixJuice IoT BTN/PIR
-2 ?"CC BY Wataru Kunino
-3 ?"Œﬁ¿› ∆≠≥ÿÆ∏ B=BTN
-4 C="BTN":' IFTTT Event
-5 K="xxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx":' Token
-6 D=1:?" √ﬁ∞¿  ﬁ›∫ﬁ≥=";D
+2 uart 0:?"CC BY ∏∆… ‹¿Ÿ
+3 C="BTN":'IFTTT Event
+4 K="xxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx":' Token
+5 D=1:?" √ﬁ∞¿=d";D
 
 100 ?"== ºﬁ≠›Àﬁ ==
 110 uart 1:clk
