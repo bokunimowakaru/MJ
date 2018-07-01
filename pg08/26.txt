@@ -1,0 +1,38 @@
+
+new
+1 cls:?"MixJuice IoT BTN/PIR
+2 ?"CC BY Wataru Kunino
+3 ?"ÎÞÀÝ Æ­³Ø®¸ B=BTN
+4 C="BTN":' IFTTT Event
+5 K="xxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx":' Token
+6 D=1:?" ÃÞ°À ÊÞÝºÞ³=";D
+
+100 ?"== ¼Þ­ÝËÞ ==
+110 uart 1:clk
+120 B=btn()
+
+200 ?"== Ò²Ý ==
+210 ?"B=";B
+220 gosub 400
+230 wait 200
+240 ?"== BTN ÏÁ ==
+250 if B=btn() goto 250
+260 B=!B
+270 goto 200
+
+400 ?"== TX ==
+410 ?"MJ GET maker.ifttt.com/";
+420  ?"trigger/";str$(C);
+430  ?"/with/key/";str$(K);"?";
+440  ?"value";D;"=";B
+450 wait 33:clk
+460 return
+
+999 ?"MJ GET bokunimowakaru.github.io/MJ/808.txt
+'
+' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
+'
+' [0][Enter]: ¶ÝØ®³
+' [1][Enter]: ÀÞ³ÝÛ°ÄÞ Íß°¼Þ Í
+'
+inputA:ifAgoto999
