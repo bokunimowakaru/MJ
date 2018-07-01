@@ -6,6 +6,7 @@ new
 4 ?"AquetTalk=TXD
 5 [0]="?irasshaima'se"
 6 [1]="?goyo'-no+sa'iwa bo'tanno/ositekudasa'i"
+7 [2]="?sho'-sho-/omachikudasa'i."
 
 100 ?"== RX œ¡≥π ==
 110 clt:?".";
@@ -40,7 +41,7 @@ new
 430 if I goto 100
 440 ?"Ch=";peek(#886)
 450 I=peek(#888)+peek(#889)<<8
-460 if I<0 or I>1 goto 100
+460 if I<0 or I>2 goto 100
 470 ?"Val=";I
 
 500 ?"== Voice ==
