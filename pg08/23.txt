@@ -24,7 +24,7 @@ new
 320 if inkey() goto 320
 330 ?"MJ APS":wait33
 340 if inkey()<>49 goto 310
-350 goto 200
+350 goto 100
 
 400 ?"== TX ==
 410 ?"MJ POST START ambidata.";
