@@ -25,8 +25,16 @@ new
 420  ?"trigger/";str$(C);
 430  ?"/with/key/";str$(K);"?";
 440  ?"value";D;"=";B
-450 wait 33:clk
+450 gosub 500
 460 return
+
+500 '== RX ==
+510 uart 0:clt
+520 I=inkey()
+530 if I clt:? chr$(I);
+540 if tick()<40 goto 520
+550 ?:uart 1
+560 return
 
 999 ?"MJ GET bokunimowakaru.github.io/MJ/808.txt
 '

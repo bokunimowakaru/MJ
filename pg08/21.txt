@@ -35,11 +35,11 @@ new
 499 return
 
 500 '== RX ==
-510 uart 0
-520 wait 33
-530 I=inkey()
-540 if I>0 ? chr$(I);:goto 530
-550 uart 1
+510 uart 0:clt
+520 I=inkey()
+530 if I clt:? chr$(I);
+540 if tick()<40 goto 520
+550 ?:uart 1
 560 return
 
 999 ?"MJ GET bokunimowakaru.github.io/MJ/808.txt
