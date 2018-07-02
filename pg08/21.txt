@@ -9,7 +9,7 @@ new
 100 ?"== ¼Þ­ÝËÞ ==
 110 uart 1:clk
 120 ?"MJ PCT application/json"
-130 gosub 700:uart 0
+130 gosub 700
 140 B=btn()
 
 200 ?"== Ò²Ý ==
@@ -24,18 +24,19 @@ new
 510 uart 1:clk
 520 ?"MJ POST START ambidata.";
 530  ?"io/api/v2/channels/";C;
-540  ?"/data":gosub 700
-550 ?"{";chr$(34);"writeKey";
-560  ? chr$(34);":";chr$(34);
-570  ? str$(K);chr$(34);",";
-580  ? chr$(34);"d";D;chr$(34);
-590  ?":";B;"}"
-600 ?"MJ POST END"
-610 gosub 700:uart 0
-620 return
+540  ?"/data"
+550 gosub 700:uart 1
+560 ?"{";chr$(34);"writeKey";
+570  ? chr$(34);":";chr$(34);
+580  ? str$(K);chr$(34);",";
+590  ? chr$(34);"d";D;chr$(34);
+600  ?":";B;"}"
+610 ?"MJ POST END"
+620 gosub 700
+630 return
 
 700 '== RX ==
-710 clt
+710 uart 0:clt
 720 I=inkey()
 730 if I clt:? chr$(I);
 740 if tick()<40 goto 720
