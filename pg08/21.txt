@@ -15,10 +15,11 @@ new
 200 ?"== “≤› ==
 210 ?"B=";B
 220 gosub 500
-230 ?"== BTN œ¡ ==
-240 if B=btn() goto 240
-250 B=!B
-260 goto 200
+230 wait 200
+240 ?"== BTN œ¡ ==
+250 if B=btn() goto 240
+260 B=!B
+270 goto 200
 
 500 '== TX ==
 510 uart 1:clk

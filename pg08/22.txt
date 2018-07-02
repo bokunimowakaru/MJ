@@ -9,46 +9,51 @@ new
 
 100 ?"== ¼Þ­ÝËÞ ==
 110 uart 1:clk
-120 wait 60
-130 if inkey() goto 130
-140 ?"MJ APS":wait 33
-150 if inkey()<>49 goto 120
+120 if inkey() goto 120
+130 ?"MJ APS":wait 40
+140 if inkey()<>49 goto 110
+150 clk
 160 ?"MJ PCT application/json"
-170 gosub 500
+170 gosub 700
 
 200 ?"== Ò²Ý ==
-210 B=1:gosub 400
+210 B=1:gosub 500
 220 wait 200
 230 if btn() goto 230
-240 B=0:gosub 400
-250 if S ?"MJ SLEEP 0"
-260 wait 60,!S
-270 if S sleep
-280 wait 140
-290 if !btn() goto 290
-299 goto 100
+240 B=0:gosub 500
+250 if S goto 300
+260 wait 200
+270 if !btn() goto 290
+280 goto 100
 
-400 ?"== TX ==
-410 ?"MJ POST START ambidata.";
-420  ?"io/api/v2/channels/";C;
-430  ?"/data":gosub 500
-440 ?"{";chr$(34);"writeKey";
-450  ? chr$(34);":";chr$(34);
-460  ? str$(K);chr$(34);",";
-470  ? chr$(34);"d";D;chr$(34);
-480  ?":";B;"}":gosub 500
-490 ?"MJ POST END":gosub 500
-499 return
+300 ?"== ½Ø°Ìß ==
+310 uart 1:?"MJ SLEEP 0"
+320 wait 40,0
+330 sleep
 
-500 '== RX ==
-510 uart 0:clt
-520 I=inkey()
-530 if I clt:? chr$(I);
-540 if tick()<40 goto 520
-550 ?:uart 1
-560 return
+500 '== TX ==
+510 uart 1:clk
+520 ?"MJ POST START ambidata.";
+530  ?"io/api/v2/channels/";C;
+540  ?"/data"
+550 gosub 700:uart 1
+560 ?"{";chr$(34);"writeKey";
+570  ? chr$(34);":";chr$(34);
+580  ? str$(K);chr$(34);",";
+590  ? chr$(34);"d";D;chr$(34);
+600  ?":";B;"}"
+610 ?"MJ POST END"
+620 gosub 700
+630 return
 
-999 ?"MJ GET bokunimowakaru.github.io/MJ/808.txt
+700 '== RX ==
+710 uart 0:clt
+720 I=inkey()
+730 if I clt:? chr$(I);
+740 if tick()<40 goto 720
+750 return
+
+999 uart1:?"MJ GET bokunimowakaru.github.io/MJ/808.txt
 '
 ' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
 '
