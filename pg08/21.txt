@@ -1,51 +1,51 @@
 
 new
 1 cls:?"MixJuice IoT BTN/PIR
-2 uart 0:?"CC BY ¬∏√Ü√â √ú√Ä√ô
-3 C=725:?" Ambient √Å¬¨√à√ôID=";C
-4 K="ad3e53b54fe16764":'√ó¬≤√Ñ ¬∑¬∞
-5 D=3:?" √É√û¬∞√Ä=d";D
+2 uart 0:?"CC BY ∏∆… ‹¿Ÿ
+3 C=725:?" Ambient ¡¨»ŸID=";C
+4 K="ad3e53b54fe16764":'◊≤ƒ ∑∞
+5 D=3:?" √ﬁ∞¿=d";D
 
-100 ?"== ¬º√û¬≠√ù√ã√û ==
+100 ?"== ºﬁ≠›Àﬁ ==
 110 uart 1:clk
 120 ?"MJ PCT application/json"
-130 gosub 500
+130 gosub 700:uart 0
 140 B=btn()
 
-200 ?"== √í¬≤√ù ==
+200 ?"== “≤› ==
 210 ?"B=";B
-220 gosub 400
-230 wait 200
-240 ?"== BTN √è√Å ==
-250 if B=btn() goto 250
-260 B=!B
-270 goto 200
+220 gosub 500
+230 ?"== BTN œ¡ ==
+240 if B=btn() goto 240
+250 B=!B
+260 goto 200
 
-400 '== TX ==
-410 ?"MJ POST START ambidata.";
-420  ?"io/api/v2/channels/";C;
-430  ?"/data":gosub 500
-440 ?"{";chr$(34);"writeKey";
-450  ? chr$(34);":";chr$(34);
-460  ? str$(K);chr$(34);",";
-470  ? chr$(34);"d";D;chr$(34);
-480  ?":";B;"}":gosub 500
-490 ?"MJ POST END":gosub 500
-499 return
+500 '== TX ==
+510 uart 1:clk
+520 ?"MJ POST START ambidata.";
+530  ?"io/api/v2/channels/";C;
+540  ?"/data":gosub 700
+550 ?"{";chr$(34);"writeKey";
+560  ? chr$(34);":";chr$(34);
+570  ? str$(K);chr$(34);",";
+580  ? chr$(34);"d";D;chr$(34);
+590  ?":";B;"}"
+600 ?"MJ POST END"
+610 gosub 700:uart 0
+620 return
 
-500 '== RX ==
-510 uart 0:clt
-520 I=inkey()
-530 if I clt:? chr$(I);
-540 if tick()<40 goto 520
-550 ?:uart 1
-560 return
+700 '== RX ==
+710 clt
+720 I=inkey()
+730 if I clt:? chr$(I);
+740 if tick()<40 goto 720
+750 return
 
 999 uart1:?"MJ GET bokunimowakaru.github.io/MJ/808.txt
 '
-' √Ä√û¬≥√ù√õ¬∞√Ñ√û ¬∂√ù√ò¬Æ¬≥
+' ¿ﬁ≥›€∞ƒﬁ ∂›ÿÆ≥
 '
-' [0][Enter]: ¬∂√ù√ò¬Æ¬≥
-' [1][Enter]: √Ä√û¬≥√ù√õ¬∞√Ñ√û √ç√ü¬∞¬º√û √ç
+' [0][Enter]: ∂›ÿÆ≥
+' [1][Enter]: ¿ﬁ≥›€∞ƒﬁ Õﬂ∞ºﬁ Õ
 '
 inputA:ifAgoto999
