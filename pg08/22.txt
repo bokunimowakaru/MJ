@@ -23,7 +23,7 @@ new
 240 B=0:gosub 500
 250 if S goto 300
 260 wait 200
-270 if !btn() goto 290
+270 if !btn() goto 270
 280 goto 100
 
 300 ?"== ½Ø°Ìß ==
