@@ -8,7 +8,8 @@ cls
 ' [18]Firm [19] FirmºÏÝÄÞ
 '
 ' MixJuice -> Ambient
-' [20]BTN [21]BTN/PIR [22]B/P PS' [23]ANA2/ILM PS [24]ANA2/I PS2'
+' [20]TX [21]BTN/PIR [22]B/P PS
+' [23]ANA2/ILM PS [24]ANA2/I PS2'
 ' MixJuice -> IFTTT
 ' [26]BTN/PIR [27]BTN/PIR PS
 '
