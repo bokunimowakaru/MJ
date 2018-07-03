@@ -1,0 +1,31 @@
+
+new
+1 ?"MixJuice IoT TX
+2 C=725
+3 K="ad3e53b54fe16764"
+4 D=3
+
+100 for I=1 to 10
+110 ?"MJ PCT application/json"
+120 B=!B
+130 ?"MJ POST START ambidata.";
+140 ?"io/api/v2/channels/";C;
+150 ?"/data"
+160 ?"{";chr$(34);"writeKey";
+170 ? chr$(34);":";chr$(34);
+180 ? str$(K);chr$(34);",";
+190 ? chr$(34);"d";D;chr$(34);
+200 ?":";B;"}"
+210 ?"MJ POST END"
+220 wait 360 * I
+230 next
+240 run
+
+999 uart1:?"MJ GET bokunimowakaru.github.io/MJ/808.txt
+'
+' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
+'
+' [0][Enter]: ¶ÝØ®³
+' [1][Enter]: ÀÞ³ÝÛ°ÄÞ Íß°¼Þ Í
+'
+inputA:ifAgoto999
