@@ -1,0 +1,41 @@
+
+new
+1 cls:?"MixJuice IoT BTN
+2 ?"CC BY ¸ÆÉ ÜÀÙ
+3 C=725:?" Ambient Á¬ÈÙID=";C
+4 K="ad3e53b54fe16764":'×²Ä ·°
+5 D=3:?" ÃÞ°À=d";D
+
+100 ?"== ¼Þ­ÝËÞ ==
+110 uart 1
+120 ?"MJ PCT application/json"
+
+200 ?"== BTN ÏÁ ==
+210 if !btn() cont
+
+500 ?"== TX ==
+510 ?"MJ POST START ambidata.";
+520  ?"io/api/v2/channels/";C;
+530  ?"/data"
+540 ?"{";chr$(34);"writeKey";
+550  ? chr$(34);":";chr$(34);
+560  ? str$(K);chr$(34);",";
+570  ? chr$(34);"d";D;chr$(34);
+580  ?":";B;"}"
+590 ?"MJ POST END"
+
+700 '== RX ==
+710 uart 0:clt
+720 I=inkey()
+730 if I clt:? chr$(I);
+740 if tick()<40 goto 720
+750 goto 110
+
+999 uart1:?"MJ GET bokunimowakaru.github.io/MJ/808.txt
+'
+' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
+'
+' [0][Enter]: ¶ÝØ®³
+' [1][Enter]: ÀÞ³ÝÛ°ÄÞ Íß°¼Þ Í
+'
+inputA:ifAgoto999

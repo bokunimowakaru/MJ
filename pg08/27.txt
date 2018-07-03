@@ -10,7 +10,7 @@ new
 100 ?"== ¼Þ­ÝËÞ ==
 110 uart 1:clk
 120 wait 60
-130 if inkey() goto 130
+130 if inkey() cont
 140 ?"MJ APS":wait 33
 150 if inkey()<>49 goto 120
 160 gosub 500
@@ -18,13 +18,13 @@ new
 200 ?"== Ò²Ý ==
 210 B=1:gosub 400
 220 wait 200
-230 if btn() goto 230
+230 if btn() cont
 240 B=0:gosub 400
 250 if S ?"MJ SLEEP 0"
 260 wait 60,!S
 270 if S sleep
 280 wait 140
-290 if !btn() goto 290
+290 if !btn() cont
 299 goto 100
 
 400 ?"== TX ==

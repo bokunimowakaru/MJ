@@ -11,7 +11,7 @@ new
 100 ?"== ¼Þ­ÝËÞ ==
 110 out 11,0:out 11,1
 120 uart 1:clk
-130 if inkey() goto 130
+130 if inkey() cont
 140 ?"MJ APS":wait 40
 150 if inkey()<>49 goto 120
 160 clk

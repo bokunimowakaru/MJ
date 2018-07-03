@@ -21,7 +21,7 @@ new
 300 ?"== ½Ø°Ìß ==
 310 uart 1:?"MJ SLEEP ";T/60
 320 led 0:wait 600,0:led 1
-330 if inkey() goto 330
+330 if inkey() cont
 340 ?"MJ APS":wait 40
 350 if inkey()<>49 goto 320
 360 goto 100
