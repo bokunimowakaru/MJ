@@ -12,6 +12,7 @@ new
 
 200 ?"== BTN œ¡ ==
 210 if !btn() cont
+220 B=!B
 
 500 ?"== TX ==
 510 ?"MJ POST START ambidata.";
