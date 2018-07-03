@@ -12,28 +12,28 @@ new
 
 200 ?"== “≤› ==
 210 ?"B=";B
-220 gosub 400
+220 gosub 500
 230 wait 200
 240 ?"== BTN œ¡ ==
 250 if B=btn() cont
 260 B=!B
 270 goto 200
 
-400 ?"== TX ==
-410 ?"MJ GET maker.ifttt.com/";
-420  ?"trigger/";str$(C);
-430  ?"/with/key/";str$(K);"?";
-440  ?"value";D;"=";B
-450 gosub 500
-460 return
-
-500 '== RX ==
-510 uart 0:clt
-520 I=inkey()
-530 if I clt:? chr$(I);
-540 if tick()<40 goto 520
-550 ?:uart 1
+500 ?"== TX ==
+510 uart 1:clk
+520 ?"MJ GET maker.ifttt.com/";
+530  ?"trigger/";str$(C);
+540  ?"/with/key/";str$(K);"?";
+550  ?"value";D;"=";B
+560 gosub 700
 560 return
+
+700 '== RX ==
+710 uart 0:clt
+720 I=inkey()
+730 if I clt:? chr$(I);
+740 if tick()<40 goto 720
+750 return
 
 999 ?"MJ GET bokunimowakaru.github.io/MJ/808.txt
 '

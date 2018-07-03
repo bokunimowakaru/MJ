@@ -13,13 +13,13 @@ new
 130 if inkey() cont
 140 ?"MJ APS":wait 33
 150 if inkey()<>49 goto 120
-160 gosub 500
+160 gosub 700
 
 200 ?"== Ò²Ý ==
-210 B=1:gosub 400
+210 B=1:gosub 500
 220 wait 200
 230 if btn() cont
-240 B=0:gosub 400
+240 B=0:gosub 500
 250 if S ?"MJ SLEEP 0"
 260 wait 60,!S
 270 if S sleep
@@ -27,21 +27,21 @@ new
 290 if !btn() cont
 299 goto 100
 
-400 ?"== TX ==
-410 ?"MJ GET maker.ifttt.com/";
-420  ?"trigger/";str$(C);
-430  ?"/with/key/";str$(K);"?";
-440  ?"value";D;"=";B
-450 gosub 500
-460 return
-
-500 '== RX ==
-510 uart 0:clt
-520 I=inkey()
-530 if I clt:? chr$(I);
-540 if tick()<40 goto 520
-550 ?:uart 1
+500 ?"== TX ==
+510 uart 1:clk
+520 ?"MJ GET maker.ifttt.com/";
+530  ?"trigger/";str$(C);
+540  ?"/with/key/";str$(K);"?";
+550  ?"value";D;"=";B
+560 gosub 700
 560 return
+
+700 '== RX ==
+710 uart 0:clt
+720 I=inkey()
+730 if I clt:? chr$(I);
+740 if tick()<40 goto 720
+750 return
 
 999 ?"MJ GET bokunimowakaru.github.io/MJ/808.txt
 '
