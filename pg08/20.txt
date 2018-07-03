@@ -5,7 +5,7 @@ new
 3 K="ad3e53b54fe16764"
 4 D=3
 
-100 ?"== ¿³¼Ý ==
+100 for I=1 to 10
 110 ?"MJ PCT application/json"
 120 B=!B
 130 ?"MJ POST START ambidata.";
@@ -17,8 +17,9 @@ new
 190 ? chr$(34);"d";D;chr$(34);
 200 ?":";B;"}"
 210 ?"MJ POST END"
-220 wait 6000
-230 goto 100
+220 wait 360 * I
+230 next
+240 run
 
 999 uart1:?"MJ GET bokunimowakaru.github.io/MJ/808.txt
 '
