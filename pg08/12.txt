@@ -18,11 +18,11 @@ new
 200 ?"== Ò²Ý ==
 210 B=1:gosub 300
 220 wait 30
-230 if btn() goto 230
+230 if btn() cont
 240 B=0:gosub 300
 250 if S sleep
 260 wait 30
-270 if !btn() goto 270
+270 if !btn() cont
 280 goto 200
 
 300 ?"== ¿³¼Ý ==

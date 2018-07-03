@@ -31,7 +31,7 @@ new
 320 poke #88C,B^#63
 330 ?"I2C=";i2cw(#4F,#880,13)
 340 I=0:gosub 500
-350 if btn() goto 350
+350 if btn() cont
 360 wait 30
 370 return
 

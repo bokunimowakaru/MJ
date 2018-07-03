@@ -24,7 +24,7 @@ new
 
 300 ?"== BTN œ¡ ==
 310 wait 30
-320 if B=btn() goto 320
+320 if B=btn() cont
 330 B=!B
 340 goto 200
 
