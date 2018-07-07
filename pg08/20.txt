@@ -1,9 +1,9 @@
 
 new
 1 ?"MixJuice IoT TX
-2 C=725
-3 K="ad3e53b54fe16764"
-4 D=3
+2 C=xxxx
+3 K="xxxxxxxxxxxxxxxx"
+4 D=1
 
 100 ?"MJ PCT application/json"
 110 B=!B

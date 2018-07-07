@@ -2,9 +2,9 @@
 new
 1 cls:?"MixJuice IoT BTN/PIR PS
 2 uart 0:?"CC BY ¸ÆÉ ÜÀÙ
-3 C=725:?" Ambient Á¬ÈÙID=";C
-4 K="ad3e53b54fe16764":'×²Ä ·°
-5 D=3:?" ÃÞ°À=d";D
+3 C=xxxx:?" Ambient Á¬ÈÙID=";C
+4 K="xxxxxxxxxxxxxxxx":'×²Ä ·°
+5 D=1:?" ÃÞ°À=d";D
 6 S=0:?" ÊßÜ°S=";S;"(1=ON)
 
 100 ?"== ¼Þ­ÝËÞ ==
