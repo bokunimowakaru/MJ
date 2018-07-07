@@ -9,7 +9,7 @@ cls
 '
 ' MixJuice -> Ambient
 ' [20]TX [21]BTN/PIR [22]B/P PS
-' [23]ANA2/ILM PS [24]ANA2/I PS2'
+' [23]ANA2/ILM PS [24]ANA2/I PS2' [25]EnvSensor
 ' MixJuice -> IFTTT
 ' [26]BTN/PIR [27]BTN/PIR PS
 '

@@ -2,10 +2,10 @@
 new
 1 cls:?"SAKURA IoT RX
 2 ?"CC BY Wataru Kunino
-3 T=60:?" º≠≥∑=";T/60;" ÀﬁÆ≥
+3 T=1:?" º≠≥∑=";T;" ÀﬁÆ≥
 
 100 ?"== RX œ¡≥π ==
-110 ?".";:wait T
+110 ?".";:wait T*60
 120 poke #880,#32,0,#32
 130 I=i2cr(#4F,#880,3,#884,4)
 140 if I ?:?"I2C ERR"
