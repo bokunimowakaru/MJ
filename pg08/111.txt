@@ -1,0 +1,30 @@
+
+new
+1 cls:?"SAKURA IoT TX BTN/PIR
+2 ?"CC BY Wataru Kunino
+3 ?"ÎÞÀÝ Æ­³Ø®¸ B=BTN
+
+100 ?"== ¼Þ­ÝËÞ ==
+150 B=btn()
+
+200 ?"== Ò²Ý ==
+210 ?"B=";B
+220 IoT.out B
+270 for I=0 to 12
+280   ? hex$(peek(#800+I));" ";
+290 next:?
+
+300 ?"== BTN ÏÁ ==
+310 wait 30
+320 if B=btn() cont
+330 B=!B
+340 goto 200
+
+999 ?"MJ GET bokunimowakaru.github.io/MJ/808.txt
+'
+' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
+'
+' [0][Enter]: ¶ÝØ®³
+' [1][Enter]: ÀÞ³ÝÛ°ÄÞ Íß°¼Þ Í
+'
+inputA:ifAgoto999

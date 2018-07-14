@@ -1,0 +1,55 @@
+
+new
+1 cls:?"SAKURA IoT YaoYa Talk
+2 uart 0:?"CC BY Wataru Kunino
+3 ?"ÎÞÀÝ Æ­³Ø®¸ B=BTN
+4 ?"AquetTalk=TXD
+5 [32]="?irasshaima'se"
+6 [33]="?goyo'-no+sa'iwa bo'tanno/ositekudasa'i"
+7 [34]="?sho'-sho-/omachikudasa'i."
+' Ê²ÚÂ: IoT ºÏÝÄÞ É ¶Ý¼®³ ÎÞ³¼
+
+100 ?"== RX ÏÁ³¹ ==
+110 clt:?".";
+120 if btn() gosub 200
+130 if tick()<60 goto 120
+140 poke #820,0
+150 I=IoT.in()
+160 if peek(#820)=1 gosub 400
+170 goto 110
+
+200 ?:?"== BTN/PIR ==
+250 wait 120
+260 B=!btn()
+270 ?"B=";B
+
+300 ?"== TX ==
+310 poke #820,0
+320 IoT.out B
+330 I=!(peek(#820)=1)
+330 ?"I2C=";I
+340 I=0:gosub 500
+350 if btn() cont
+360 wait 30
+370 return
+
+400 ?:?"== RX ==
+440 ?"Ch=";peek(#822)
+460 if I<0 or I>2 goto 100
+470 ?"Val=";I
+
+500 ?"== Voice ==
+510 uart 1:bps 9600
+520 ? chr$(13);"$";:wait 5
+530 ? str$([32+I]);chr$(13);
+540 uart 0:?:bps 0
+550 return
+
+999 ?"MJ GET bokunimowakaru.github.io/MJ/808.txt
+'
+' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
+'
+' [0][Enter]: ¶ÝØ®³
+' [1][Enter]: ÀÞ³ÝÛ°ÄÞ Íß°¼Þ Í
+'
+inputA:ifAgoto999

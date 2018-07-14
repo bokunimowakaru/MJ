@@ -1,0 +1,46 @@
+
+new
+1 'SAKURA IoT RX OLED
+2 cls:?" SAKURA":?" IoT RX"
+3 ?:?"VAL/TEXT":?:?"  OLED":?
+4 ?"CC BY"
+5 ?"  Wataru":?"  Kunino"
+6 T=1
+7 ?:?"¼­³·":?"  ";T;"ËÞ®³"
+8 gosub 800
+
+100 ?"== RX ÏÁ³¹ ==
+110 ?".";:wait T*60
+
+200 '== RX ==
+210 poke #820,0
+220 I=IoT.in()
+230 if peek(#820)!=1 goto 110
+260 cls:?"Ch=";peek(#822)
+270 if peek(#823)=98 goto 300
+280 ? I
+290 gosub 900:goto 200
+
+300 '== Strings ==
+310 for I=0 to 7
+320   ? chr$(peek(#824+I));
+330 next:?
+340 gosub 900
+350 goto 200
+
+800 'OLED INIT
+810 let[85],#4000,33,#227F,#700,#D5AE,#8D80,#2014,#DA00,#8112,#D9CF,#DBF1,#A440,#AFA6
+820 ifi2cw(60,#8AA,1,#8B2,18)?"E
+900 'OLED OUT
+910 ifi2cw(60,#8AA,1,#8AC,6)?"E
+920 for[98]=0to7:for[99]=0to15:copy#8A2,vpeek(7-[98],[99])*8,8:ifi2cw(60,#8AB,1,#8A2,8)?"E
+930 next:next:rtn
+
+999 ?"MJ GET bokunimowakaru.github.io/MJ/808.txt
+'
+' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
+'
+' [0][Enter]: ¶ÝØ®³
+' [1][Enter]: ÀÞ³ÝÛ°ÄÞ Íß°¼Þ Í
+'
+inputA:ifAgoto999

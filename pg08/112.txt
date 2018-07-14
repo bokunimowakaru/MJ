@@ -1,0 +1,39 @@
+
+new
+1 cls:?"SAKURA IoT TX BTN/PIR PS
+2 ?"CC BY Wataru Kunino
+3 ?"ÎÞÀÝ/¾Ý» Æ­³Ø®¸ B=BTN
+4 S=0:?"¼®³ÃÞÝØ®¸ S=";S
+
+100 ?"== ¼Þ­ÝËÞ ==
+110 if btn() goto 150
+120 poke #880,#B0,1,S,S^#B1
+130 ?"I2C_PowSave=";
+140 ? S * !i2cw(#4F,#880,4)
+
+200 ?"== Ò²Ý ==
+210 B=1:gosub 300
+220 wait 30
+230 if btn() cont
+240 B=0:gosub 300
+250 if S sleep
+260 wait 30
+270 if !btn() cont
+280 goto 200
+
+300 ?"== ¿³¼Ý ==
+310 poke #820,0
+320 IoT.out B
+330 ?"I2C_Tx=";B;" ";
+340 I=!(peek(#820)=1)
+350 if I ?"ERR" else ?"OK"
+360 return
+
+999 ?"MJ GET bokunimowakaru.github.io/MJ/808.txt
+'
+' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
+'
+' [0][Enter]: ¶ÝØ®³
+' [1][Enter]: ÀÞ³ÝÛ°ÄÞ Íß°¼Þ Í
+'
+inputA:ifAgoto999
