@@ -1,0 +1,61 @@
+
+new
+1 cls:?"LoraWAN AL-050 TX"
+2 bps 9600:uart 0
+3 ?"CC BY ¸ÆÉ ÜÀÙ
+4 P=1:?" Îß°Ä";P
+5 B=btn()
+
+100 ?"== ¼Þ­ÝËÞ ==
+110 [0]=32:[1]=79:[2]=107:'Ok
+120 uart 3:clk:?:gosub 700
+130 ?"mod factory_reset"
+140 gosub 700:if !R goto 170
+150 ?"mod set_echo off"
+160 gosub 700:if R goto 200
+170 uart 0:?"ERR"
+180 end
+
+200 '== Join ==
+210 [1]=97:[2]=99:'ac
+220 ?"lorawan join otaa"
+230 gosub 700
+240 if !R goto 220
+250 uart 0
+
+300 ?"== Ò²Ý ==
+310 ?"B=";B
+320 gosub 500
+330 ?"== BTN ÏÁ ==
+340 if B=btn() cont
+350 B=!B
+360 goto 300
+
+500 '== TX ==
+510 uart 3:clk
+520 [0]=95:[1]=111:[2]=107:'_ok
+530 ?"lorawan tx ucnf ";P;
+540 ?" 7B22";hex$(asc("b"));
+550 ?"223A";hex$(48+B);"7D"
+560 gosub 700:uart 0
+570 return
+
+700 '== RX ==
+710 uart 0:clt:R=0
+720 I=inkey()
+730 if I clt:? chr$(I);
+740 if tick()>330 goto 780
+750 if R=3 goto 720
+760 if I=[R] R=R+1 else R=0
+770 goto 720
+780 ?:R=R=3:uart 3
+790 return
+
+999 uart1:?"MJ GET bokunimowakaru.github.io/MJ/808.txt
+'
+' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
+'
+' [0][Enter]: ¶ÝØ®³
+' [1][Enter]: ÀÞ³ÝÛ°ÄÞ Íß°¼Þ Í
+'
+inputA:ifAgoto999

@@ -14,8 +14,8 @@ cls
 ' MixJuice -> IFTTT
 ' [26]BTN/PIR [27]BTN/PIR PS
 '
-' LoRaWAN
-' [31]TX [32]RX
+' LoRaWAN AL-050
+' [31]TX [32]ANA [33]RX [34]TXT
 '
 ' [99]ью╟щ
 '

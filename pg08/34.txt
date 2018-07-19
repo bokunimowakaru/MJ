@@ -1,0 +1,73 @@
+
+new
+1 cls:?"LoraWAN AL-050 RX TXT"
+2 clv:bps 9600:uart 0
+3 ?"CC BY ¸ÆÉ ÜÀÙ
+4 P=2
+5 T=5
+
+100 '¼Þ­ÝËÞ
+110 [0]=32:[1]=79:[2]=107:'Ok
+120 uart 3:clk:?:gosub 700
+130 ?"mod factory_reset"
+140 gsb 700:if !R goto 170
+150 ?"mod set_echo off"
+160 gsb 700:if R goto 200
+170 uart 0:?"ERR"
+180 end
+
+200 'Join
+210 [1]=97:[2]=99:'ac
+220 ?"lorawan join otaa"
+230 gsb 700
+240 if !R goto 220
+250 uart 0
+260 [8]=0
+
+300 'Ò²Ý
+310 cls:? str$(#808):?
+320 gsb 500
+330 if R gsb 400
+340 wait T*60
+350 goto 300
+
+400 '½Ä±
+410 for I=0 to 11
+420 J=I/2+4:[J]=[J]>>8
+430 A=scr(I*2+8,5)-48
+440 if A<0 A=0:goto 490
+450 if A>9 A=A-39
+460 [J]=[J]+A*4096
+470 A=scr(I*2+9,5)-48
+480 if A>9 A=A-39
+490 [J]=[J]+A*256
+499 next:rtn
+
+500 'TX
+510 uart 3:clk
+520 [0]=114:[1]=120:[2]=32:'rx
+530 ?"lorawan tx ucnf ";P;
+540 ?" 00"
+550 gsb 700
+560 uart 0
+570 rtn
+
+700 'RX
+710 uart 0:clt:R=0
+720 I=inkey()
+730 if I clt:? chr$(I);
+740 if tick()>330 goto 780
+750 if R=3 goto 720
+760 if I=[R] R=R+1 else R=0
+770 goto 720
+780 ?:R=R=3:uart 3
+790 rtn
+
+999 uart1:?"MJ GET bokunimowakaru.github.io/MJ/808.txt
+'
+' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
+'
+' [0][Enter]: ¶ÝØ®³
+' [1][Enter]: ÀÞ³ÝÛ°ÄÞ Íß°¼Þ Í
+'
+inputA:ifAgoto999
