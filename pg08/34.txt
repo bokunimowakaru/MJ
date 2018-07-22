@@ -8,7 +8,7 @@ new
 
 100 '¼Þ­ÝËÞ
 110 [0]=32:[1]=79:[2]=107:'Ok
-120 uart 3:clk:?:gosub 700
+120 uart 3:clk:?:gsb 700
 130 ?"mod factory_reset"
 140 gsb 700:if !R goto 170
 150 ?"mod set_echo off"
@@ -22,7 +22,6 @@ new
 230 gsb 700
 240 if !R goto 220
 250 uart 0
-260 [8]=0
 
 300 'Ò²Ý
 310 cls:? str$(#808):?
