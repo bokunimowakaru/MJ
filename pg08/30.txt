@@ -1,7 +1,7 @@
 
 new
-1 cls:?"LoraWAN LCD":?"¸ÆÉ ÜÀÙ"
-2 clv:gsb@LI:P=2:T=5:[0]=32:[1]=79:[2]=107:bps9600:uart3:clk:?:gsb@R
+1 cls:?"LoraWAN Barcode":?"¸ÆÉ ÜÀÙ"
+2 clv:P=1:T=5:[0]=32:[1]=79:[2]=107:bps9600:uart3:clk:?:gsb@R
 3 ?"mod factory_reset":gsb@R:if!Rgoto5
 4 ?"mod set_echo off":gsb@R:ifRgoto6
 5 uart0:stop
@@ -9,32 +9,26 @@ new
 7 uart0:let[4],#6F4A,#6E69,#6465
 
 10 @M
-20 cls:?str$(#808):?str$(#814):gsb@L:gsb@T
-30 ifRbeep:gsb@S:goto@M
+20 cls:?"read:";str$(#808):?"send: ";str$(#819):[0]=-1:gsb@R
+30 ifFbeep:gsb@T:goto@M
 40 waitT*60:goto@M
 
-400 @S
-410 forI=0to11:J=I/2+4:[J]=[J]>>8:A=scr(I*2+8,5)-48:ifA<0A=0:goto440
-420 ifA>9A=A-39
-430 [J]=[J]+A*4096:A=scr(I*2+9,5)-48:ifA>9A=A-39
-440 [J]=[J]+A*256:next:copy#814,#9A8,16:rtn
-
 500 @T
-510 uart3:clk:[0]=114:[1]=120:[2]=32:?"lorawan tx ucnf ";P;" 00":gsb@R:uart0:rtn
+510 copy#808,#940,16:copy#819,#809,11:uart 3:clk:[0]=95:[1]=111:[2]=107:?"lorawan tx ucnf ";P;" ";
+520 forI=0to10:A=peek(#819+I):ifA<16I=10else?hex$(A);
+530 next:?:gsb@R:uart0:rtn
 
 700 @R
-710 uart0:clt:R=0
-720 I=inkey():ifIclt:?chr$(I);
+710 uart0:clt:R=0:F=0
+720 I=inkey():ifI>31clt:F=1:?chr$(I);
 730 iftick()>330goto770
 740 ifR=3goto720
 750 ifI=[R]R=R+1elseR=0
 760 goto720
-770 ?:R=R=3:uart3:rtn
+770 ?:R=R=3:rtn
 
-996 @LI:let[96],64,2,#C0,#5639,#C6C:ifi2cw(62,#8C5,5)?"E
-997 @L:ifi2cw(62,#8C1,2)+i2cw(62,#8C0,1,#900,16)+i2cw(62,#8C3,2)+i2cw(62,#8C0,1,#920,16)?"E
-998 rtn
 999 uart1:?"MJ GET bokunimowakaru.github.io/MJ/808.txt
+
 '
 ' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
 '

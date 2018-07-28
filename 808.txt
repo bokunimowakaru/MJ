@@ -16,6 +16,7 @@ cls
 '
 ' LoRaWAN AL-050
 ' [31]TX [32]ANA [33]RX [34]TXT
+' [30]Barcode [37]LCD
 '
 ' [99]ью╟щ
 '
