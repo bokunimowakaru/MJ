@@ -1,0 +1,33 @@
+
+new
+1 cls:?"Tester Barcode":?"¸ÆÉ ÜÀÙ"
+2 clv:bps9600:uart0
+3 let[4],#6552,#6461,#2E79
+4 [0]="4910016200362":'ÏÁ³¹ Ó¼Þ 13¹À
+
+10 @M
+20 cls:uart3*F:?"read:";str$(#808):?"F=";F,"R=";R:gsb@R
+30 ifFbeep:gsb@T:goto@M
+40 waitT*60:goto@M
+
+500 @T
+510 copy#808,#940,16:rtn
+
+700 @R
+710 uart0:clt:R=0:F=0
+720 I=inkey():ifI>31clt:F=1:?chr$(I);
+730 iftick()>30goto770
+740 ifR=13goto720
+750 ifI=peek([0]+R)R=R+1elseR=0
+760 goto720
+770 ?:R=R=13:rtn
+
+999 bps0:uart1:?"MJ GET bokunimowakaru.github.io/MJ/808.txt
+
+'
+' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
+'
+' [0][Enter]: ¶ÝØ®³
+' [1][Enter]: ÀÞ³ÝÛ°ÄÞ Íß°¼Þ Í
+'
+inputA:ifAgoto999

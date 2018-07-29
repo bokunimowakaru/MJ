@@ -1,20 +1,20 @@
 
 new
 1 cls:?"LoraWAN Barcode":?"∏∆… ‹¿Ÿ"
-2 clv:P=1:T=5:[0]=32:[1]=79:[2]=107:bps9600:uart3:clk:?:gsb@R
-3 ?"mod factory_reset":gsb@R:if!Rgoto5
-4 ?"mod set_echo off":gsb@R:ifRgoto6
+2 clv:P=1:[0]=32:[1]=79:[2]=107:bps9600:uart3:clk:?:gsb@R
+3 uart3:?"mod factory_reset":gsb@R:if!Rgoto5
+4 uart3:?"mod set_echo off":gsb@R:ifRgoto6
 5 uart0:stop
-6 [1]=97:[2]=99:?"lorawan join otaa":gsb@R:if!Rcont
+6 [1]=97:[2]=99:uart3:?"lorawan join otaa":gsb@R:if!Rcont
 7 uart0:let[4],#6F4A,#6E69,#6465
 
 10 @M
 20 cls:?"read:";str$(#808):?"send: ";str$(#819):[0]=-1:gsb@R
-30 ifFbeep:gsb@T:goto@M
-40 waitT*60:goto@M
+30 ifFbeep:gsb@T
+40 goto@M
 
 500 @T
-510 copy#808,#940,16:copy#819,#809,11:uart 3:clk:[0]=95:[1]=111:[2]=107:?"lorawan tx ucnf ";P;" ";
+510 copy#808,#940,16:copy#819,#809,11:uart3:clk:[0]=95:[1]=111:[2]=107:?"lorawan tx ucnf ";P;" ";
 520 forI=0to10:A=peek(#819+I):ifA<16I=10else?hex$(A);
 530 next:?:gsb@R:uart0:rtn
 
@@ -27,7 +27,7 @@ new
 760 goto720
 770 ?:R=R=3:rtn
 
-999 uart1:?"MJ GET bokunimowakaru.github.io/MJ/808.txt
+999 bps0:uart1:?"MJ GET bokunimowakaru.github.io/MJ/808.txt
 
 '
 ' ¿ﬁ≥›€∞ƒﬁ ∂›ÿÆ≥
