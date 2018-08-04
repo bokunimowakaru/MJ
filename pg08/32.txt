@@ -1,6 +1,6 @@
 
 new
-1 cls:?"LoraWAN AL-050 TX"
+1 cls:?"LoraWAN AL-050 ANA"
 2 bps 9600:uart 0
 3 ?"CC BY ¸ÆÉ ÜÀÙ
 4 P=1:?" Îß°Ä";P

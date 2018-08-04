@@ -16,7 +16,7 @@ new
 280 ? I
 290 gosub 900:goto 200
 
-300 '== Strings ==
+300 '== String ==
 310 for I=0 to 7
 320   ? chr$(peek(#824+I));
 330 next:?
