@@ -1,6 +1,6 @@
 
 new
-1 cls:?"Tester Barcode":?"∏∆… ‹¿Ÿ"
+1 cls:?"Barcode Reader":?"∏∆… ‹¿Ÿ"
 2 clv:bps9600:uart0
 3 let[4],#6552,#6461,#2E79
 4 [0]="4910016200362":'œ¡≥π ”ºﬁ 13π¿
