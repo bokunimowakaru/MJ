@@ -1,6 +1,6 @@
 
 new
-1 cls:?"LoraWAN LCD":?"∏∆… ‹¿Ÿ"
+1 cls:?"LoRaWAN LCD":?"∏∆… ‹¿Ÿ"
 2 clv:gsb@LI:P=2:T=5:[0]=32:[1]=79:[2]=107:bps9600:uart3:clk:?:gsb@R
 3 ?"mod factory_reset":gsb@R:if!Rgoto5
 4 ?"mod set_echo off":gsb@R:ifRgoto6

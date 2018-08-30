@@ -1,6 +1,6 @@
 
 new
-1 cls:?"LoraWAN AL-050 RX TXT"
+1 cls:?"LoRaWAN AL-050 RX TXT"
 2 clv:bps 9600:uart 0
 3 ?"CC BY ∏∆… ‹¿Ÿ
 4 P=2

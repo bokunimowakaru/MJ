@@ -1,6 +1,6 @@
 
 new
-1 ?"MixJuice IoT TX
+1 ?"MixJuice IoT TX LOOP
 2 C=xxxx
 3 K="xxxxxxxxxxxxxxxx"
 4 D=1

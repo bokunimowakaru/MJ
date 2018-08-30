@@ -1,6 +1,6 @@
 
 new
-1 cls:?"IoT Env¾Ý»
+1 cls:?"IoT Env¾Ý» PS2
 2 C=xxxx
 3 K="xxxxxxxxxxxxxxxx"
 4 T=60:S=0
