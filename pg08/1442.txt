@@ -11,11 +11,12 @@ new
 
 100 @MAIN
 110 B=btn()
-120 if A<>B goto @ON
-130 gsb @SLP
-140 out 8,0
-150 C=C+1:if C>T C=0:goto @ON
-160 goto @MAIN
+120 if inkey() cont
+130 if A<>B goto @ON
+140 gsb @SLP
+150 out 8,0
+160 C=C+1:if C>T C=0:goto @ON
+170 goto @MAIN
 
 200 @ON
 210 out 8,1
