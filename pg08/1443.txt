@@ -4,15 +4,15 @@ new
 2 ?"CC BY Wataru Kunino
 3 ?"ÎÞÀÝ/¾Ý» Æ­³Ø®¸ BTN
 4 S=1:?"¼®³ÃÞÝØ®¸ S=";S
-5 T=24:?"¿³¼Ý ¶Ý¶¸ T=";T;"¼Þ¶Ý"
+5 T=10:?"¿³¼Ý ¶Ý¶¸ T=";T;"¼Þ¶Ý"
 
 10 '¼®·¶
 20 T=T*720:C=0
 
 100 @MAIN
 110 A=0:forI=1to10:A=A+ana(2):next
-120 ?" A=";A:if abs(B-A)>100 goto @ON
-130 gsb @SLP:out 8,0:C=C+1:if C<T goto @MAIN
+120 ?" A=";A:if abs(B-A)>200 goto @ON
+130 gsb @SLP:C=C+1:if C<T goto @MAIN
 140 C=0:goto @ON
 
 200 @ON
@@ -32,8 +32,8 @@ new
 330 poke #887,0,0,0,0,0,X^Y^#63
 340 ?"LTE_Send= ";hex$(X);" ";hex$(Y);" ";
 350 I=i2cw(#4F,#880,13)
-360 if I ?"ERR":goto @MAIN
-370 B=A:?"OK":gsb @SLP
+360 if I ?"ERR" else B=A:?"OK"
+370 gsb @SLP:out 8,0:gsb @SLP
 380 goto @MAIN
 
 500 @SLP
