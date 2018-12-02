@@ -10,7 +10,7 @@ cls:?"page 14 ";
 ' 
 ' ÒÆ­° [4]->[2]
 ' 
-' http://www.geocities.jp/bokunimowakaru/kiso-kana1.html
+' https://bokunimo.net/bokunimowakaru/kiso-kana1.html
 ' 
 ' [0] Â·Þ É NEWS
 ' [9] ÓÄÞÙ

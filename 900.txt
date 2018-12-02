@@ -6,4 +6,4 @@
 ' [Enter]·° ÃÞ ¼­³Ø®³ ¼Ï½
 ' ½³¼Þ ·° ÃÞ ÓÄÞØÏ½
 '
-inputA:ifA?"MJ GET www.geocities.jp/bokunimowakaru/15
+inputA:ifA?"MJ GET bokunimowakaru.github.io/MJ/0.txt

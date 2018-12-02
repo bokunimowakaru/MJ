@@ -15,6 +15,6 @@ cls:?"page 10 µÒÃŞÄ³ ";
 ' ÃŞÊ¤ººÃŞ µÜ¶ÚÀŞ¡ ÎŞ¸Ê¤²ÂÃŞÓ º
 ' ºÆ²ÙÖ¡ ¿ÚÃŞÊ »×ÊŞ¼Ş¬!
 ' 
-' http://www.geocities.jp/bokunimowakaru/kiso-kana1.html
+' https://bokunimo.net/bokunimowakaru/kiso-kana1.html
 '
 inputA:?"MJ GET bokunimowakaru.github.io/MJ/0.txt"

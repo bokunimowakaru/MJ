@@ -5,7 +5,7 @@ cls:new
  4 ?"I2C SCL Îß°Ä EX1/SCL
  5 W=600:?"¿¸Ã² ¶Ý¶¸ W=";W
  6 ' CC BY Wataru Kunino
- rem http://www.geocities.jp/bokunimowakaru/diy/ichigojam/
+ rem https://bokunimo.net/ichigojam/
  100 'INIT
  110 poke#700,1,0:N=1:gsb900
  200 'DATA

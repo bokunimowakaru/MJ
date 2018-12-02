@@ -2,7 +2,7 @@
 複製・改変・再配布することが可能です。
 
 　　　　　　　　　CC BY Copyright 2018 Wataru KUNINO
-　　　　　　　　　http://www.geocities.jp/bokunimowakaru/diy/ichigojam/
+　　　　　　　　　https://bokunimo.net/ichigojam/
 
 　・「IchigoJam」は株式会社 jig.jp の登録商標です。
 　　(本資料は株式会社 jig.jp が作成したものではありません。)

@@ -1,7 +1,7 @@
 cls:new
 rem I2C LCD Driver for IchigoJam
 rem CC BY (c) 2015 Wataru KUNINO @ IchigoJam-FAN(facebook)
-rem http://www.geocities.jp/bokunimowakaru/q/15/
+rem https://bokunimo.net/bokunimowakaru/q/15/
 
 800 'LCD INIT
 810 poke#700,64,0,2,#C0,57,17,#70,86,#6C,56,12

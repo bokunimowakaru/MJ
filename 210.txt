@@ -11,7 +11,7 @@ cls
 ' Ò²· Å² ÓÉ É ºËß° ÆÊ ºÞÁ­³²
 ' ¸ÀÞ»²¡
 '
-' http://www.geocities.jp/bokunimowakaru/q/15/
+' bokunimowakaru.github.io/MJ/
 '
 ' Â·Þ É Íß°¼Þ ²º³ Æ ¹ÝØ ¼Þ®³Î³
 ' É Ö³Ô¸ ¦ ¹²»² ¼Ã²Ï½¡

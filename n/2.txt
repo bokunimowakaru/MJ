@@ -6,8 +6,8 @@ cls:?"page 2 ";
 ' ¼Ï¼À¡
 ' ¶· É 2 ·Þ®³ ¦ ÂÅ¹ÞÃ ¸ÀÞ»²
 ' 
-' ?"MJ GET www.geocities.jp/
-'            bokunimowakaru/15"
+' ?"MJ GET bokunimowakaru
+'            .github.io/MJ/
 ' 
 ' [0] Â·Þ É NEWS
 ' [9] ÓÄÞÙ
