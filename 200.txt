@@ -3,11 +3,12 @@ cls
 '
 ' ØÝ¸
 '
-' [1] 15ja.ml
+' [1] 15ja.ml (MJ VER 1.2.2~)
 ' [2] ²ÁºÞ¼Þ¬Ñ Ú¼Ëß
 ' [3] MicJack mj.micutil.com
 ' [4] ichigojam.net
 '     ÌßÛ¸Þ×ÑºÚ¸¼®Ý
+' [5] IchigoJam ºÏÝÄÞ
 '
 ' ¹ÝØ ¼Þ®³Î³
 '

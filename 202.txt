@@ -1,3 +1,3 @@
 
 cls
-?"MJ GET kidspod.net/mj/"
+?"MJ GETS 15jam.netlify.com/"
