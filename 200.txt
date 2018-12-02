@@ -4,11 +4,11 @@ cls
 ' ØÝ¸
 '
 ' [1] 15ja.ml (MJ VER 1.2.2~)
-' [2] ²ÁºÞ¼Þ¬Ñ Ú¼Ëß
+' [2] ²ÁºÞ¼Þ¬Ñ Ú¼Ëß  (1.2.2~)
 ' [3] MicJack mj.micutil.com
 ' [4] ichigojam.net
 '     ÌßÛ¸Þ×ÑºÚ¸¼®Ý
-' [5] IchigoJam ºÏÝÄÞ
+' [5] IchigoJam ºÏÝÄÞ(1.2.2~)
 '
 ' ¹ÝØ ¼Þ®³Î³
 '
