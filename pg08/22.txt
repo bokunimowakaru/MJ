@@ -1,14 +1,16 @@
 
 new
 1 cls:?"MixJuice IoT BTN/PIR PS
-2 uart 0:?"CC BY ∏∆… ‹¿Ÿ
+rem uart 0:?"CC BY ∏∆… ‹¿Ÿ
+2 uart 0,2:?"CC BY ∏∆… ‹¿Ÿ
 3 C=xxxx:?" Ambient ¡¨»ŸID=";C
 4 K="xxxxxxxxxxxxxxxx":'◊≤ƒ ∑∞
 5 D=1:?" √ﬁ∞¿=d";D
 6 S=0:?"  ﬂ‹∞S=";S;"(1=ON)
 
 100 ?"== ºﬁ≠›Àﬁ ==
-110 uart 1:clk
+rem uart 1:clk
+110 uart 1,2:clk
 120 if inkey() cont
 130 ?"MJ APS":wait 40
 140 if inkey()<>49 goto 110

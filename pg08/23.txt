@@ -19,7 +19,8 @@ new
 230 if !S wait T*60:goto 200
 
 300 ?"== ½Ø°Ìß ==
-310 uart 1:?"MJ SLEEP ";T
+rem uart 1:?"MJ SLEEP ";T
+310 uart 1,2:?"MJ SLEEP ";T
 320 led 0:wait 600,0:led 1
 330 if inkey() cont
 340 ?"MJ APS":wait 40

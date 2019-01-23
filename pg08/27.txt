@@ -1,14 +1,16 @@
 
 new
 1 cls:?"MixJuice IoT BTN/PIR PS
-2 uart 0:?"CC BY ∏∆… ‹¿Ÿ
+rem uart 0:?"CC BY ∏∆… ‹¿Ÿ
+2 uart 0,2:?"CC BY ∏∆… ‹¿Ÿ
 3 C="BTN":'IFTTT Event
 4 K="xxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx":' Token
 5 D=1:?" √ﬁ∞¿=d";D
 6 S=0:?"  ﬂ‹∞S=";S;"(1=ON)
 
 100 ?"== ºﬁ≠›Àﬁ ==
-110 uart 1:clk
+rem uart 1,2:clk
+110 uart 1,2:clk
 120 wait 60
 130 if inkey() cont
 140 ?"MJ APS":wait 33

@@ -7,7 +7,8 @@ new
 
 100 'STUP
 110 out 11,0:out 11,1
-120 uart 1:clk
+rem uart 1:clk
+120 uart 1,2:clk
 130 if inkey() cont
 140 ?"MJ APS":wait 40
 150 if inkey()<>49 goto 120

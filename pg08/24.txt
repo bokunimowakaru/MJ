@@ -1,7 +1,8 @@
 
 new
 1 cls:?"MixJuice IoT ANA2 PS2
-2 uart 0:?"CC BY ∏∆… ‹¿Ÿ
+rem uart 0:?"CC BY ∏∆… ‹¿Ÿ
+2 uart 0,2:?"CC BY ∏∆… ‹¿Ÿ
 3 C=xxxx:?" Ambient ¡¨»ŸID=";C
 4 K="xxxxxxxxxxxxxxxx":'◊≤ƒ ∑∞
 5 D=1:?" √ﬁ∞¿=d";D
@@ -10,7 +11,8 @@ new
 
 100 ?"== ºﬁ≠›Àﬁ ==
 110 out 11,0:out 11,1
-120 uart 1:clk
+rem uart 1:clk
+120 uart 1,2:clk
 130 if inkey() cont
 140 ?"MJ APS":wait 40
 150 if inkey()<>49 goto 120
