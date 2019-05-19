@@ -1,8 +1,20 @@
 
+' [Á­³²]
+' À²µ³ IchigoJam BASIC
+' Ver. 1.2.4 IoT ¾ÝÖ³
+' Ver. 1.3.1
+'
+' IchigoJam BASIC Version Æ Ö¯Ã
+' ÍÝ½³ M(9 ·Þ®³Ò) ¦ ÍÝº³ ½Ù
+'
+' M=#800  :'Ver. 1.2.4 IoT ¾ÝÖ³
+' M=#114A :'Ver. 1.3.1
+'
 new
 1 cls:?"SAKURA IoT TX BTN/PIR
 2 ?"CC BY Wataru Kunino
 3 ?"ÎÞÀÝ Æ­³Ø®¸ B=BTN
+9 M=#114A :'Ver. 1.3.1
 
 100 ?"== ¼Þ­ÝËÞ ==
 150 B=btn()
@@ -11,7 +23,7 @@ new
 210 ?"B=";B
 220 IoT.out B
 270 for I=0 to 12
-280   ? hex$(peek(#800+I));" ";
+280   ? hex$(peek(M+I));" ";
 290 next:?
 
 300 ?"== BTN ÏÁ ==

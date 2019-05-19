@@ -9,6 +9,10 @@
 　・ライセンス内容については下記を参照してください。
 　　http://creativecommons.org/licenses/by/4.0/deed.ja
 
+ダウンロード方法
+
+・PC 等でダウンロード： http://bokunimowakaru.github.io/MJ/pg08/●●.txt
+・MixJuice メニュー形式： ?"MJ GET bokunimowakaru.github.io/MJ/808.txt"
 
 動作確認バージョンについて
 

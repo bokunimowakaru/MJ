@@ -1,4 +1,15 @@
 
+' [Á­³²]
+' À²µ³ IchigoJam BASIC
+' Ver. 1.2.4 IoT ¾ÝÖ³
+' Ver. 1.3.1 (Ã·½Ä 2 ÊÞ²Ä ÏÃÞ)
+'
+' IchigoJam BASIC Version Æ Ö¯Ã
+' ÍÝ½³ M(9 ·Þ®³Ò) ¦ ÍÝº³ ½Ù
+'
+' M=#820  :'Ver. 1.2.4 IoT
+' M=#114E :'Ver. 1.3.1
+'
 new
 1 cls:?"SAKURA IoT YaoYa Talk
 2 uart 0:?"CC BY Wataru Kunino
@@ -13,9 +24,9 @@ new
 110 clt:?".";
 120 if btn() gosub 200
 130 if tick()<60 goto 120
-140 poke #820,0
+140 poke M,0
 150 I=IoT.in()
-160 if peek(#820)=1 gosub 400
+160 if peek(M)=1 gosub 400
 170 goto 110
 
 200 ?:?"== BTN/PIR ==
@@ -24,17 +35,14 @@ new
 270 ?"B=";B
 
 300 ?"== TX ==
-310 poke #820,0
 320 IoT.out B
-330 I=!(peek(#820)=1)
-330 ?"I2C=";I
 340 I=0:gosub 500
 350 if btn() cont
 360 wait 30
 370 return
 
 400 ?:?"== RX ==
-440 ?"Ch=";peek(#822)
+440 ?"Ch=";peek(M+2)
 460 if I<0 or I>2 goto 100
 470 ?"Val=";I
 

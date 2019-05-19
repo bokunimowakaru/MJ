@@ -1,4 +1,9 @@
 
+' [Á­³²]
+' À²µ³ IchigoJam BASIC
+' Ver. 1.2.4 IoT ¾ÝÖ³
+' Ver. 1.3.1
+'
 new
 1 cls:?"SAKURA IoT TX BTN/PIR PS
 2 ?"CC BY Wataru Kunino
@@ -22,11 +27,8 @@ new
 280 goto 200
 
 300 ?"== ¿³¼Ý ==
-310 poke #820,0
 320 IoT.out B
-330 ?"I2C_Tx=";B;" ";
-340 I=!(peek(#820)=1)
-350 if I ?"ERR" else ?"OK"
+330 ?"I2C_Tx=";B;" "
 360 return
 
 999 ?"MJ GET bokunimowakaru.github.io/MJ/808.txt
