@@ -22,7 +22,7 @@ new
 320 C=peek(M+4+I)
 330 poke #1004+I,C
 340 I=I+1
-350 if C AND I<8 goto 320
+350 if C and I<8 goto 320
 360 P="/goto 200/"
 370 poke P,10:poke P+9,10
 380 copy #1004+I,P,I+10
