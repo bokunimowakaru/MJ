@@ -1,0 +1,39 @@
+new
+1 cls:?"SAKURA IoT RX
+2 ?"CC BY Wataru Kunino
+3 T=1:?" º≠≥∑=";T;" ÀﬁÆ≥
+8 'M=#820 :'Ver. 1.2.4 IoT
+9 M=#114E :'Ver. 1.3.2
+
+100 ?"== RX œ¡≥π ==
+110 ?".";:wait T*60
+
+200 '== RX ==
+210 poke M,0
+220 I=IoT.in()
+230 if peek(M)!=1 goto 110
+260 cls:?"Ch=";peek(M+2)
+270 if peek(M+3)=98 goto 300
+280 ? I
+290 goto 200
+
+300 '== String ==
+310 I=0
+320 C=peek(M+4+I)
+330 poke #1004+I,C
+340 I=I+1
+350 if C AND I<8 goto 320
+360 P="/goto 200/"
+370 poke P,10:poke P+9,10
+380 copy #1004+I,P,I+10
+390 poke #1003,I+10
+400 end
+
+999 ?"MJ GET bokunimowakaru.github.io/MJ/803.txt
+'
+' ¿ﬁ≥›€∞ƒﬁ ∂›ÿÆ≥
+'
+' [0][Enter]: ∂›ÿÆ≥
+' [1][Enter]: ¿ﬁ≥›€∞ƒﬁ Õﬂ∞ºﬁ Õ
+'
+inputA:ifAgoto999

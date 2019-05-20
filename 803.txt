@@ -8,6 +8,7 @@ cls
 ' [51] ÃÚËÞ Ë®³¼Þ
 ' [71] SAKURA IoT ¾Ý»1
 ' [72] SAKURA IoT ¾Ý»2
+' [73] SAKURA IoT LED
 ' [81] ESP HTTP»°ÊÞ
 '
 inputA:?"MJ GET bokunimowakaru.github.io/MJ/pg03/";A;".txt"
