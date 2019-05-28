@@ -1,17 +1,17 @@
 
 cls
 '
-' �ݸ
+' ØÝ¸
 '
-' [1] 15ja.ml (MJ VER 1.2.2~)
-' [2] ���޼ެ� ڼ��  (1.2.2~)
+' [1] 15jm.li (MJ VER 1.2.2~)
+' [2] ²ÁºÞ¼Þ¬Ñ Ú¼Ëß  (1.2.2~)
 ' [3] MicJack mj.micutil.com
 ' [4] ichigojam.net
-'     ��۸��Ѻڸ���
+'     ÌßÛ¸Þ×ÑºÚ¸¼®Ý
 '
-' ��� �ޮ�γ
+' ¹ÝØ ¼Þ®³Î³
 '
-' [10] ����� � ��� �ޮ�γ
-' [99] Top � ����
+' [10] ºÝÃÝÂ É ¹ÝØ ¼Þ®³Î³
+' [99] Top Í ÓÄÞÙ
 '
 inputA:?"MJ GET bokunimowakaru.github.io/MJ/";A+200;".txt"
