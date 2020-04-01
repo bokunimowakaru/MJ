@@ -18,5 +18,5 @@ cls
 ' ºÝÃÝÂ:CC BY jig.jp
 ' ÀÞ³ÝÛ°ÀÞ:CC BY ¸ÆÉ ÜÀÙ
 '
-' Enter ÃÞ Â·Þ É Íß°¼Þ Í
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/212.txt"
+' Enter ÃÞ ÓÄÞÙ
+inputA:?"MJ GET bokunimowakaru.github.io/MJ/200.txt"
