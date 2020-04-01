@@ -3,7 +3,7 @@ cls:new
 1 cls:?"BASIC ºÏÝÄÞ ÍÙÌß"
 2 uart 3,2
 120 input A
-130 ?"MJ GETS fu-sen.github.io/IJHELP/";
+130 ?"MJ GETS 15j.run/basic/command/";
 140 I=0
 150 if vpeek(I+1,1) ? chr$(vpeek(I+1,1));:I=I+1:goto 150
 160 ?:wait 60:uart 0,2

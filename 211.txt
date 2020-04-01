@@ -7,6 +7,7 @@ cls
 '
 ' 7-1 BASIC ºÏÝÄÞ
 ' 15jamrecipe.jimdo.com
+' 15j.run
 '
 ' 6-1 Ä¹²
 ' www.openspc2.org
