@@ -2,7 +2,7 @@
 cls
 ' ÎÞ¸ÆÓ Ü¶Ù MixJuice 7.ÏÆ­±Ù
 '
-' [1] BASICºÏÝÄÞ ÍÙÌß(MJ1.2.2~)
+' [1] BASICºÏÝÄÞ ÍÙÌß(15j.run)
 ' [2] MixJuice ºÏÝÄÞ
 ' [5] IchigoJam PIN OUT
 ' [6] MixJuice PIN OUT

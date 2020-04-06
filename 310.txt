@@ -1,0 +1,12 @@
+
+cls:new
+10 cls:?"¼Þ¬Ý¹Ýnet"
+20 input"name  =";N
+30 input"G/C/P =";A
+40 ?"MJ GETS BOKUNIMO.COM/15/JANKEN/?USER=";str$(#907);"&THROW=";scr(7,1)
+50 input"";A
+60 input"[9]end=";A
+70 if A=9 ?"MJ GET bokunimowakaru.github.io/MJ/0.txt
+80 run
+
+run

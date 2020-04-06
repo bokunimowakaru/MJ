@@ -1,0 +1,10 @@
+
+cls
+'
+' ²Ï ¶×
+' LED ON É ÌßÛ¸Þ×Ñ ¦ ÀÞ³ÝÛ°ÄÞ
+' ¼Ï½.
+'
+' ### ¼ÊÞ×¸ µÏÁ ¸ÀÞ»² ###
+'
+wait 300:?"MJ GET bokunimowakaru.github.io/MJ/322.txt"
