@@ -1,8 +1,8 @@
 
 cls:new
 1 cls:?"¼Þ¬Ý¹Ýnet2"
-2 N="________"
-3 input"name  =",N
+2 input"name  =",N
+3 N="________"
 4 copy N,#927,8
 
 100 @MAIN
@@ -11,12 +11,12 @@ cls:new
 130 if A=9 ?"MJ GET bokunimowakaru.github.io/MJ/0.txt":end
 140 ?"Throw=";:P=A:gsb @GCP
 150 wait 60
-160 ?"MJ GETS BOKUNIMO.COM/15/JANKEN/?USER=";str$(N);"&THROW=";A
+160 ?"MJ GETS BOKUNIMO.COM/15/JANKEN/?FORMAT=BAS&USER=";str$(N);"&THROW=";A
 170 G=200
 180 end
 
 200 @CONT
-210 ?"Server=";:P=B:gsb @GCP
+210 ?"Catch=";:P=B:gsb @GCP
 220 if J<0 ?"Ï¹"
 230 if J=0 ?"Ë·Ü¹"
 240 if J>0 ?"¶Á"
@@ -26,6 +26,7 @@ cls:new
 310 if P=0 ?"G,¸Þ°"
 320 if P=2 ?"C,Á®·"
 330 if P=5 ?"P,Êß°"
-340 rtn
+340 ?"-----------"
+350 rtn
 
 run
