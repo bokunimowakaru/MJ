@@ -1,10 +1,31 @@
-cls
-'
-' Íß°¼Þ ¦ ¼ÞÄÞ³ ÃÞ Ò¸Ø Ï½
-'
-' ºÚÃÞ ¼®³¾Â ¶Þ ¶¹Ï½È
-' ÌßÛ¸Þ×Ñ Ó ¼Þ¯º³ ÃÞ·Ï½
-'
-' ### ¼ÊÞ×¸ µÏÁ ¸ÀÞ»² ###
-'
-wait 300:?"MJ GET bokunimowakaru.github.io/MJ/321.txt"
+
+cls:new
+1 cls:?"¼Þ¬Ý¹Ýnet2"
+2 N="________"
+3 input"name  =",N
+4 copy N,#927,8
+
+100 @MAIN
+110 ?"G/C/P"
+120 input"0/2/5 =",A
+130 if A=9 ?"MJ GET bokunimowakaru.github.io/MJ/0.txt":end
+140 ?"Throw=";:P=A:gsb @GCP
+150 wait 60
+160 ?"MJ GETS BOKUNIMO.COM/15/JANKEN/?USER=";str$(N);"&THROW=";A
+170 G=200
+180 end
+
+200 @CONT
+210 ?"Server=";:P=B:gsb @GCP
+220 if J<0 ?"Ï¹"
+230 if J=0 ?"Ë·Ü¹"
+240 if J>0 ?"¶Á"
+250 goto @MAIN
+
+300 @GCP
+310 if P=0 ?"G,¸Þ°"
+320 if P=2 ?"C,Á®·"
+330 if P=5 ?"P,Êß°"
+340 rtn
+
+run
