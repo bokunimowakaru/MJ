@@ -32,4 +32,4 @@ cls:new
 90 ifP>67 P=P^8
 91 if[Q] ?CHR$(Z,14,3,[Q],[Q+1],C,[P],[P+1],[P+2],[P+3],[P+4],[P+5],[P+6],[P+7]);
 92 RETURN
-save 3:?"MJ GET bokunimowakaru.github.io/MJ/PC/104.txt"
+save 3:?"MJ GETS bokunimowakaru.github.io/MJ/PC/104.txt"

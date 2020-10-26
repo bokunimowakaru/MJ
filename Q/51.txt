@@ -7,4 +7,4 @@ Remix A=B : Album C
 '
 ' REM ******
 '
-E=E+1:WAIT180:?"MJ GET bokunimowakaru.github.io/MJ/Q/5.txt"
+E=E+1:WAIT180:?"MJ GETS bokunimowakaru.github.io/MJ/Q/5.txt"

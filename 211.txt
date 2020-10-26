@@ -20,4 +20,4 @@ cls
 ' ¿ﬁ≥›€∞¿ﬁ:CC BY ∏∆… ‹¿Ÿ
 '
 ' Enter √ﬁ ”ƒﬁŸ
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/200.txt"
+inputA:?"MJ GETS bokunimowakaru.github.io/MJ/200.txt"

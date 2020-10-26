@@ -13,4 +13,4 @@ rem https://bokunimo.net/bokunimowakaru/q/15/
 920 return
 
 cls:?"I2C LCD":?"W.Kunino"
-gosub800:?"MJ GET bokunimowakaru.github.io/MJ/800.txt"
+gosub800:?"MJ GETS bokunimowakaru.github.io/MJ/800.txt"

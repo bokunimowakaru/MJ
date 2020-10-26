@@ -17,4 +17,4 @@ cls:?"page 10 µÒÃÞÄ³ ";
 ' 
 ' https://bokunimo.net/bokunimowakaru/kiso-kana1.html
 '
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/0.txt"
+inputA:?"MJ GETS bokunimowakaru.github.io/MJ/0.txt"

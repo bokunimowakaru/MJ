@@ -53,7 +53,7 @@ new
 540 uart 0:?:bps 0
 550 return
 
-999 ?"MJ GET bokunimowakaru.github.io/MJ/808.txt
+999 ?"MJ GETS bokunimowakaru.github.io/MJ/808.txt
 '
 ' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
 '

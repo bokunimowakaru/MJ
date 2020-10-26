@@ -9,4 +9,4 @@ cls:E=0
 '
 ' [1]=¶²¼, [9]=¼­³Ø®³
 '
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/";A;".txt"
+inputA:?"MJ GETS bokunimowakaru.github.io/MJ/Q/";A;".txt"

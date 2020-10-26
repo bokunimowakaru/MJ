@@ -16,5 +16,5 @@ new:cls:'
 50 uart3,2
 60 I=inkey():ifIgoto60
 70 ?"MJ SPW 30"
-80 ?"MJ GET bokunimowakaru.github.io/MJ/PC/0.txt"
+80 ?"MJ GETS bokunimowakaru.github.io/MJ/PC/0.txt"
 run

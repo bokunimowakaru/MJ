@@ -21,7 +21,7 @@ new
 230 next
 240 run
 
-999 uart1:?"MJ GET bokunimowakaru.github.io/MJ/808.txt
+999 uart1:?"MJ GETS bokunimowakaru.github.io/MJ/808.txt
 '
 ' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
 '

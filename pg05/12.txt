@@ -14,4 +14,4 @@ cls
 '
 ' PC»²Ä:https://goo.gl/HhvgF8
 '
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/pg05/11";A;".txt"
+inputA:?"MJ GETS bokunimowakaru.github.io/MJ/pg05/11";A;".txt"

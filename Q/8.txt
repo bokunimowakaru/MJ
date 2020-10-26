@@ -13,4 +13,4 @@ cls:LED0
 ' [2] CN4 GND-BTN ¦ ¼®°Ä ½Ù
 ' [3] SW1 ¦ µÌ Æ ½Ù
 '
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/";A+80;".txt"
+inputA:?"MJ GETS bokunimowakaru.github.io/MJ/Q/";A+80;".txt"

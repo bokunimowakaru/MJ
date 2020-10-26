@@ -8,9 +8,9 @@ cls:?"page 24 ";
 ' ¾²¶¸ Å 10 ËÞ®³ ¦ ¶¿Þ´ Ã ÐÖ³
 ' 
 ' ÀÞ³ÝÛ°ÄÞ Ê ºÁ×:
-' ?"MJ GET bokunimowakaru.github.io/MJ/pg06/hit10.txt
+' ?"MJ GETS bokunimowakaru.github.io/MJ/pg06/hit10.txt
 '
 ' [0] Â·Þ É NEWS
 ' [9] ÓÄÞÙ
 '
-inputA:A=A+!A*23:?"MJ GET bokunimowakaru.github.io/MJ/n/";A;".txt"
+inputA:A=A+!A*23:?"MJ GETS bokunimowakaru.github.io/MJ/n/";A;".txt"

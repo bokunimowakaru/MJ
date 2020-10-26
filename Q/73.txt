@@ -11,4 +11,4 @@ LCD,"HELLO!"
 ' http://shop.cqpub.co.jp/hanbai/books/MIF/MIFZ201603.html
 '
 ' Enter ¦ Æ­³Ø®¸ ¼Ã ¸ÀÞ»²
-E=E+1:INPUTA:?"MJ GET bokunimowakaru.github.io/MJ/Q/7.txt"
+E=E+1:INPUTA:?"MJ GETS bokunimowakaru.github.io/MJ/Q/7.txt"

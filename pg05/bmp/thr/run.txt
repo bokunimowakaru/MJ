@@ -8,4 +8,4 @@ let[84],#4000,33,#227F,#700,#D5AE,#8D80,#2014,#DA00,#8112,#D9CF,#DBF1,#A440,#AFA
 ifi2cw(60,#8A8,1,#8B0,18)?"E
 ifi2cw(60,#8A8,1,#8AA,6)?"E
 A=#6C00:D=USR(#800,A):ifpeek(#700)=255letA,A+4096
-for J=0 to 3:A=usr(#800,A)|i2cw(60,#8A9,1,#700,256):next:?"MJ GET bokunimowakaru.github.io/MJ/0.txt"
+for J=0 to 3:A=usr(#800,A)|i2cw(60,#8A9,1,#700,256):next:?"MJ GETS bokunimowakaru.github.io/MJ/0.txt"

@@ -19,4 +19,4 @@ cls
 ' [53]CATERPILLAR
 ' [99]ью╟щ
 '
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/pg01/";A;".txt"
+inputA:?"MJ GETS bokunimowakaru.github.io/MJ/pg01/";A;".txt"

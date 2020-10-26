@@ -1,3 +1,3 @@
 cls:?"Ê½ÞÚ";
 ' »ÞÝÈÝ ¶ÞÝÊÞÚ!
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/bk02/9.txt"
+inputA:?"MJ GETS bokunimowakaru.github.io/MJ/bk02/9.txt"

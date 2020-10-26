@@ -9,4 +9,4 @@ cls
 ' [8] HTTP
 ' [9] Î°ÑÍß°¼Þ Æ ÓÄÞÙ
 '
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/";A+700;".txt"
+inputA:?"MJ GETS bokunimowakaru.github.io/MJ/";A+700;".txt"

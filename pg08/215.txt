@@ -23,7 +23,7 @@ new
 330 next:?
 340 goto 200
 
-999 ?"MJ GET bokunimowakaru.github.io/MJ/808.txt
+999 ?"MJ GETS bokunimowakaru.github.io/MJ/808.txt
 '
 ' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
 '

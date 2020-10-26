@@ -7,4 +7,4 @@
 ' GND-BTN ¦ ¼®°Ä ½Ù Ó¼¸Ê
 ' À¸Ä ½²¯Á SW2 ¦ µ¼Ã ¸ÀÞ»²
 '
-forA=0to1:A=btn():next:led1:WAIT180:led0:?"MJ GET bokunimowakaru.github.io/MJ/Q/99.txt"
+forA=0to1:A=btn():next:led1:WAIT180:led0:?"MJ GETS bokunimowakaru.github.io/MJ/Q/99.txt"

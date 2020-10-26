@@ -33,7 +33,7 @@ new
 350 if I ?"ERR" else ?"OK"
 360 return
 
-999 ?"MJ GET bokunimowakaru.github.io/MJ/808.txt
+999 ?"MJ GETS bokunimowakaru.github.io/MJ/808.txt
 '
 ' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
 '

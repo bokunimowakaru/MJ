@@ -5,7 +5,7 @@ cls:new
 30 WAIT 180  :'ÏÁ ¼Þ¶Ý ¼®Ø
 40 LED 0     :'LED ¦ OFF ½Ù
 50 INPUT A   :'Æ­³Ø®¸ ÏÁ
-60 ?"MJ GET bokunimowakaru.github.io/MJ/0.txt
+60 ?"MJ GETS bokunimowakaru.github.io/MJ/0.txt
 '
 ' ºÉ ÌßÛ¸Þ×Ñ ¼Þ¯º³¼Ï½
 ' ¢?£ Æ ÂÂÞ²Ã [Enter]¦ µ½Ä

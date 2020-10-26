@@ -5,4 +5,4 @@
 
 ' »ÞÝÈÝ! ON ÃÞ·Å²Ö-
 '
-E=E+1:WAIT180:?"MJ GET bokunimowakaru.github.io/MJ/Q/2.txt"
+E=E+1:WAIT180:?"MJ GETS bokunimowakaru.github.io/MJ/Q/2.txt"

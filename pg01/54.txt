@@ -43,4 +43,4 @@ cls:new
 '
 ' ¼­³Ø®³ ¼Ã¶× ¼Þ¯º³ ¼Ã ¸ÀÞ»²
 ' Enter: ÀÞ³ÝÛ°ÄÞ Íß°¼Þ Æ ÓÄÞÙ
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/801.txt"
+inputA:?"MJ GETS bokunimowakaru.github.io/MJ/801.txt"

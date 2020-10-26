@@ -48,7 +48,7 @@ new
 920 for[98]=0to7:for[99]=0to15:copy#8A2,vpeek(7-[98],[99])*8,8:ifi2cw(60,#8AB,1,#8A2,8)?"E
 930 next:next:rtn
 
-999 ?"MJ GET bokunimowakaru.github.io/MJ/808.txt
+999 ?"MJ GETS bokunimowakaru.github.io/MJ/808.txt
 '
 ' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
 '

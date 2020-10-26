@@ -1,6 +1,6 @@
 cls:new
 1 cls:?"Remo7Seg":?"Ambient"
-2 'MJ GET ambidata.io/api/v2/channels/725/data?readKey=26ee8c088f61194d&n=1
+2 'MJ GETS ambidata.io/api/v2/channels/725/data?readKey=26ee8c088f61194d&n=1
 3 LET[0],63,6,91,79,#66,#6D,#7D,39,#7F,#6F
 7 D=7:?"data No.";D
 8 W=900:?"Wait:";W/60;"s"
@@ -35,4 +35,4 @@ cls:new
 '
 ' ¼­³Ø®³ ¼Ã¶× ¼Þ¯º³ ¼Ã ¸ÀÞ»²
 ' Enter: ÀÞ³ÝÛ°ÄÞ Íß°¼Þ Æ ÓÄÞÙ
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/800.txt"
+inputA:?"MJ GETS bokunimowakaru.github.io/MJ/800.txt"

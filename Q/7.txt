@@ -6,10 +6,10 @@ cls:D=0
 ' ≤œ  œ¿ﬁ ÀÆ≥ºﬁ ª⁄≈∏√” ≤≤°
 ' Syntax error ∆ ≈Ÿ …  ƒﬁ⁄ ?
 '
-' [1] cls:?"LCD∫›∆¡‹":?"MJ GET 
+' [1] cls:?"LCD∫›∆¡‹":?"MJ GETS 
 '     bokunimowakaru.github.io/
 '     MJ/LCD"
 ' [2] LCD "HELLO!"
 ' [3] LCD,"HELLO!"
 '
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/Q/";A+70;".txt"
+inputA:?"MJ GETS bokunimowakaru.github.io/MJ/Q/";A+70;".txt"

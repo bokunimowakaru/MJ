@@ -5,4 +5,4 @@ printf("ABC\n");
 
 ' µ¼²! BASIC Ò²Ú² ÃÞÊ Å¶¯ÀÈ
 '
-E=E+1:WAIT180:?"MJ GET bokunimowakaru.github.io/MJ/Q/1.txt"
+E=E+1:WAIT180:?"MJ GETS bokunimowakaru.github.io/MJ/Q/1.txt"

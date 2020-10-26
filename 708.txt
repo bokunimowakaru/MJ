@@ -2,18 +2,18 @@
 cls
 ' 7-8 MixJuice HTTP »ÝÌßÙ P.1
 '
-' MJ GET Ò²Ú² É HTTP Í¯ÀÞ
+' MJ GETS Ò²Ú² É HTTP Í¯ÀÞ
 '
-' MJ GET bokunimowakaru.github.i' o/MJ/0.txt
+' MJ GETS bokunimowakaru.github.i' o/MJ/0.txt
 ' GET /MJ/0.txt HTTP/1.0\r\n
 ' Host: bokunimowakaru.github.io' \r\n
 ' User-Agent: MixJuice-1.0.2\r\n' \r\n
 '
-' MJ GET 192.168.0.2/
+' MJ GETS 192.168.0.2/
 ' GET / HTTP/1.0\r\n
 ' Host: 192.168.0.2\r\n
 ' User-Agent: MixJuice-1.0.2\r\n' \r\n
 '
 ' Enter ÃÞ Â·Þ É Íß°¼Þ
 '
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/";A+!A*718;".txt"
+inputA:?"MJ GETS bokunimowakaru.github.io/MJ/";A+!A*718;".txt"

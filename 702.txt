@@ -5,7 +5,7 @@ cls
 ' MJ APL            AP LIST
 ' MJ APC ssid pass  AP Connect
 ' MJ APS            AP Status
-' MJ GET url        HTTP Ø¸´½Ä
+' MJ GETS url        HTTP Ø¸´½Ä
 ' MJ GETS url       HTTPS Ø¸´½Ä
 ' MJ VER            (Version)
 '
@@ -16,4 +16,4 @@ cls
 '
 ' Enter ÃÞ ÓÄÞÙ
 '
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/";A+700;".txt"
+inputA:?"MJ GETS bokunimowakaru.github.io/MJ/";A+700;".txt"

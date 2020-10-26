@@ -7,9 +7,9 @@ cls:?"page 34 ";
 ' ºÄÞÓ Êß¿ºÝ Â³¼Ý
 ' ICHIGOJAM.CLUB ¶Þ ¶²·®¸ ¼Ï¼À
 ' 
-' ?"MJ GET ICHIGOJAM.CLUB/
+' ?"MJ GETS ICHIGOJAM.CLUB/
 ' 
 ' [0] Â·Þ É NEWS
 ' [9] ÓÄÞÙ
 '
-inputA:A=A+!A*33:?"MJ GET bokunimowakaru.github.io/MJ/n/";A;".txt"
+inputA:A=A+!A*33:?"MJ GETS bokunimowakaru.github.io/MJ/n/";A;".txt"

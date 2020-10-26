@@ -8,4 +8,4 @@ cls:?"page 206 ";
 '
 ' µÂ¶Ú »Ï ÃÞ¼À
 '
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/0.txt"
+inputA:?"MJ GETS bokunimowakaru.github.io/MJ/0.txt"

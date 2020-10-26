@@ -19,4 +19,4 @@ cls:?"page 153 ";
 ' Ä³Ä²ÓÉÀŞ¤¼ŞÌŞİÊ²ÏÏÃŞ¤¼ŞÌŞİÖØÓ
 ' Ü¶²¼®¼Ş®ÄÈÀºÄ¶ŞÅ²¤¹¯ºİ¼Ö³¤ÄŞİ
 '
-inputA:A=A+!A*154:?"MJ GET bokunimowakaru.github.io/MJ/bk01/";A;".txt"
+inputA:A=A+!A*154:?"MJ GETS bokunimowakaru.github.io/MJ/bk01/";A;".txt"

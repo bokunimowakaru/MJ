@@ -6,7 +6,7 @@ new
 210 cls:uart0:forI=0to15:?chr$(#E0+I);:next:?:?"Step ";B+1;"/8"
 220 ifi2cw(60,#8A9,1,#700,128)?"E
 300 'MJ
-310 B=B+1:ifB<8uart1:?"MJ GET bokunimowakaru.github.io/MJ/pg05/bmp/ras/";B;".txt"
+310 B=B+1:ifB<8uart1:?"MJ GETS bokunimowakaru.github.io/MJ/pg05/bmp/ras/";B;".txt"
 320 end
 800 'INIT
 810 let[84],#4000,33,#227F,#700,#D5AE,#8D80,#2014,#DA00,#8112,#D9CF,#DBF1,#A440,#AFA6

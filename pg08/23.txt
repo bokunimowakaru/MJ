@@ -49,7 +49,7 @@ rem uart 1:?"MJ SLEEP ";T
 740 if tick()<40 goto 720
 750 return
 
-999 uart1:?"MJ GET bokunimowakaru.github.io/MJ/808.txt
+999 uart1:?"MJ GETS bokunimowakaru.github.io/MJ/808.txt
 '
 ' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
 '

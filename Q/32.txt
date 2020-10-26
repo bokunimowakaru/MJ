@@ -6,4 +6,4 @@ A=15:A=1+5
 
 ' ЪНок
 '
-E=E+1:WAIT180:?"MJ GET bokunimowakaru.github.io/MJ/Q/3.txt"
+E=E+1:WAIT180:?"MJ GETS bokunimowakaru.github.io/MJ/Q/3.txt"

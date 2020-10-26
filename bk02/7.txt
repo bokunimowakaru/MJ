@@ -18,4 +18,4 @@ cls:?"page 7 ¸²½Þ ÃÞÝÊß ÄÊ? ";
 ' (4)Ð´Å² ÃÚËÞ
 ' (5)Ð´Å² ¹²À²
 ' 
-inputA:A=A+110:?"MJ GET bokunimowakaru.github.io/MJ/bk02/";A;".txt"
+inputA:A=A+110:?"MJ GETS bokunimowakaru.github.io/MJ/bk02/";A;".txt"

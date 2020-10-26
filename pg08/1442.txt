@@ -42,7 +42,7 @@ new
 510 led 0:wait 300,!S:led 1
 520 rtn
 
-999 ?"MJ GET bokunimowakaru.github.io/MJ/808.txt
+999 ?"MJ GETS bokunimowakaru.github.io/MJ/808.txt
 '
 ' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
 '

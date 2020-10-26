@@ -198,4 +198,4 @@
 ?"PC LINE 4f 13 4f 13 09"
 ?"PC LINE 03 14 04 14 0f"
 ?"PC LINE 05 14 09 14 0e"
-uart0:forA=0to5:beep:?"wait ";5-A:wait60:next:uart3:?:wait60:?"MJ GET bokunimowakaru.github.io/MJ/PC/502.txt"
+uart0:forA=0to5:beep:?"wait ";5-A:wait60:next:uart3:?:wait60:?"MJ GETS bokunimowakaru.github.io/MJ/PC/502.txt"

@@ -11,4 +11,4 @@ files
 ' ------------------------------
 ' [0] ¼Þ¯º³
 ' [9] ·¬Ý¾Ù
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/PC/";A+!A*101;".txt"
+inputA:?"MJ GETS bokunimowakaru.github.io/MJ/PC/";A+!A*101;".txt"

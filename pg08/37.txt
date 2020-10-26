@@ -35,7 +35,7 @@ new
 997 @L:ifi2cw(62,#8C1,2)+i2cw(62,#8C0,1,#900,16)+i2cw(62,#8C3,2)+i2cw(62,#8C0,1,#920,16)?"E
 998 rtn
 
-999 bps0:uart1:?"MJ GET bokunimowakaru.github.io/MJ/808.txt
+999 bps0:uart1:?"MJ GETS bokunimowakaru.github.io/MJ/808.txt
 '
 ' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
 '

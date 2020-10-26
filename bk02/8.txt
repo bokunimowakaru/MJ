@@ -15,4 +15,4 @@ cls:?"page 8 ∏≤Ωﬁ! ±›√≈ ∆ ¬≈∂ﬁŸ ";
 ' (4)æ›
 ' (5)√ﬁºﬁ¿Ÿ Ã∫ﬁ≥
 ' 
-inputA:A=A+120:?"MJ GET bokunimowakaru.github.io/MJ/bk02/";A;".txt"
+inputA:A=A+120:?"MJ GETS bokunimowakaru.github.io/MJ/bk02/";A;".txt"

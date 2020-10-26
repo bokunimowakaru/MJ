@@ -4,4 +4,4 @@
 ' Ê½ÞÚ!
 ' SW1 Ê ÃÞÝ¹ÞÝ ½²¯Á ÃÞ½
 '
-E=E+1:WAIT180:?"MJ GET bokunimowakaru.github.io/MJ/Q/8.txt"
+E=E+1:WAIT180:?"MJ GETS bokunimowakaru.github.io/MJ/Q/8.txt"

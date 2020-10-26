@@ -13,4 +13,4 @@ cls:'
 ' [9] END
 '[10] Îß°ÀÙ Ä³Û¸
 '
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/";A*100;".txt"
+inputA:?"MJ GETS bokunimowakaru.github.io/MJ/";A*100;".txt"

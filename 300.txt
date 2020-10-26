@@ -8,4 +8,4 @@ cls
 '
 ' [9] ÓÄÞÙ
 '
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/3";A;"0.txt"
+inputA:?"MJ GETS bokunimowakaru.github.io/MJ/3";A;"0.txt"

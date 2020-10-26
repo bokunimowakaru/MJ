@@ -11,4 +11,4 @@ cls
 ' [73] SAKURA IoT LED
 ' [81] ESP HTTP»°ÊÞ
 '
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/pg03/";A;".txt"
+inputA:?"MJ GETS bokunimowakaru.github.io/MJ/pg03/";A;".txt"

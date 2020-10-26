@@ -13,4 +13,4 @@ cls:?"page 67 ";
 ' [0] Â·Þ É NEWS
 ' [9] ÓÄÞÙ
 '
-inputA:A=A+!A*66:?"MJ GET bokunimowakaru.github.io/MJ/n/";A;".txt"
+inputA:A=A+!A*66:?"MJ GETS bokunimowakaru.github.io/MJ/n/";A;".txt"

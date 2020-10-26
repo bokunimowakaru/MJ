@@ -31,7 +31,7 @@ rem uart 1,2:clk
 
 500 ?"== TX ==
 510 uart 1:clk
-520 ?"MJ GET maker.ifttt.com/";
+520 ?"MJ GETS maker.ifttt.com/";
 530  ?"trigger/";str$(C);
 540  ?"/with/key/";str$(K);"?";
 550  ?"value";D;"=";B
@@ -45,7 +45,7 @@ rem uart 1,2:clk
 740 if tick()<40 goto 720
 750 return
 
-999 ?"MJ GET bokunimowakaru.github.io/MJ/808.txt
+999 ?"MJ GETS bokunimowakaru.github.io/MJ/808.txt
 '
 ' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
 '

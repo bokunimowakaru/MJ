@@ -13,4 +13,4 @@ cls
 ' [11] I2C LCD DEMO
 ' [12] OLED ÌßÛ¸Þ×Ñ ¼­³ [new]
 '
-inputA:?"MJ GET bokunimowakaru.github.io/MJ/pg05/";A;".txt"
+inputA:?"MJ GETS bokunimowakaru.github.io/MJ/pg05/";A;".txt"

@@ -19,7 +19,7 @@ poke#778,#FE,#C0,#EE,#7C,0,0,0,0
 2 forI=0to15:?chr$(#E0+I);:ifi=7?
 3 next
 5 gsb800
-6 ?:?"MJ GET bokunimowakaru.github.io/MJ/800.txt"
+6 ?:?"MJ GETS bokunimowakaru.github.io/MJ/800.txt"
 9 end
 800 'INIT
 810 let[84],#4000,33,#227F,#700,#D5AE,#8D80,#2014,#DA00,#8112,#D9CF,#DBF1,#A440,#AFA6
