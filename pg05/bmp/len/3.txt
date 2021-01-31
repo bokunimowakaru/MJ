@@ -1,0 +1,17 @@
+poke#700,#FF,#FF,#FF,#FF,#FF,#FF,#FF,#FF
+poke#708,#FF,#FF,#FF,#FF,#FF,#FF,#FF,#FF
+poke#710,#FF,#FB,#DD,#FE,#EF,#BF,#FE,#FF
+poke#718,95,#FD,#77,#BF,#D7,#FA,#DB,45
+poke#720,15,77,23,55,#EF,#BD,#7F,#7F
+poke#728,#EF,#BB,#FF,#DD,#EF,#7D,#B7,#FE
+poke#730,#77,#BA,#EF,#B7,#DF,#7B,#BD,#DF
+poke#738,#FD,47,#BD,6,#AB,85,43,29
+poke#740,69,91,#AA,#AA,#EB,84,#EB,93
+poke#748,#D5,#6A,#B6,#DA,#DE,#E3,93,#A5
+poke#750,#F5,#9A,#6D,#96,#DB,96,#9F,#E5
+poke#758,#77,#9B,#F7,91,#EF,#B5,74,82
+poke#760,93,#EF,#9A,#EB,#A9,#BF,#D6,#77
+poke#768,#BB,#ED,#7E,#B7,#DA,#B7,#6D,#B6
+poke#770,91,#EF,#B5,#BF,#95,#FF,#6B,#BD
+poke#778,#AD,#D6,#BF,#EB,43,#DE,#6B,#BA
+goto200
