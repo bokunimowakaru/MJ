@@ -38,7 +38,7 @@ new
 910 ifi2cw(62,#701,1,#702,1)+i2cw(62,#700,1,#900,8)+i2cw(62,#701,1,#703,1)+i2cw(62,#700,1,#920,8)?"E"
 920 return
 
-999 ?"MJ GETS bokunimowakaru.github.io/MJ/808.txt
+999 ?"MJ GETS git.bokunimo.com/MJ/808.txt
 '
 ' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
 '

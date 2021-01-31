@@ -19,4 +19,4 @@ cls:new
 91 ?"SCORE=";S
 92 ?"LEVEL=";N
 99 END
-save 1:?"MJ GETS bokunimowakaru.github.io/MJ/PC/102.txt"
+save 1:?"MJ GETS git.bokunimo.com/MJ/PC/102.txt"

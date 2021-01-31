@@ -5,4 +5,4 @@ GO TO 5
 
 ' Ê½ÞÚ GO TO É ±²ÀÞ ½Íß°½ Ê ÀÞÒ
 '
-E=E+1:WAIT180:?"MJ GETS bokunimowakaru.github.io/MJ/Q/4.txt"
+E=E+1:WAIT180:?"MJ GETS git.bokunimo.com/MJ/Q/4.txt"

@@ -19,4 +19,4 @@ cls:?"page 131 ";
 ' É£
 '  ·Þ®¯Ä¼Ã¤¸×¸×ÒÏ²¼Ï¼À¡Ã·¡¼ÞÌÞÝ
 '
-inputA:A=A+!A*132:?"MJ GETS bokunimowakaru.github.io/MJ/bk01/";A;".txt"
+inputA:A=A+!A*132:?"MJ GETS git.bokunimo.com/MJ/bk01/";A;".txt"

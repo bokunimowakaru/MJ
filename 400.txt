@@ -13,4 +13,4 @@ cls
 ' Enter ∑∞ √ﬁ ÷– ΩΩ“œΩ
 ' Ω≥ºﬁ ∑∞ √ﬁ Õﬂ∞ºﬁ ºﬁ¨›Ãﬂ ºœΩ
 '
-inputA:?"MJ GETS bokunimowakaru.github.io/MJ/bk0";A+!A;"/1.txt"
+inputA:?"MJ GETS git.bokunimo.com/MJ/bk0";A+!A;"/1.txt"

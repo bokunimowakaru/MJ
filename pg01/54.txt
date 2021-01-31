@@ -1,5 +1,5 @@
 ' CC BY Copyright(C)2015 Wataru KUNINO
-' http://bokunimowakaru.github.io/MJ/
+' http://git.bokunimo.com/MJ/
 cls:new
 1 'MOTOR CAR ANA.FIL
 2 UART 1
@@ -43,4 +43,4 @@ cls:new
 '
 ' ¼­³Ø®³ ¼Ã¶× ¼Þ¯º³ ¼Ã ¸ÀÞ»²
 ' Enter: ÀÞ³ÝÛ°ÄÞ Íß°¼Þ Æ ÓÄÞÙ
-inputA:?"MJ GETS bokunimowakaru.github.io/MJ/801.txt"
+inputA:?"MJ GETS git.bokunimo.com/MJ/801.txt"

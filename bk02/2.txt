@@ -13,4 +13,4 @@ cls:?"page 2 ÃÚËÞ Î³¿³ ";
 ' ß ÓÅ²¡ ÅÆÓ ²ÚÅ²ÉÆ ¶ÞÒÝ¶Þ Ð´ÙÝ
 ' ÀÞ¡Ì¼·Þ¼Þ¬Å²?
 ' 
-inputA:A=A+!A*3:?"MJ GETS bokunimowakaru.github.io/MJ/bk02/";A;".txt"
+inputA:A=A+!A*3:?"MJ GETS git.bokunimo.com/MJ/bk02/";A;".txt"

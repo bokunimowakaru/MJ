@@ -11,11 +11,11 @@ cls
 ' Ò²· Å² ÓÉ É ºËß° ÆÊ ºÞÁ­³²
 ' ¸ÀÞ»²¡
 '
-' bokunimowakaru.github.io/MJ/
+' git.bokunimo.com/MJ/
 '
 ' Â·Þ É Íß°¼Þ ²º³ Æ ¹ÝØ ¼Þ®³Î³
 ' É Ö³Ô¸ ¦ ¹²»² ¼Ã²Ï½¡
 '
 ' Enter ÃÞ Â·Þ É Íß°¼Þ Í
 '
-inputA:?"MJ GETS bokunimowakaru.github.io/MJ/211.txt"
+inputA:?"MJ GETS git.bokunimo.com/MJ/211.txt"

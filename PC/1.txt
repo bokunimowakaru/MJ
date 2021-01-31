@@ -5,4 +5,4 @@
 ' [9] ÓÄÞÙ
 '[10] Îß°ÀÙ Ä³Û¸
 '
-inputA:ifA=0lrun1else?"MJ GETS bokunimowakaru.github.io/MJ/PC/";A;".txt"
+inputA:ifA=0lrun1else?"MJ GETS git.bokunimo.com/MJ/PC/";A;".txt"

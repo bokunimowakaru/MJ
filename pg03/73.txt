@@ -29,7 +29,7 @@ new
 390 poke #1003,I+10
 400 end
 
-999 ?"MJ GETS bokunimowakaru.github.io/MJ/803.txt
+999 ?"MJ GETS git.bokunimo.com/MJ/803.txt
 '
 ' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
 '

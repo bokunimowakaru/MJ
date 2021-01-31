@@ -5,4 +5,4 @@ LED1 OFF
 
 ' µ¼²°! OFF ÃÞ ERROR Ê¯¾²
 '
-E=E+1:WAIT180:LED0:?"MJ GETS bokunimowakaru.github.io/MJ/Q/2.txt"
+E=E+1:WAIT180:LED0:?"MJ GETS git.bokunimo.com/MJ/Q/2.txt"

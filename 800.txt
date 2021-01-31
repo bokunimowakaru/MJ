@@ -14,4 +14,4 @@ cls
 '
 '[10] Îß°ÀÙ Ä³Û¸
 '
-inputA:?"MJ GETS bokunimowakaru.github.io/MJ/";A+800;".txt"
+inputA:?"MJ GETS git.bokunimo.com/MJ/";A+800;".txt"

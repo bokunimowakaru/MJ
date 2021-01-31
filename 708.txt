@@ -6,7 +6,7 @@ cls
 '
 ' MJ GETS bokunimowakaru.github.i' o/MJ/0.txt
 ' GET /MJ/0.txt HTTP/1.0\r\n
-' Host: bokunimowakaru.github.io' \r\n
+' Host: git.bokunimo.com' \r\n
 ' User-Agent: MixJuice-1.0.2\r\n' \r\n
 '
 ' MJ GETS 192.168.0.2/
@@ -16,4 +16,4 @@ cls
 '
 ' Enter ÃÞ Â·Þ É Íß°¼Þ
 '
-inputA:?"MJ GETS bokunimowakaru.github.io/MJ/";A+!A*718;".txt"
+inputA:?"MJ GETS git.bokunimo.com/MJ/";A+!A*718;".txt"

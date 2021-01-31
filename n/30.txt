@@ -10,4 +10,4 @@ cls:?"page 30 ";
 ' [0] Â·Þ É NEWS
 ' [9] ÓÄÞÙ
 '
-inputA:A=A+!A*29:?"MJ GETS bokunimowakaru.github.io/MJ/n/";A;".txt"
+inputA:A=A+!A*29:?"MJ GETS git.bokunimo.com/MJ/n/";A;".txt"

@@ -8,4 +8,4 @@ cls
 ' UFO É Á­³¼Ý Æ ±ÃÙ Ä Ä¸ÃÝ x2¡
 ' CC BY home.nshdot.com/ijp_gw
 '
-?"MJ GETS bokunimowakaru.github.io/MJ/PC/1.txt"
+?"MJ GETS git.bokunimo.com/MJ/PC/1.txt"

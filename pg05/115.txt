@@ -62,4 +62,4 @@ new
 900 for[98]=0to7:ifusr(#890,#900+[98]*32)&0|i2cw(60,#88F,1,#800,128)E
 910 next:rtn
 
-cls:?"C1":?"LANDSCPE":?"ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³":?:?"ESC ÃÞ ¼­³Ø®³":?"¼Ã ¶× RUN!":gsb800:?"MJ GETS bokunimowakaru.github.io/MJ/pg05/12.txt"
+cls:?"C1":?"LANDSCPE":?"ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³":?:?"ESC ÃÞ ¼­³Ø®³":?"¼Ã ¶× RUN!":gsb800:?"MJ GETS git.bokunimo.com/MJ/pg05/12.txt"

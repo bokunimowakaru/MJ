@@ -11,4 +11,4 @@ cls:?"page 1 ";
 ' [0] Â·Þ É NEWS
 ' [9] ÓÄÞÙ
 '
-inputA:?"MJ GETS bokunimowakaru.github.io/MJ/n/";A;".txt"
+inputA:?"MJ GETS git.bokunimo.com/MJ/n/";A;".txt"

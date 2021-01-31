@@ -6,4 +6,4 @@ cls
 ' [0] Yes
 ' [9] No
 '
-inputA:ifA?"MJ GETS bokunimowakaru.github.io/MJ/800.txt"else?"MJ GETS mj.micutil.com/600.txt"
+inputA:ifA?"MJ GETS git.bokunimo.com/MJ/800.txt"else?"MJ GETS mj.micutil.com/600.txt"

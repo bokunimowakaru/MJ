@@ -24,4 +24,4 @@ rem https://bokunimo.net/bokunimowakaru/q/15/
 980 return
 
 cls:?"IchigoJam LCD 20 x 4":?"C)2016 Wataru Kunino"
-gosub900:?"MJ GETS bokunimowakaru.github.io/MJ/800.txt"
+gosub900:?"MJ GETS git.bokunimo.com/MJ/800.txt"

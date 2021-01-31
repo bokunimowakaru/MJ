@@ -12,5 +12,5 @@ new
 4 UART 3,2
 10 'HTTP GET
 15 ?
-20 ?"MJ GETS bokunimowakaru.github.io/MJ/0.txt"
-?"MJ GETS bokunimowakaru.github.io/MJ/f/9.txt"
+20 ?"MJ GETS git.bokunimo.com/MJ/0.txt"
+?"MJ GETS git.bokunimo.com/MJ/f/9.txt"

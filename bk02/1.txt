@@ -13,4 +13,4 @@ cls:?"page 1 ≈∂ﬁ≤øﬁ ";
 '
 ' Enter ∑∞ √ﬁ ÷– ΩΩ“œΩ
 '
-inputA:A=A+!A*2:?"MJ GETS bokunimowakaru.github.io/MJ/bk02/";A;".txt"
+inputA:A=A+!A*2:?"MJ GETS git.bokunimo.com/MJ/bk02/";A;".txt"

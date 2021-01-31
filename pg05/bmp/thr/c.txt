@@ -126,4 +126,4 @@ poke#FE0,#EA,37,#95,#D2,#79,#FF,85,15
 poke#FE8,#FF,#F7,31,#FF,#F7,#FF,79,#FF
 poke#FF0,#F7,#DD,#FF,87,#FE,#FF,#F0,#FB
 poke#FF8,#FA,#ED,63,#ED,#E0,#BF,16,#D1
-save 3:?"MJ GETS bokunimowakaru.github.io/MJ/pg05/bmp/thr/run.txt"
+save 3:?"MJ GETS git.bokunimo.com/MJ/pg05/bmp/thr/run.txt"

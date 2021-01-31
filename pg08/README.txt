@@ -11,8 +11,8 @@
 
 ダウンロード方法
 
-・PC 等でダウンロード： http://bokunimowakaru.github.io/MJ/pg08/●●.txt
-・MixJuice メニュー形式： ?"MJ GETS bokunimowakaru.github.io/MJ/808.txt"
+・PC 等でダウンロード： http://git.bokunimo.com/MJ/pg08/●●.txt
+・MixJuice メニュー形式： ?"MJ GETS git.bokunimo.com/MJ/808.txt"
 
 動作確認バージョンについて
 
@@ -77,4 +77,4 @@
 '
 ' [99]リターン
 '
-inputA:?"MJ GETS bokunimowakaru.github.io/MJ/pg08/";A;".txt"
+inputA:?"MJ GETS git.bokunimo.com/MJ/pg08/";A;".txt"

@@ -6,4 +6,4 @@
 ' [Enter]·° ÃÞ ¼­³Ø®³ ¼Ï½
 ' ½³¼Þ ·° ÃÞ ÓÄÞØÏ½
 '
-inputA:ifA?"MJ GETS bokunimowakaru.github.io/MJ/0.txt
+inputA:ifA?"MJ GETS git.bokunimo.com/MJ/0.txt

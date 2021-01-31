@@ -18,7 +18,7 @@ new
 200 ?"MJ POST END"
 210 wait 300:clk:end
 
-999 uart1:?"MJ GETS bokunimowakaru.github.io/MJ/808.txt
+999 uart1:?"MJ GETS git.bokunimo.com/MJ/808.txt
 '
 ' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
 '

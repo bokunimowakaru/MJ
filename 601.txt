@@ -7,4 +7,4 @@
 '
 ' [0] »² ¼­Ä¸
 ' [9] Î°ÑÍß°¼Þ Æ ÓÄÞÙ
-inputA:A=A+600:?"MJ GETS bokunimowakaru.github.io/MJ/";A;".txt"
+inputA:A=A+600:?"MJ GETS git.bokunimo.com/MJ/";A;".txt"

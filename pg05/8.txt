@@ -9,4 +9,4 @@ files
 ' [0] ¼Þ¯º³ files 1-3 Í ¶·ºÐ
 ' [9] ·¬Ý¾Ù
 '
-inputA:ifA=0?"MJ GETS bokunimowakaru.github.io/MJ/pg05/bmp/rps/0.txt"else?"MJ GETS bokunimowakaru.github.io/MJ/0.txt"
+inputA:ifA=0?"MJ GETS git.bokunimo.com/MJ/pg05/bmp/rps/0.txt"else?"MJ GETS git.bokunimo.com/MJ/0.txt"

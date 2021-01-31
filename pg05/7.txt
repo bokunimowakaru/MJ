@@ -7,7 +7,7 @@ new
 220 ifi2cw(60,#8A9,1,#700,128)?"E
 300 'MJ
 310 B=B+1:ifB>7goto500
-320 uart1:?"MJ GETS bokunimowakaru.github.io/MJ/pg05/bmp/";
+320 uart1:?"MJ GETS git.bokunimo.com/MJ/pg05/bmp/";
 330 goto 400+10*P
 400 'Page
 410 ?"ras/";B;".txt":end

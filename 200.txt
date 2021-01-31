@@ -14,4 +14,4 @@ cls
 ' [10] ºÝÃÝÂ É ¹ÝØ ¼Þ®³Î³
 ' [99] Top Í ÓÄÞÙ
 '
-inputA:?"MJ GETS bokunimowakaru.github.io/MJ/";A+200;".txt"
+inputA:?"MJ GETS git.bokunimo.com/MJ/";A+200;".txt"

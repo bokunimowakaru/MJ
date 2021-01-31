@@ -20,4 +20,4 @@ cls
 '
 ' [99]ью╟щ
 '
-inputA:?"MJ GETS bokunimowakaru.github.io/MJ/pg08/";A;".txt"
+inputA:?"MJ GETS git.bokunimo.com/MJ/pg08/";A;".txt"

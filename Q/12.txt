@@ -5,4 +5,4 @@
 
 ' ¾²¶²! Ü¶ØÏ¼À È
 '
-WAIT180:?"MJ GETS bokunimowakaru.github.io/MJ/Q/2.txt"
+WAIT180:?"MJ GETS git.bokunimo.com/MJ/Q/2.txt"

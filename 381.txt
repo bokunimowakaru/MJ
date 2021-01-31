@@ -7,4 +7,4 @@ cls
 '
 ' ### ¼ÊÞ×¸ µÏÁ ¸ÀÞ»² ###
 '
-wait 300:?"MJ GETS bokunimowakaru.github.io/MJ/382.txt"
+wait 300:?"MJ GETS git.bokunimo.com/MJ/382.txt"

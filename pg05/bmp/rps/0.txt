@@ -128,4 +128,4 @@ poke#FF0,0,0,0,0,0,0,0,0
 poke#FF8,0,0,0,0,0,0,0,0
 srndtick()
 R=RND(2)*4+1
-save1:?"MJ GETS bokunimowakaru.github.io/MJ/pg05/bmp/rps/";R;".txt"
+save1:?"MJ GETS git.bokunimo.com/MJ/pg05/bmp/rps/";R;".txt"

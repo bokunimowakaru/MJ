@@ -10,4 +10,4 @@ Lets,5
 ' ÍÝ½³ S Æ 5 ¶Þ Ê²Ø Ï¼À
 ' ¿ÚÃÞÊ Q5 Í Let's Go!
 '
-WAIT180:?"MJ GETS bokunimowakaru.github.io/MJ/Q/5.txt"
+WAIT180:?"MJ GETS git.bokunimo.com/MJ/Q/5.txt"

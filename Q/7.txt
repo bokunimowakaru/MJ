@@ -7,9 +7,9 @@ cls:D=0
 ' Syntax error Æ ÅÙ ÉÊ ÄÞÚ ?
 '
 ' [1] cls:?"LCDºÝÆÁÜ":?"MJ GETS 
-'     bokunimowakaru.github.io/
+'     git.bokunimo.com/
 '     MJ/LCD"
 ' [2] LCD "HELLO!"
 ' [3] LCD,"HELLO!"
 '
-inputA:?"MJ GETS bokunimowakaru.github.io/MJ/Q/";A+70;".txt"
+inputA:?"MJ GETS git.bokunimo.com/MJ/Q/";A+70;".txt"

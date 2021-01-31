@@ -41,4 +41,4 @@
 '
 ' IchigoJam(R) jig.jp É ¼®³Ë®³
 '
-uart0:forA=0to5:beep:?"wait ";5-A:wait60:next:uart3:?:wait60:?"MJ GETS bokunimowakaru.github.io/MJ/PC/0.txt"
+uart0:forA=0to5:beep:?"wait ";5-A:wait60:next:uart3:?:wait60:?"MJ GETS git.bokunimo.com/MJ/PC/0.txt"

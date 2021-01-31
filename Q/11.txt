@@ -5,4 +5,4 @@ PRINT 'ºÝÆÁÜ'
 
 ' »ÞÝÈÝ ¢'£ -> ¢"£
 '
-E=E+1:WAIT180:?"MJ GETS bokunimowakaru.github.io/MJ/Q/1.txt"
+E=E+1:WAIT180:?"MJ GETS git.bokunimo.com/MJ/Q/1.txt"

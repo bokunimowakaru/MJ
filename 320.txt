@@ -8,7 +8,7 @@ cls:new
 100 @MAIN
 110 ?"G/C/P"
 120 input"0/2/5 =",A
-130 if A=9 ?"MJ GETS bokunimowakaru.github.io/MJ/0.txt":end
+130 if A=9 ?"MJ GETS git.bokunimo.com/MJ/0.txt":end
 140 ?"Throw=";:P=A:gsb @GCP
 150 wait 60
 160 ?"MJ GETS BOKUNIMO.COM/15/JANKEN/?FORMAT=BAS&USER=";str$(N);"&THROW=";A

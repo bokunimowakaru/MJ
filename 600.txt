@@ -3,5 +3,5 @@ cls:new
 10 ?"MJ GETS www.openspc2.org/data/date/full.txt"
 20 INPUT Y:INPUT M:INPUT D:INPUT W:INPUT H:INPUT B
 30 ?"MJ GETS www.openspc2.org/data/cal/";Y;M/10;M%10;".txt"
-40 ?"MJ GETS bokunimowakaru.github.io/MJ/601.txt"
+40 ?"MJ GETS git.bokunimo.com/MJ/601.txt"
 run

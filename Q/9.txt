@@ -5,4 +5,4 @@ cls
 ' ±ÅÀ Ê IchigoJam É [ÎÞÝ¼ÞÝ] ÃÞ½
 '
 ' Enter ÃÞ ÒÆ­° Æ ÓÄÞÙ
-inputA:?"MJ GETS bokunimowakaru.github.io/MJ/0.txt"
+inputA:?"MJ GETS git.bokunimo.com/MJ/0.txt"

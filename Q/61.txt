@@ -22,4 +22,4 @@ SABAE
 '
 ' Enter √ﬁ ‘ÿ≈µº
 '
-E=E+1:inputA:?"MJ GETS bokunimowakaru.github.io/MJ/Q/6.txt"
+E=E+1:inputA:?"MJ GETS git.bokunimo.com/MJ/Q/6.txt"

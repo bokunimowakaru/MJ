@@ -11,5 +11,5 @@ cls:new
 210 input "[0]Â½Þ¹Ù [9]µÜÙ ?",A
 220 if A=0 run
 230 uart 3,2
-240 ?"MJ GETS bokunimowakaru.github.io/MJ/700.txt"
+240 ?"MJ GETS git.bokunimo.com/MJ/700.txt"
 run

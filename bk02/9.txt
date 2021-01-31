@@ -15,4 +15,4 @@ cls:?"page 9 ¸²½Ş! ÃŞ¼ŞÀÙ ¯Ã ÅÆ ? ";
 ' (4)Ä¸ÍŞÂÅ ÃŞİÊß É Ö³ÅÓÉ
 ' (5)Ä¸ÍŞÂÅ Ó¼Ş É Ö³ÅÓÉ
 ' 
-inputA:A=A+130:?"MJ GETS bokunimowakaru.github.io/MJ/bk02/";A;".txt"
+inputA:A=A+130:?"MJ GETS git.bokunimo.com/MJ/bk02/";A;".txt"

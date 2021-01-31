@@ -27,7 +27,7 @@ new
 760 goto720
 770 ?:R=R=3:rtn
 
-999 bps0:uart1:?"MJ GETS bokunimowakaru.github.io/MJ/808.txt
+999 bps0:uart1:?"MJ GETS git.bokunimo.com/MJ/808.txt
 
 '
 ' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³

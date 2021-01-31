@@ -13,4 +13,4 @@ cls:?"OK";chr$(10);"' ¶ÝØ®³ µÒÃÞÄ³ ºÞ»Þ²Ï½¡";chr$(10);"'";chr$(10);"' ÏÁ¶Þ²:";E;
 ' µÂ¶Ú »Ï ÃÞ¼À
 '
 ' Enter ÃÞ ¼­³Ø®³¼Ï½¡
-inputA:?"MJ GETS bokunimowakaru.github.io/MJ/0.txt"
+inputA:?"MJ GETS git.bokunimo.com/MJ/0.txt"

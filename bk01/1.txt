@@ -9,4 +9,4 @@ cls:?"page 1 ";
 '
 ' Enter ÃÞ Íß°¼Þ ¦ Ò¸¯Ã ¸ÀÞ»²
 '
-inputA:A=A+!A*2:?"MJ GETS bokunimowakaru.github.io/MJ/bk01/";A;".txt"
+inputA:A=A+!A*2:?"MJ GETS git.bokunimo.com/MJ/bk01/";A;".txt"

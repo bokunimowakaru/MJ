@@ -37,7 +37,7 @@ new
 360 A=B:?"OK"
 370 goto @MAIN
 
-999 ?"MJ GETS bokunimowakaru.github.io/MJ/808.txt
+999 ?"MJ GETS git.bokunimo.com/MJ/808.txt
 '
 ' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
 '

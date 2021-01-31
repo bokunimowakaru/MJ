@@ -9,4 +9,4 @@ cls
 ' [2] LED1 OFF
 ' [3] LED1
 '
-inputA:?"MJ GETS bokunimowakaru.github.io/MJ/Q/";A+20;".txt"
+inputA:?"MJ GETS git.bokunimo.com/MJ/Q/";A+20;".txt"

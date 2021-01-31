@@ -292,4 +292,4 @@
 ?"PC LINE 34 20 36 20 01"
 ?"PC LINE 37 20 37 20 0f"
 ?"PC LINE 39 20 39 20 06"
-uart0:forA=0to5:beep:?"wait ";5-A:wait60:next:uart3:?:wait60:?"MJ GETS bokunimowakaru.github.io/MJ/PC/203.txt"
+uart0:forA=0to5:beep:?"wait ";5-A:wait60:next:uart3:?:wait60:?"MJ GETS git.bokunimo.com/MJ/PC/203.txt"

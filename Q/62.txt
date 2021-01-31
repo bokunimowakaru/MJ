@@ -8,4 +8,4 @@ SEIBU
 ' Ü»ÞÄ ÏÁ¶Þ´À ÃÞ¼®!
 ' ¾²ÌÞ Ê ¶ÂÃ É Ñ»¼ É ¸Æ É Æ¼ ´Ø±'
 '
-E=E+1:WAIT180:?"MJ GETS bokunimowakaru.github.io/MJ/Q/6.txt"
+E=E+1:WAIT180:?"MJ GETS git.bokunimo.com/MJ/Q/6.txt"

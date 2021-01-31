@@ -8,4 +8,4 @@ A = 634 * 1O : GOTO A/634
 '
 ' ¢O£ Ä ¢0£
 '
-WAIT180:?"MJ GETS bokunimowakaru.github.io/MJ/Q/6.txt"
+WAIT180:?"MJ GETS git.bokunimo.com/MJ/Q/6.txt"

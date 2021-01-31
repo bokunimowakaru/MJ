@@ -5,4 +5,4 @@ LED1
 
 ' ¾²¶²
 '
-WAIT180:LED0:?"MJ GETS bokunimowakaru.github.io/MJ/Q/3.txt"
+WAIT180:LED0:?"MJ GETS git.bokunimo.com/MJ/Q/3.txt"
