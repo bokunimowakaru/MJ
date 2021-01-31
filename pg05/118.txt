@@ -12,10 +12,9 @@ new
 300 'MJ
 310 B=B+1:ifB<8uart1:?"MJ GETS git.bokunimo.com/MJ/pg05/bmp/man/";B;".txt"
 320 end
-800 'INIT
-810 let[84],#4000,33,#227F,#700,#D5AE,#8D80,#2014,#DA00,#8112,#D9CF,#DBF1,#A440,#AFA6
-820 ifi2cw(60,#8A8,1,#8B0,18)?"E
-900 'OUT
-910 ifi2cw(60,#8A8,1,#8AA,6)?"E
-920 for[98]=0to7:for[99]=0to15:copy#8A0,vpeek(7-[98],[99])*8,8:ifi2cw(60,#8A9,1,#8A0,8)?"E
-930 next:next:rtn
+800 let[84],#4000,33,#227F,#700,#D5AE,#8D80,#2014,#A100,#DAC8,#8112,#D9CF,#DBF1,#A440,#AFA6
+810 ifi2cw(60,#8A8,1,#8B0,20)?"E
+
+900 ifi2cw(60,#8A8,1,#8AA,6)?"E
+910 for[98]=0to7:for[99]=0to15:copy#8A0,vpeek(7-[98],[99])*8,8:ifi2cw(60,#8A9,1,#8A0,8)?"E
+920 next:next:rtn
