@@ -10,8 +10,9 @@ cls
 ' [5] C1.(Öº)º³¿¸ Ë®³¼Þ
 ' [6] C2.(Öº)º³¿¸ Ë®³¼Þ PCG
 ' [7] ¸ÏÓÝ
+' [8] ¸ÏÓÝ
 ' [9] LCD & OLED Í ÓÄÞÙ
 '
-' PC»²Ä:https://goo.gl/HhvgF8
+' PC»²Ä:https://bokunimo.net/ichigojam/oled.html
 '
 inputA:?"MJ GETS git.bokunimo.com/MJ/pg05/11";A;".txt"
