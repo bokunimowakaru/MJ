@@ -2,13 +2,10 @@
 cls:?"page 36 ";
 ' ÎÞ¸ÆÓ Ü¶Ù MixJuice 1.NEWS
 ' 
+' URL ¦ ÄÞ¸¼Þ ÄÞÒ²Ý Æ ÍÝº³ ¼Ï¼À
 ' 
-' 
-' 
-' 
-' 
-' 
-' 
+' ±À×¼² URL:
+' ?"MJ GETS GIT.BOKUNIMO.COM/MJ/
 ' 
 ' [0] Â·Þ É NEWS
 ' [9] ÓÄÞÙ
