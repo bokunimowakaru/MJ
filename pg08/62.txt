@@ -1,0 +1,42 @@
+
+new
+1 cls:?"Sakura's MonoPF TX ANA
+2 uart 0:?"CC BY ¸ÆÉ ÜÀÙ
+3 ?"BTN ÃÞÝ±Â ¦ ¿³¼Ý
+4 T=30:?" ¼­³·=";T;" ËÞ®³
+5 S=0:?" ¼®³ÃÞÝØ®¸=";S;" (1=ON)
+
+200 ?:?"== Ò²Ý ==
+210 A=ANA():?" A=";A
+220 B=A>>12:C=A&#F00>>8
+230 D=A&#F0>>4:E=A&#F
+240 gosub 500
+250 for I=1 to T
+260   led 0:wait 60,!S:led 1
+270 next
+280 goto 200
+
+500 'TX
+510 uart 3:clk
+520 if B < 0 B=0
+530 if B > 15 B=15
+540 ?"$$TX 01 03 ";hex$(B);
+550 ?hex$(C);hex$(D);hex$(E)
+560 uart 0:gosub 700
+570 return
+
+700 'RX
+710 clt
+720 I=inkey()
+730 if I clt:? chr$(I);
+740 if tick()<90 goto 720
+750 return
+
+999 uart1:?"MJ GETS git.bokunimo.com/MJ/808.txt
+'
+' ÀÞ³ÝÛ°ÄÞ ¶ÝØ®³
+'
+' [0][Enter]: ¶ÝØ®³
+' [1][Enter]: ÀÞ³ÝÛ°ÄÞ Íß°¼Þ Í
+'
+inputA:ifAgoto999

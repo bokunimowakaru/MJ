@@ -1,0 +1,37 @@
+
+new
+1 cls:?"Sakura's MonoPF BTN/PIR
+2 uart 0:?"CC BY ∏∆… ‹¿Ÿ
+
+200 ?:?"== “≤› ==
+210 ?"B=";B
+220 gosub 500
+230 wait 10
+240 ?"== BTN œ¡ ==
+250 if B=btn() cont
+260 B=!B
+270 goto 200
+
+500 'TX
+510 uart 3:clk
+520 if B < 0 B=0
+530 if B > 15 B=15
+540 ?"$$TX 01 03 000";hex$(B)
+550 uart 0:gosub 700
+560 return
+
+700 'RX
+710 clt
+720 I=inkey()
+730 if I clt:? chr$(I);
+740 if tick()<90 goto 720
+750 return
+
+999 uart1:?"MJ GETS git.bokunimo.com/MJ/808.txt
+'
+' ¿ﬁ≥›€∞ƒﬁ ∂›ÿÆ≥
+'
+' [0][Enter]: ∂›ÿÆ≥
+' [1][Enter]: ¿ﬁ≥›€∞ƒﬁ Õﬂ∞ºﬁ Õ
+'
+inputA:ifAgoto999

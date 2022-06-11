@@ -1,22 +1,21 @@
 
 cls
-' IchigoSoda + sakura.io
+'IchigoSoda + sakura.io
 ' [10]YaoYa Talk
 ' [11]BTN/PIR [12]BTN/PIR PS
 ' [13]ANA [14]ILM
 ' [15]RX [16]OLED [17]LCD
 ' [18]Firm [19] Firm∫œ›ƒﬁ
-'
-' MixJuice -> Ambient
+'MixJuice -> Ambient
 ' [20]TX [21]BTN/PIR [22]B/P PS
 ' [23]ANA2/ILM PS [24]ANA2/I PS2' [25]Envæ›ª
-'
-' MixJuice -> IFTTT
+'MixJuice -> IFTTT
 ' [26]BTN/PIR [27]BTN/PIR PS
-'
-' LoRaWAN AL-050
+'LoRaWAN AL-050
 ' [31]TX [32]ANA [33]RX [34]TXT
 ' [30]Barcode [37]LCD
+'Sakura's MONO
+' [61]BTN/PIR [62]ANA
 '
 ' [99]ÿ¿∞›
 '
